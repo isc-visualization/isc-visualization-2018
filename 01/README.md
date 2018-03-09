@@ -18,7 +18,7 @@
 ## 과제01 시각화 && HTML 맛보기
 
  1. 구글 드라이브로 누적 막대 챠트 만들기
-   - [샘플 데이터셋]() 자료을 활용 하여 아래 예시와 같은 막대 챠트를 만듭니다.
+   - [샘플 데이터셋](https://docs.google.com/spreadsheets/d/1pscuX2_wKafNT-NbJJ9nR_go4ugaZb0O8g0C0FsbPOs/edit#gid=318208972) 자료을 활용 하여 아래 예시와 같은 막대 챠트를 만듭니다.
     - `Sales`의 전체 평균AVERAGE을 구해 원래 `Sales` 값과 비교하고, 평균 보다 높거나 같은 행은 `Over`, 낮은 행은 `Under`로 표시합니다.
     - `Product Category`의 값 별로 `Over/Under`인 행의 빈도수를 표현하는 누적 막대 챠트를 그려봅니다.
    - 크기 등은 상관 없습니다.
