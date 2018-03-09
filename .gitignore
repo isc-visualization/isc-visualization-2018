@@ -1,5 +1,5 @@
 .DS_Store
 /unpublished
-/assignment
+**/assignment
 assignment.html
 /sample
