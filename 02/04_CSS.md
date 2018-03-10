@@ -206,12 +206,15 @@ div p.large {
 ```
 
 ### Universal Selector
-- 모든 요소를 선택 
+- 모든 요소를 선택
+```css
 * {
   padding: 5px;
   border: 1px solid black;
   background: rgba(255,0,0,0.25)
 }
+```
+
 (참고)
 [W3Schools - css selectors](http://www.w3schools.com/cssref/css_selectors.asp)
 [Mozilla - Selectors](https://developer.mozilla.org/en/docs/Web/Guide/CSS/Getting_started/Selectors)
