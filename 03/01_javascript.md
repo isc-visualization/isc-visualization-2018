@@ -234,3 +234,28 @@ function foo(list, callback) {
 
 foo([1,2,3], callback);
 ```
+
+
+DOM Interface
+---
+- 자바스크립트를 통해 HTML 상의 요소에 직접 접근할 수 있다. 
+- [DOM 소개](https://developer.mozilla.org/ko/docs/Gecko_DOM_Reference/%EC%86%8C%EA%B0%9C)
+- [DOM과 이벤트](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events)
+```html
+<div class="block">블록1</div>
+<div class="block">블록2</div>
+<p class="block" id="special">블록3</p>
+```
+
+```javascript
+document.getElementsByTagName('div');
+document.getElementsByClassName('block');
+var special = document.getElementById('special');
+special.addEventListener('click', function() { //클릭 콜백함수를 불러온다.
+  alert(this.innerHTML);
+})
+
+var span = document.createElement('span');
+span.textContent = '추가';
+special.appendChild(span);
+```

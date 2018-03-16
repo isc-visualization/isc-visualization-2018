@@ -13,7 +13,7 @@
 2. 가로,세로의 길이가 `80px`인 정사각형을 `(20,10)`에서 시작해서 `가로 40px, 세로 20px` 간격으로 4개 그립니다.
 3. 왼쪽 사각형부터 색상fill을 각각 `blue, green, yellow, red` 순서로 설정합니다.
 4. 사각형 기본 투명도opacity를 `0.2`로 설정하고 제일 왼쪽 사각형만 불투명하게 설정합니다.
-5. SVG 영역을 클릭(.onclick)할 때마다 불투명 사각형 다음 사각형의 투명도가 불투명해지고 기존 사각형의 투명도가 `0.2`로 감소합니다.
+5. SVG 영역을 클릭(.onclick)할 때마다 불투명 사각형 다음 사각형의 투명도가 불투명해지고 기존 사각형의 투명도가 `0.2`로 감소합니다. (`document.getElementById, document.getElementsByTagName, document.getElementsByClassName, EventTarget.addEventListener` 등을 활용. [참고 DOM 소개](https://developer.mozilla.org/ko/docs/Gecko_DOM_Reference/%EC%86%8C%EA%B0%9C) )
 6. 마지막(4번째)사각형이 불투명할 때 SVG 영역을 클릭하면 첫번째 사각형이 다시 불투명해집니다.
 7. (추가점수) 불투명한 사각형이 최상단에 위치하도록 합니다.
 
