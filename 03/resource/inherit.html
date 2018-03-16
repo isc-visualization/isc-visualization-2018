@@ -1,0 +1,33 @@
+<html>
+<head>
+<style type="text/css">
+  div {
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+  }
+  div p {
+    color: yellow;
+  }
+  div ~ p {
+    color: orange;
+  }
+  div + p { 
+    color: green;
+  }
+  div.parent > p {
+    color: red;
+  }
+</style>
+</head>
+<body>
+  <div class="parent">
+    <p>Descendant of the div</p>
+    <div>
+      <p>Descendant of the div</p>
+    </div>
+  </div>
+  <p>Adjacent Sibling to the div</p>
+  <p>General Sibling to the div</p>
+</body>
+</html>

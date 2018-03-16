@@ -1,0 +1,67 @@
+<html>
+<head>
+<style type="text/css">
+  div {
+    border: 1px solid green;
+  }
+  span.block {
+    display: block;
+    border: 2px;
+  }
+
+  div.inline {
+    display: inline;
+    border: 1px solid red;
+  }
+  div.inline-block {
+    display: inline-block; /*width와 height를 가질 수 있음*/
+    height : 200px;
+    border : 2px solid blue;
+  }
+  div.none {
+    display: none;
+  }
+  div.hidden {
+    visibility: hidden;
+  }
+  div.float {
+    float: right; /* 컨테이너의 좌우 https://developer.mozilla.org/en-US/docs/Web/CSS/float */
+    height: 400px;
+    border: 1px solid orange;
+  }
+</style>
+</head>
+<body>
+  <div>
+    <span>Span </span>
+    <span class="block">Span block</span>
+    <span>Span </span>
+  </div>
+  <div>
+  <div class="inline">Inline </div>
+  <div class="inline">Inline </div>
+  <div class="inline-block float">Float And Inline Block</div>
+  <div class="inline-block">Inline Block</div>
+  <div class="inline-block">Inline Block</div>
+  <div class="hidden">Hidden Block</div>
+  </div>
+
+  <div>
+  <div class="inline">Inline </div>
+  <div class="inline">Inline</div>
+  <div class="inline-block float">Float And Inline Block</div>
+  <div class="inline-block">Inline Block</div>
+  <div class="inline-block">Inline Block</div>
+  <div class="hidden" style="clear:both;">Hidden Block</div> <!--clear를 통해 원래 흐름으로 돌린다 -->
+  </div>
+  <div>
+
+  <div class="inline">Inline </div>
+  <div class="inline">Inline</div>
+  <div class="inline-block float">Float And Inline Block</div>
+  <div class="inline-block">Inline Block</div>
+  <div class="inline-block">Inline Block</div>
+  <div class="hidden" style="clear:both;">Hidden Block</div> 
+  </div>
+</body>
+</html>
