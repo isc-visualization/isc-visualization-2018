@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <style>
+    .selected {
+      opacity: 1;
+    }
+    .deselected {
+      opacity: 0.2;
+    }
+  </style>
+</head>
+
+<body>
+  <svg id="canvas" width="500" height="480">
+      <rect x="0" y="0" width="500" height="100" opacity="0.2" />
+      <circle cx="250" cy="100" r="25" fill="yellow" stroke="orange"/>
+      <line x1="0" y1="0" x2="500" y2="100" stroke="red" />
+      <text x="250" y="100">SVG Text</text>
+      <text x="250" y="100" font-size="24" fill="steelblue">SVG Text</text>
+      <text x="250" y="100" font-size="24" fill="orange" text-anchor="middle" dy=".35em">SVG Text</text>
+  </svg>
+  <script>
+    document.getElementById('canvas')
+  </script>
+</body>
+
+</html>

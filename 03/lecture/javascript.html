@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <h1>My First Heading</h1>
+  <p>My first paragraph. Hello World!</p>
+  <script>
+    function makeAdder(x) {
+      return function (y) {
+        return x + y;
+      };
+    }
+
+    function adder5(y) {
+      return 5+y;
+    }
+
+    function adder10(y) {
+      return 10+y
+    }
+    adder(5, 2);
+    adder(5, 4);
+
+
+    var add5 = makeAdder(5);
+    var add10 = makeAdder(10);
+    console.log(add5);
+    console.log(add5(2)); // 7
+    console.log(add10(2)); // 12
+  </script>
+</body>
+
+</html>

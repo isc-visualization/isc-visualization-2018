@@ -1,0 +1,51 @@
+<html>
+<head>
+<style type="text/css">
+.static {
+  position: static; /*기존위치*/
+}
+.relative1 {
+  position: relative; /*기존위치에 상대적으로 이동, 기존 공간은 남아있음*/
+}
+.relative2 {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  background-color: white;
+  width: 500px;
+}
+.fixed {
+  position: fixed; /*화면에 고정, 기존 공간은 사라짐*/
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: white;
+}
+.relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+.absolute {
+  position: absolute; /*static이 아닌 첫번째 부모에 상대적으로 이동, 기존 공간은 사라짐*/
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+}
+</style>
+
+</head>
+<body>
+<div class="static">static</div>
+<div class="relative1">relative1</div>
+<div class="relative2">relative2</div>
+<div class="fixed">fixed</div>
+<div class="relative">
+  relatve
+  <div class="absolute">absolute</div>
+  relative2
+</div>
+
+</body>
+</html>
