@@ -147,7 +147,7 @@ console.log(add10(2)); // 12
 
 Function context
 ---
-- `this` 키워드는 함수가 실행 될때의 `function context`를 가리킨다.
+- `this` 키워드는 함수가 실행 될 때의 `function context`를 가리킨다.
 
 - 전역 환경에서 실행될 때 : this는 window나 undefined
 ```javascript
