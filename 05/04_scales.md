@@ -17,7 +17,7 @@ Scales
 Ordinal Scales
 ---
 
-- [03번](./03_bar-SVG.md) 실습 데이터 셋을 아래와 같이 교체
+- [03번](./03_bar-SVG.md) 실습 데이터 셋을 아래와 같이 교체
 ``` javascript
 var w = 120;
 var h = 200;
