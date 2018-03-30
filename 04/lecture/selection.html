@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <style>
+    .red {
+      color: red;
+    }
+
+    .green {
+      color: green;
+    }
+  </style>
+  <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+  <div id="chart">
+    <p></p>
+  </div>
+  <script>
+    var dataset = [5, 10, 15, 20, 25];
+    var updateSelection = d3.select("#chart").selectAll("p")
+      .data(dataset);
+
+    var enterSelection = updateSelection.enter();
+    enterSelection.append('p')
+      .text(function (d, i) {
+        return (i + 1) + '번째 - 값: ' + d + ' - ' + '엔터 셀렉션';
+      })
+      .classed('red', true);
+
+    updateSelection.text(function (d, i) {
+      return (i + 1) + '번째 - 값 ' + d + ' - ' + '업데이트 셀렉션';
+    }).classed('green', true);
+  </script>
+</body>
+
+</html>

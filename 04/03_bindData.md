@@ -27,7 +27,7 @@ d3.select("div.container")
 
 ```javascript
 var container = d3.select("div.container");
-var p = body.append("p");
+var p = container.append("p");
 p.text("새 문단 추가");
 ```
 

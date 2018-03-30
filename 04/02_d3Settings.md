@@ -19,8 +19,9 @@ D3란?
 ---
 
 - HEAD에 직접 삽입
-`<script src="https://d3js.org/d3.v5.min.js"></script>
-`
+```html
+<script src="https://d3js.org/d3.v5.min.js"></script>
+```
 
 
 - [다운로드](https://github.com/d3/d3/releases/download/v5.0.0/d3.zip) 후 삽입
@@ -39,6 +40,7 @@ index.html
 <head>
         <meta charset="utf-8">
         <title>D3 페이지 템플릿</title>
+        <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
         <script type="text/javascript" src="d3.v3.js"></script>
     </head>
     <body>
