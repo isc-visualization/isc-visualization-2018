@@ -111,7 +111,7 @@ label.attr('text-anchor', 'middle') //text-anchor: start, middle, end
 
 - 스타일링
 ```javascript
-bar.style("font-family", "sans-serif")
+label.style("font-family", "sans-serif")
   .style("font-size", "11px")
   .style("fill", "white");
 ```
