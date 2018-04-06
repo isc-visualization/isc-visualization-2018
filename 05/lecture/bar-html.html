@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    .bar {
+      /* 개별 막대 */
+      background-color: steelblue;
+    }
+
+    #horizontal .bar {
+      /*수평*/
+      margin-bottom: 8px;
+      text-align: right;
+    }
+
+    #vertical .bar {
+      /*수직*/
+      margin-right: 8px;
+      display: inline-block;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="chart">
+    <div id="horizontal"></div>
+    <div id="vertical"></div>
+  </div>
+  <script>
+    var randGenerator = d3.randomUniform(100, 500);
+var data = d3.range(50).map(function() {return Math.floor(randGenerator())});
+    d3.select('#horizontal').selectAll('.bar')
+      .data(data)
+      .enter().append('div')
+      .attr('class', 'bar') //.classed("bar", true)
+      .style('width', function (d) {
+        return d + 'px';
+      })
+      .text(function (d) {
+        return d;
+      })
+    var height = d3.max(data);
+    console.log(height);
+    var bar = d3.select('#vertical').selectAll('.bar')
+      .data(data)
+    .enter().append('div')
+      .attr('class', 'bar')
+      .style('top', function(d){return (height - d) + 'px'})
+      .style('height', function(d){return d + 'px';})
+      .text(function(d){return d;});
+  </script>
+</body>
+
+</html>

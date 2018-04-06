@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    .label {
+      font-size: 11px;
+      fill: white;
+      text-anchor: middle;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="chart">
+  </div>
+  <script>
+    var w = 800;
+    var h = 400;
+    var dataset = [
+      {product:'A', sales:200},
+      {product:'B', sales:300},
+      {product:'C', sales:400},
+      {product:'D', sales:500},
+      {product:'E', sales:100}
+    ]
+    var domain = dataset.map(function(d) {return d.product;});
+    var x = d3.scaleBand()
+      .domain(domain)
+      .rangeRound([0, w])
+      .padding(0.1)
+    var yDomain = [0, d3.max(dataset, function(d) {return d.sales;})];//d3.extent(dataset, function(d) {return d.sales});
+    var y = d3.scaleLinear()
+      .domain(yDomain)
+      .range([h, 0]);
+
+    var padding = 4; //간격을 변수로 설정
+    var barWidth = w / dataset.length - padding; //
+    var barHeight = d3.max(dataset);
+    var svg = d3.select('#chart').append('svg') //데이터 연결 없이 집어넣기
+      .attr('width', w)
+      .attr('height', h);
+
+    var bar = svg.selectAll('rect.bar')
+      .data(dataset)
+      .enter().append('rect')
+      .attr('class', 'bar')
+      .attr('x', function (d, i) {
+        return x(d.product);
+      })
+      .attr('y', function(d) {
+        return y(d.sales);
+      })
+      .attr('width', x.bandwidth())
+      .attr('height', function (d) {
+        return h - y(d.sales);
+      })
+      .style('fill', function (d) {
+        return 'rgb(0, 0, ' + (d / 2) + ')';
+      });
+  </script>
+</body>
+
+</html>

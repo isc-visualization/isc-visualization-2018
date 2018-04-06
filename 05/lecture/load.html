@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+  </style>
+</head>
+
+<body>
+  <div class="container">
+  </div>
+  <script>
+    d3.text("../sample/sample.txt").then(function (text) { //ES
+      console.log(text); //텍스트 내용 출력
+    })
+    d3.csv("../sample/sample.csv").then(function (data) {
+      console.log(data);
+    });
+
+    function row(d) { //row conversion function
+      return {
+        orderDate: d3.timeParse('%m/%d/%Y')(d['Order Date']), //날짜 형식으로 바꾸기
+        orderIdNumber: +d["Order ID"], //숫자 형식으로 바꾸기
+        orderId: d["Order ID"],
+        sales: d['Sales']
+      }
+    }
+
+    function callback(data) {
+      d3.select('body').selectAll('p')
+        .data(data)
+        .enter().append('p')
+        .text(function(d){return d.orderId + ' | ' + d.orderDate + ' | ' + d.sales})
+    }
+
+    var url = "../sample/sample.csv";
+    d3.csv(url, row).then(callback);
+    var realData;
+    d3.json('../sample/sample.json').then(function(data) {
+      realData = data;
+      console.log(realData);
+      console.log(data.menu.popup.menuitem);
+    });
+  </script>
+</body>
+
+</html>
