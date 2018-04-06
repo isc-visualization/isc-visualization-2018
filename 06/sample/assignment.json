@@ -1,0 +1,13 @@
+[
+  {"product":"A", "sales":124, "margin":0.15, "category":"R", "price":1},
+  {"product":"B", "sales":210, "margin":0.1, "category":"R", "price":1.5},
+  {"product":"C", "sales":180, "margin":0.05, "category":"R", "price":2.5},
+  {"product":"D", "sales":220, "margin":0.24, "category":"G", "price":1},
+  {"product":"E", "sales":35, "margin":0.14, "category":"G", "price":2},
+  {"product":"F", "sales":20, "margin":0.2, "category":"G", "price":2.25},
+  {"product":"G", "sales":110, "margin":0.5, "category":"G", "price":3},
+  {"product":"H", "sales":103, "margin":0.6, "category":"B", "price":4},
+  {"product":"I", "sales":44, "margin":0.34, "category":"B", "price":1.5},
+  {"product":"J", "sales":100, "margin":0.24, "category":"B", "price":1.125},
+  {"product":"K", "sales":240, "margin":0.125, "category":"B","price":3 }
+]

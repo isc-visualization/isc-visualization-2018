@@ -28,15 +28,17 @@
       {product:'D', sales:500},
       {product:'E', sales:100}
     ]
-    var domain = dataset.map(function(d) {return d.product;});
+    var xDomain = dataset.map(function(d) {return d.product;});
+    var xRange = [0, w];
     var x = d3.scaleBand()
-      .domain(domain)
+      .domain(xDomain)
       .rangeRound([0, w])
       .padding(0.1)
     var yDomain = [0, d3.max(dataset, function(d) {return d.sales;})];//d3.extent(dataset, function(d) {return d.sales});
+    var yRange = [h, 0];
     var y = d3.scaleLinear()
       .domain(yDomain)
-      .range([h, 0]);
+      .range(yRange);
 
     var padding = 4; //간격을 변수로 설정
     var barWidth = w / dataset.length - padding; //
