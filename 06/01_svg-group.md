@@ -42,14 +42,13 @@ bar.attr('transform', function(d){
 
 ```javascript
 //g 안에 rect와 text를 함께 집어넣자
-var rect = bar.append('rect') //bar에 rect를 추가
-    //x,y 설정 불필요
+var rect = bar.append('rect') //bar에 rect를 추가
+    //x,y 설정 불필요
     .attr('width', x.bandwidth())
     .attr('height', function(d){return h - y(d.sales)})
-    .style('fill', function(d){return 'rgb(0, 0, ' + color(d.sales) +')'});
 
 var text = bar.append('text') //bar에 text를 추가 
-    //x,y 설정 불필요
+    //x,y 설정 불필요
     .attr('dx', x.bandwidth()*0.5)
     .attr('dy', function(d) {return '1em';})
     .attr('text-anchor', 'middle')
