@@ -3,7 +3,7 @@ SVG Group 사용하기
 https://css-tricks.com/transforms-on-svg-elements/
 
 
-* [지난 자료](../05/lecture/bar-svg.html) 가져오기
+* [지난 자료](../05/lecture/bar-svg-tmp.html) 가져오기
 
 
 Group으로 먼저 묶기
