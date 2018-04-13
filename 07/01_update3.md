@@ -106,7 +106,7 @@ svg.select('.x.axis')
  -  예를 들어 맨 앞 막대 키는 A, 그 다음엔 BCDE로 결정됨. F가 추가되면 기존의 A키로 연결된 바는 셀렉션에서 제외된 .exit 상태가 된다.
 ```javascript
 bar = bar.data(dataset, function(d){return d.product}) // 반드시 bar를 새로 반환받아야함 => 새로 추가-삭제된 데이터를 반영한 셀렉션으로
-  .call(updateBarPos); // 위치 업데이트
+  .call(updateBarPos); // 위치 업데이트
 ```
 
 
