@@ -35,11 +35,11 @@ d3.json('nested.sample.json').then(function(data) {
 스케일 설정
 ---
 
-- category와 position의 domain은 ordinal이며 모두 `d3.scaleBand`를 사용
+- category와 position의 domain은 ordinal이며 모두 `d3.scaleBand`를 사용
 - value의 domain은 quantitative이며 linear scale 사용
 
 
-- category의 스케일 설정하기
+- category의 스케일 설정하기
 ```javascript
 var categoryDomain = data.map(function(d){return d.key});
 var categoryRange = [0, innerH]; 
