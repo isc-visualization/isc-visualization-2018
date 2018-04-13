@@ -13,7 +13,7 @@
 - `selection.call`을 이용해서 중복되는 동작은 함수로 만든다.
 
 ```javascript
-function updateBarPos(selection) {
+function updateBarPos(selection) {
   selection.each(function(d) {
     xy.set(this, [x(d.product), y(d.sales)]);
   })
