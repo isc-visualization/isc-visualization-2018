@@ -57,8 +57,7 @@ svg.on('click', function(d) {
       return 'translate('+ xy.get(this) + ')' 
     });
   bar.select('rect') // 다시 높이와 색상을 그려준다.
-    .attr('height', function(d){return innerH - xy.get(this)[1]})
-    .style('fill', function(d){return 'rgb(0, 0, ' + color(d.sales) +')'});
+    .attr('height', function(d){return innerH - xy.get(this)[1]});
 })
 
 ```
@@ -94,7 +93,6 @@ bar.data(dataset)
 bar.select('rect')
   .transition() //transition 설정
     .attr('height', function(d){return innerH - xy.get(this)[1]});
-    .style('fill', function(d){return 'rgb(0, 0, ' + color(d.sales) +')'});
 ```
 
 - `transition`를 먼저 선언한 후 공유 할 수 있다.
@@ -118,6 +116,5 @@ bar.data(dataset)
 
 bar.select('rect')
   .transition(t)
-    .attr('height', function(d){return innerH - xy.get(this)[1]})
-    .style('fill', function(d){return 'rgb(0, 0, ' + color(d.sales) +')'});
+    .attr('height', function(d){return innerH - xy.get(this)[1]});
 ```

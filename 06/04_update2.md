@@ -64,8 +64,7 @@ bar.transition(t)
 
 bar.select('rect')
   .transition(t)
-  .attr('height', function(d){return innerH - xy.get(this)[1]})
-  .style('fill', function(d){return 'rgb(0, 0, ' + color(d.sales) +')'});
+  .attr('height', function(d){return innerH - xy.get(this)[1]});
 ```
 
 중복되는 동작은 함수로 만들기
@@ -87,8 +86,7 @@ function translateBar(selection) {
 }
 function updateRect(selection) {
   selection
-    .attr('height', function(d){return innerH - xy.get(this)[1]})
-    .style('fill', function(d){return 'rgb(0, 0, ' + color(d.sales) +')'});
+    .attr('height', function(d){return innerH - xy.get(this)[1]});
   return selection;
 }
 ```

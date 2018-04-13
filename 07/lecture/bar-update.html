@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    svg {
+      cursor: pointer;
+      pointer-events: bounding-box;
+      /*SVG2.0 이상에서 작동*/
+    }
+
+    .label {
+      font-size: 11px;
+      fill: white;
+      text-anchor: middle;
+      font-family: sans-serif;
+    }
+
+    .bar {
+      fill: steelblue;
+    }
+
+    .axis path.domain {
+      stroke: none;
+    }
+
+    .y.axis .tick:nth-child(2n+1) line {
+      opacity: .25;
+    }
+
+    .y.axis .tick:nth-child(2n) text {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="chart">
+  </div>
+  <script>
+    var w = 400;
+    var h = 400;
+    var margin = {
+      top: 20,
+      right: 20,
+      bottom: 20,
+      left: 20
+    };
+    var innerW = w - margin.left - margin.right,
+      innerH = h - margin.top - margin.bottom;
+
+    var xRange = [0, innerW];
+    var yRange = [innerH, 0];
+    var dataset = [{
+        product: 'A',
+        sales: 200
+      },
+      {
+        product: 'B',
+        sales: 300
+      },
+      {
+        product: 'C',
+        sales: 400
+      },
+      {
+        product: 'D',
+        sales: 500
+      },
+      {
+        product: 'E',
+        sales: 100
+      }
+    ]
+
+    var xDomain = dataset.map(function (d) {
+      return d.product;
+    });
+    //var xRange = [0, w];
+    var x = d3.scaleBand()
+      .domain(xDomain)
+      .rangeRound(xRange)
+      .padding(0.1)
+    var yDomain = [0, d3.max(dataset, function (d) {
+      return d.sales;
+    })]; //d3.extent(dataset, function(d) {return d.sales});
+    var rand = d3.randomUniform(yDomain[0], yDomain[1]); // 기존 도메인 사이 값만 나오도록 랜덤값 생성
+
+    //var yRange = [h, 0];
+    var y = d3.scaleLinear()
+      .domain(yDomain)
+      .range(yRange);
+    var xAxis = d3.axisBottom(x) //x축을 그릴 아래방향 axis에 x 스케일을 전달한다. 결과값인 xAxis는 g를 받아 축을 그려주는 함수(axis generator)가 된다.
+      .tickSize(0) //xAxis의 tickSize를 없애고
+      .tickPadding(6); //간격을 6�px로 설정
+    var yAxis = d3.axisLeft(y) // 왼쪽에 tick이 그려지는 axis 
+      .ticks(5)
+      .tickSizeOuter(0)
+      .tickSizeInner(-innerW); // 그리드를 그려주기 위해 반대방향으로 tick 그려줌 
+
+    var xy = d3.local();
+    var svg = d3.select('#chart').append('svg') //데이터 연결 없이 집어넣기
+      .attr('width', w)
+      .attr('height', h)
+      .append('g') //실제 차트가 그려질 공간은 별도로 설정
+      .attr(
+        'transform',
+        'translate(' + [margin.left, margin.top] + ')'
+      ); // svg > g의 사이즈는 innerW X innerH라고 가정
+    
+    svg.append('g') //g를 먼저 추가하고
+      .attr('class', 'x axis')
+      .attr('transform', 'translate(' + [0, innerH] + ')') // 축이 아래로 이동하도록 translate한다.
+      .call(xAxis);
+
+    svg.append('g')
+      .attr('class', 'y axis')
+      .call(yAxis);
+
+    svg.on('click', function (d) { //svg를 클릭했을때 마다 실행
+      //randDataset();
+      randDataset.apply(this);
+      var t = d3.transition()
+        .delay(200)
+        .duration(600) //default 400
+        .ease(d3.easeLinear);
+      bar.each(function (d) {
+          xy.set(this, [x(d.product), y(d.sales)]); // d3.local을 업데이트 
+        }).transition(t)
+        .attr('transform', function (d) { //재이동
+          return 'translate(' + xy.get(this) + ')'
+        });
+      bar.select('rect') // 다시 높이와 색상을 그려준다.
+        .transition(t)
+        .attr('height', function (d) {
+          return innerH - xy.get(this)[1]
+        })
+    })
+
+    var bar = svg.selectAll('.bar')
+      .data(dataset)
+      .enter().append('g') //rect 대신에 g를 추가하자
+      .attr('class', 'bar')
+      .each(function (d) {
+        xy.set(this, [x(d.product), y(d.sales)]);
+      })
+      .attr('transform', function (d) {
+        var pos = xy.get(this);
+        return 'translate(' + pos + ')'
+      })
+    bar.on('click', function (d) {
+      d3.event.stopPropagation();
+      var t = d3.transition()
+        .duration(800)
+        .ease(d3.easeElastic);
+      var b = d3.select(this);
+      b.datum(function (d) { //b의 데이터를 재설정
+          d.sales = Math.round(rand());
+          return d;
+        }).each(function (d) { //위치 값 재설정
+          xy.set(this, [x(d.product), y(d.sales)]);
+        }).transition(t)
+        .attr('transform', function (d) { //재이동
+          return 'translate(' + xy.get(this) + ')'
+        });
+      b.select('rect') // 다시 높이와 색상을 그려준다.
+        .transition(t)
+        .attr('height', function (d) {
+          return innerH - xy.get(this)[1]
+        })
+    })
+    //g 안에 rect와 text를 함께 집어넣자
+    var rect = bar.append('rect') //bar에 rect를 추가
+      //x,y 설정 불필요
+      .attr('width', x.bandwidth())
+      .attr('height', function (d) {
+        return innerH - xy.get(this)[1]
+      });
+
+    var text = bar.append('text') //bar에 text를 추가 
+      //x,y 설정 불필요
+      .attr('dx', x.bandwidth() * 0.5)
+      .attr('dy', function (d) {
+        return '1em';
+      })
+      .attr('text-anchor', 'middle')
+      .style('fill', 'white')
+      .text(function (d) {
+        return d.product
+      });
+
+    function randDataset() {
+      d3.select(this).selectAll('.bar')
+        .each(function (d) { // svg.selectAll('.bar')나  bar 와 같음
+          d.sales = Math.round(rand()); //sales 값을 바꿔본다
+        })
+    }
+  </script>
+</body>
+
+</html>
