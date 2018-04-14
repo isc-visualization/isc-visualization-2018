@@ -46,7 +46,7 @@ SVG 클릭시 데이터가 추가-삭제 되도록 변경
 //svg.on('click') 부분에 추가
 var randDataset = (function() {
  var asciiRange = [65, 90], //A(65)부터 Z(90)
- curAscii = 65 + dataset.length;
+ var curAscii = 65 + dataset.length;
  return function() { // 클로져를 활용하기 위해 함수를 반환
    var newVal = {product: String.fromCharCode(curAscii), sales : Math.round(rand())};
    dataset.push(newVal); //새로운 데이터 추가
