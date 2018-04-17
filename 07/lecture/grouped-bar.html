@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+  </style>
+</head>
+
+<body>
+  <div id="chart">
+  </div>
+  <script>
+    function draw(data) {
+      var w = 400, h = 300;
+      var margin = {top:10, right:10, bottom: 20, left: 20};
+      var innerW = w - margin.right - margin.left,
+        innerH = h - margin.top - margin.bottom;
+
+      var svg = d3.select('body').append('svg')
+          .attr('width', w)
+          .attr('height', h)
+        .append('g')
+          .attr('transform', 'translate('+ [margin.left, margin.top] + ')');
+      var categoryDomain = data.map(function(d){return d.key});
+      var categoryRange = [0, innerH]; 
+      var category = d3.scaleBand()
+        .domain(categoryDomain).range(categoryRange);
+
+      var positionDomain = [];
+      data.forEach(function(d) {
+        d.values.forEach(function(v) { //values 값이 모두 일정하다는 �보장이 없으므로 모든 values를 �조사해봄
+          if(positionDomain.indexOf(v.position) < 0) positionDomain.push(v.position);
+        })
+      });
+      var positionRange = [0, category.bandwidth()];
+      var position = d3.scaleBand()
+        .domain(positionDomain).range(positionRange);
+
+      var color = d3.scaleOrdinal()
+        .domain(positionDomain).range(d3.schemeCategory10);
+
+      var valueDomain = [Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY];
+      data.forEach(function(d) {
+        d.values.forEach(function(v) {
+          var value = v.value; 
+          //최대.최소 직접 구하기
+          if(value < valueDomain[0]) valueDomain[0] = value;
+          else if (value > valueDomain[1]) valueDomain[1] = value;
+        })
+      });
+      valueDomain[0] = 0;
+      var valueRange = [0, innerW];
+      var value = d3.scaleLinear()
+        .domain(valueDomain).range(valueRange);
+
+
+      var region = svg.selectAll('.region')
+        .data(data, function(d){return d.key})
+        .enter().append('g')
+          .attr('class', 'region')
+          .attr('transform', function(d){return 'translate(' + [0, category(d.key)] + ')';})
+      
+      var bar = region.selectAll('.bar')
+        .data(function(d){console.log(d); return d.values}, function(d){return d.position})
+          .enter().append('rect')
+        .attr('class', 'bar')
+        .attr('y', function(d){return position(d.position);})
+        .attr('width', function(d){return value(d.value)})
+        .attr('height', position.bandwidth())
+        .attr('fill', function(d){return color(d.position)});
+    }
+    
+    d3.json('nested.sample.json').then(function(data) {
+      console.log(data);
+      draw(data);
+    })
+    
+  </script>
+</body>
+
+</html>

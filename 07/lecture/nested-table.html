@@ -1,0 +1,30 @@
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<table>
+  <thead>
+    <tr>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+<script>
+  var matrix = [
+  [ 0,  1,  2,  3], //tr : matrix[0]
+  [ 4,  5,  6,  7], //tr : matrix[1]
+  [ 8,  9, 10, 11], //tr : matrix[2]
+  [12, 13, 14, 15], //tr : matrix[3]
+  ];
+
+  var tr = d3.select('tbody').selectAll('tr')
+    .data(matrix)
+    .enter().append('tr');
+  var td = tr.selectAll('td')
+    .data(function(d){console.log(d); return d;}) // 이때 d는 matrix 내부의 개별 배열 [0,1,2,3]
+  .enter().append('td')
+    .text(function(d){return d;});
+
+</script>
