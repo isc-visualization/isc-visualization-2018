@@ -37,13 +37,14 @@ var legendHeight = 16;
 var legendPadding = 4;
 var legend = svg.append('g')
  .attr('class', 'legend-g')
+ .attr('transform', 'translate(' + [innerW + legendHeight, legendHeight]  +  ')')
  .selectAll('.legend')
  .data(c.domain()) // 개별 색상이 legend 가 된다.
-   .enter().append('g')
-   .attr('class', 'legend')
-   .attr('transform', function(d,i){
-     return 'translate(' + [innerW + legendHeight, legendHeight + i *(legendHeight + legendPadding)]+ ')'
-   }) //scaleBand를 활용해도 좋다
+ .enter().append('g')
+ .attr('class', 'legend')
+ .attr('transform', function(d,i){
+   return 'translate(' + [0, i *(legendHeight + legendPadding)]+ ')'
+ }) //scaleBand를 활용해도 좋다
 ```
 
 - 색상 칩을 추가한다.
