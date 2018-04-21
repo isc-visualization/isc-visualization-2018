@@ -36,7 +36,7 @@ var chipPadding = 2; //색상칩 간격
 var legendHeight = 16;
 var legendPadding = 4;
 var legend = svg.append('g')
- .attr('legend-g')
+ .attr('class', 'legend-g')
  .selectAll('.legend')
  .data(c.domain()) // 개별 색상이 legend 가 된다.
    .enter().append('g')
