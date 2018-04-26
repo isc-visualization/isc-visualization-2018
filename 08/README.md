@@ -29,9 +29,9 @@
 
 - 제출마감 : `2018-04-27 (금) 18:00`
 - 제출방법
- - [제출 폴더](https://www.dropbox.com/request/MTI2o2xBQCLR6PWeVHtR)
- - 제출명 : 파일명 `이름-학번.zip` (예: honggildong-2013.zip)
- - 제출물 :
-   - 결과물은 `index.html, index.js` 에 모두 작성합니다.
-   - 결과물 파일(`index.html`, `index.js`,  `sample.line2.json`)은 모두 `honggildong-2013` 폴더에 넣은 후 압축하여 업로드 합니다.
-   - d3 이외의 외부 라이브러리의 사용은 금합니다.
+  - [제출 폴더](https://www.dropbox.com/request/MTI2o2xBQCLR6PWeVHtR)
+  - 제출명 : 파일명 `이름-학번.zip` (예: honggildong-2013.zip)
+  - 제출물 :
+    - 결과물은 `index.html, index.js` 에 모두 작성합니다.
+    - 결과물 파일(`index.html`, `index.js`,  `sample.line2.json`)은 모두 `honggildong-2013` 폴더에 넣은 후 압축하여 업로드 합니다.
+    - d3 이외의 외부 라이브러리의 사용은 금합니다.

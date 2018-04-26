@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="./sample.line.js"></script>
+  <style>
+    .hover {
+      fill-opacity: .4;
+    }
+  </style>
+</head>
+
+<body>
+  <script type="text/javascript">
+    var w = 400, h = 300;
+    var margin = {top:10, right:40, bottom: 20, left: 20};
+    var innerW = w - margin.right - margin.left,
+      innerH = h - margin.top - margin.bottom;
+    var nest = d3.nest()
+      .key(function(d){return d.c})
+      .sortValues(function(a,b) {return a.x - b.x;}) //x의 오름차순으로 정리한다.
+      .entries(data);
+    var x = d3.scalePoint().domain(d3.range(1, 21)).range([0, innerW*2]);
+    var y = d3.scaleLinear().domain([0, 100]).range([innerH, 0]);
+    var c = d3.scaleOrdinal().domain(nest.map(function(d){return d.key}))
+      .range(d3.schemeCategory10);
+    var line = d3.line()
+      .x(function(d){return x(d.x);}) // d.x 값을 x 스케일에 전달하여 변환
+      .y(function(d){return y(d.y);}); // d.y 값을 y 스케일에 전달하여 변환
+    
+    var svg = d3.select('body').append('svg')
+      .attr('width', w)
+      .attr('height', h)
+    .append('g')
+      .attr('transform', 'translate('+ [margin.left, margin.top] + ')');
+    svg.append('clipPath')
+      .attr('id', 'bar-clip')
+    .append('rect')
+      .attr('width', innerW)
+      .attr('height', innerH)
+    var series = svg.selectAll('.series')
+      .data(nest, function(d){return d.key})
+      .enter().append('g')
+      .attr('clip-path', 'url(#bar-clip)')
+      .style('stroke', function(d){return c(d.key)})
+      .style('fill', function(d){return c(d.key)}) //c 스케일 활용해서 미리 색상 지정
+      .attr('class', 'series')
+      
+    series.selectAll('path') //.append('path')
+      .data(function(d) {return [d.values]})//.datum(function(d){return d.values}) //.datum 써서 d.values 배열 전체를 하나의 단위로 받음
+      .enter().append('path')
+      .style('fill', 'none')
+      .attr('d', function(values) {
+        console.log(values);
+        console.log(line(values));
+        return line(values);
+      })
+      /*
+      .transition().delay(1000).duration(1800)
+      .attr('transform', 'translate(-100, 0)')
+      .transition().delay(1000).duration(1800)
+      .attr('transform', 'translate(0, 0)')
+      */
+    /*
+    svg.selectAll('path')
+      .data(nest) // .data(nest.map(function(d){return d.values}))
+    .enter().append('path')
+    .style('stroke', function(d) {return c(d.key)})//function(d){return c(d[0].c)})
+    .style('fill', 'none')
+    .attr('d', function(d) {
+       console.log(d.values);
+       console.log(line(d.values));
+       return line(d.values);
+    })*/
+    var chipHeight = 12; //레전드 안에 색상칩 크기
+    var chipPadding = 2; //색상칩 간격
+    var legendHeight = 16;
+    var legendPadding = 4;
+    var legend = svg.append('g')
+    .attr('class', 'legend-g')
+    .attr('transform', 'translate(' + [innerW + legendHeight, legendHeight]  +  ')')
+    .selectAll('.legend')
+    .data(c.domain()) // 개별 색상이 legend 가 된다.
+      .enter().append('g')
+      .attr('class', 'legend')
+      .attr('transform', function(d,i){
+        return 'translate(' + [0, i *(legendHeight + legendPadding)]+ ')'
+      }) //scaleBand를 활용해도 좋다
+    legend.append('rect')
+      .attr('y', chipPadding)
+      .attr('width', chipHeight).attr('height', chipHeight)
+      .style('fill', function(d){return c(d)});
+    legend.append('text')
+      .attr('x', chipPadding+ chipHeight)
+      .attr('y', chipPadding)
+      .attr('dy', '.71em')
+      .style('font-size', legendHeight+ 'px')
+      .text(function(d){return d})
+
+    var point = series.selectAll('circle') 
+      .data(function(d){return d.values}, function(d){return d.x}) //values 마다 point를 추가
+      .enter().append('circle')
+      .style('cursor', 'pointer')
+      .attr('cx', function(d){return x(d.x)})
+      .attr('cy', function(d){return y(d.y)})
+      .attr('r', 4);
+    point.on('mouseenter', function(d) {
+      var hover = point.filter(function(p) {return d.x === p.x}) // 같은 x를 가진 다른 시리즈들을 필터링
+        .classed('hover', true);
+      /// 툴팁 추가하기
+      var tooltip = svg.selectAll('.tooltip')
+        .data(hover.data())
+      tooltip.enter().append('text')
+          .attr('class', 'tooltip')
+          .merge(tooltip)
+          .attr('x', function(d){return x(d.x)})
+          .attr('dx', '.35em')
+          .attr('y', function(d){return y(d.y)})
+          .style('fill', function(d){return c(d.c)})
+          .style('visibility', 'visible')
+          .text(function(d){return d.y})
+    }).on('mouseleave', function() {
+      var hover = point.filter(function() {
+        return d3.select(this).classed('hover')
+      }).classed('hover', false);
+      svg.selectAll('.tooltip')
+       .style('visibility', 'hidden');
+    })
+
+  </script>
+</body>
+
+</html>
