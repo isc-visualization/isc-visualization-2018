@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    var parse = d3.timeParse('%Y-%m-%d');
+    d3.csv('sample.time.csv', row)
+      .then(callback)
+
+    function row(d) {
+      d.date = parse(d.date); //-> 날짜 오브젝트로 변환
+      d.A = +d.A; // -> 숫자 형태로 변환
+      d.B = +d.B;
+      d.C = +d.C;
+      return d;
+    }
+
+    function callback(data) {
+      var w = 2400, h = 300;
+      var margin = {top:10, right:40, bottom: 20, left: 20};
+      var innerW = w - margin.right - margin.left,
+      innerH = h - margin.top - margin.bottom;
+
+      var svg = d3.select('body').append('svg')
+          .attr('width', w)
+          .attr('height', h)
+        .append('g')
+          .attr('transform', 'translate('+ [margin.left, margin.top] + ')');
+
+      var xDomain = d3.extent(data, function(d){return d.date}); // 날짜 범위
+      var x = d3.scaleTime().domain(xDomain) // 날짜를 x축에 매핑할 스케일 설정
+        .range([0, innerW]);
+      var valueFieldNames = data.columns.slice(1); //http://devdocs.io/javascript/global_objects/array/slice 참조, 값을 알려주는 필드들 A,B,C
+      var yDomain = d3.extent( // yDomain의 범위가 ABC 마다 서로 다르기 때문에 이를 따로 구해 합쳐준다.
+        d3.merge( // 여러 배열을 하나로 뭉치기 https://github.com/d3/d3-array#merge
+          valueFieldNames.map(function(k){
+            return d3.extent(data, function(d){return d[k];
+          })
+        })));
+      var y = d3.scaleLinear().domain(yDomain)
+        .range([innerH, 0]);
+      var c = d3.scaleOrdinal().domain(valueFieldNames)
+        .range(d3.schemeCategory10);
+      var entries = valueFieldNames.map(function(k) { //A,B,C를 돌면서 하나식 row를 만들어준다
+        var values = data.map(function(d){
+          return {date:d.date, value:d[k], key:k}
+        });
+        return {key:k, values:values}
+      })
+      var line = d3.line()
+        .x(function(d){return x(d.date);})
+        .y(function(d){return y(d.value);});
+      var series = svg.selectAll('.series')
+        .data(entries, function(d){return d.key})
+          .enter().append('g')
+        .attr('class', 'series')
+        .style('fill', 'none')
+        .style('stroke', function(d){return c(d.key)})
+
+      series.append('path')
+        .datum(function(d){return d.values})
+        .attr('d', line)
+    }
+  </script>
+</body>
+
+</html>
