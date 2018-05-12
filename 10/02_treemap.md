@@ -40,7 +40,7 @@ function callback(data) {
 - `size`로 합산하고, `children`을 `height`과 `value`순으로 정렬
 
 ```javascript
-hierarchy.sum(function(d){return d.size}) //size를 합하여 value를 계산
+hierarchy.sum(function(d){return d.size}) //size를 합하여 value를 계산 (비고) function(d) { return 1; 자식노드 개수}
   .sort(function(a, b) { return b.height - a.height || b.value - a.value; }) // expr1 || expr2 일때 expr1이 falsy value면 다음 값을 뱉어냄
 ```
 
@@ -64,7 +64,7 @@ var svg = d3.select('body').append('svg')
 ```
 
 - 스케일 설정
- - 깊이depth가 1인 노드들의 이름이 개별 색상color을 가리키고, 말단 노드의 값value가 opacity를 결정하도록 설정
+ - 깊이depth가 1인 노드들의 이름이 개별 색상 color을 가리키고, 말단 노드의 값value가 opacity를 결정하도록 설정
  - `node.leaves` 통해 말단 노드들에 접근  
 
 ```javascript
@@ -79,7 +79,8 @@ var color = d3.scaleOrdinal().domain(colorDomain).range(d3.schemeCategory10);
 
 ```javascript
 var treemap = d3.treemap() //treemap을 위한 데이터 구조를 생성하는 generator
-  .size([innerW, innerH]);
+  .size([innerW, innerH])
+  //.tile(d3.treemapSquarify)
 hierarchy = treemap(hierarchy); //기존 hierarchy 구조를 전달
 ```
 
