@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+  </style>
+</head>
+
+<body>
+  <script>
+    d3.json('./flare.json').then(callback);
+
+    function callback(data) {
+
+      var hierarchy = d3.hierarchy(data, function (d) {
+        return d.children
+      });
+      hierarchy.sum(function (d) {
+          return d.size;
+        }) //size를 합하여 value를 계산
+        .sort(function (a, b) {
+          return b.height - a.height || b.value - a.value;
+        }) // expr1 || expr2 일때 expr1이 falsy value면 다음 값을 뱉어냄
+     
+      var w = 600,
+        h = 300;
+      var margin = {
+        top: 10,
+        right: 10,
+        bottom: 10,
+        left: 10
+      };
+      var innerW = w - margin.right - margin.left,
+        innerH = h - margin.top - margin.bottom;
+
+      var treemap = d3.treemap() //treemap을 위한 데이터 구조를 생성하는 generator
+        .size([innerW, innerH])
+        //.tile(d3.treemapSlice)
+      hierarchy = treemap(hierarchy); //기존 hierarchy 구조를 전달
+      console.log(hierarchy);
+      var opacityDomain = d3.extent(hierarchy.leaves(), function(d){return d.value;}); // 말단 노드의 value값의 범위를 가져온다.
+      var opacity = d3.scaleLinear().domain(opacityDomain).range([0.4, 1.0]);
+      var colorDomain = hierarchy.children.map(function(d){return d.data.name}); // 깊이가 1인 노드들의 이름을 가져온다.
+      var color = d3.scaleOrdinal().domain(colorDomain).range(d3.schemeCategory10);
+      var svg = d3.select('body').append('svg')
+        .attr('width', w)
+        .attr('height', h)
+        .append('g')
+        .attr('transform', 'translate(' + [margin.left, margin.top] + ')');
+      var nodes = hierarchy.descendants();
+      var leaf = svg.selectAll('.leaf')
+        .data(nodes.filter(function(n){return !n.children}), function(d){return d.data.name}) //filter를 통해서 children이 없는 말단 노드만 선택
+        .enter().append('rect')
+          .attr('class', 'leaf')
+        .attr('x', function(d){return d.x0})
+        .attr('y', function(d){return d.y0})
+        .attr('width', function(d){return d.x1-d.x0})
+        .attr('height', function(d){return d.y1-d.y0})
+        .style('fill-opacity', function(d){return opacity(d.value)})
+        .style('fill', function(d) {
+          return color(findParent(d, 1).data.name);
+        })
+
+      function findParent(node, depth) { //특정 depth 값을 갖는 부모를 찾는다.
+        if(node.depth < depth) {
+          return null;
+        } else if(node.depth === depth) {
+          return node;
+        }
+        if(node.parent) {
+          return findParent(node.parent, depth); //재귀 recursion
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
