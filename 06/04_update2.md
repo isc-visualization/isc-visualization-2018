@@ -32,7 +32,7 @@ bar.on('click', function(d) {
 ---
 
 - [selection.datum](https://github.com/d3/d3-selection#selection_datum)으로 수정 (each로 수정해도됨)
-  - enter, exit에 영향을 주지 않음
+  - enter, exit에 영향을 주지 않음
 ```
 Gets or sets the bound data for each selected element. Unlike selection.data, this method does not compute a join and does not affect indexes or the enter and exit selections.
 ```

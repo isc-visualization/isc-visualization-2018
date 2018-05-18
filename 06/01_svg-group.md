@@ -70,7 +70,7 @@ bar.each(function(d) {
     return 'translate('+ [d.x, d.y] + ')'
   })
 
-rect.attr('height', function(d){return h - d.y}); //d.y를 미리 저장해둔 다음 재사용용
+rect.attr('height', function(d){return h - d.y}); //d.y를 미리 저장해둔 다음 재사용용
 ```
 
 
@@ -85,8 +85,8 @@ rect.attr('height', function(d){return h - d.y}); //d.y를 미리 저장해둔 �
  ```javascript
  var xy = d3.local();
  bar.each(function(d) {
-   //이때 this는 각각의 g
-   xy.set(this, [x(d.product), y(d.sales)]); //x,y위치를 bar별로 d3.local에 저장
+   //이때 this는 각각의 g
+   xy.set(this, [x(d.product), y(d.sales)]); //x,y위치를 bar별로 d3.local에 저장
  })
  .attr('transform', function(d){
    var pos = xy.get(this); // 저장된 x,y 위치값을 가져옴

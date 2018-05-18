@@ -28,7 +28,7 @@ var svg = d3.select('#vertical')
   .append('svg')
     .attr('width', w)
     .attr('height', h)
-  .append('g') //실제 차트가 그려질 공간은 별도로 설정
+  .append('g') //실제 차트가 그려질 공간은 별도로 설정
     .attr('transform', 'translate(' +[margin.left, margin.top]+ ')'); // svg > g의 사이즈는 innerW X innerH라고 가정
 
 ...
@@ -46,7 +46,7 @@ x축 설정하기
 var xAxis = d3.axisBottom(x); //x축을 그릴 아래방향 axis에 x 스케일을 전달한다. 결과값인 xAxis는 g를 받아 축을 그려주는 함수(axis generator)가 된다.
 ```
 
-- svg에 x축 공간 추가 하기
+- svg에 x축 공간 추가 하기
 ```javascript
 svg.append('g') //g를 먼저 추가하고
   .attr('class', 'x axis')
@@ -83,7 +83,7 @@ svg.append('g') //g를 먼저 추가하고
 
 ```javascript
 xAxis.tickSize(0) //xAxis의 tickSize를 없애고
-  .tickPadding(6); //간격을 6px로 설정
+  .tickPadding(6); //간격을 6px로 설정
 ```
 ```css
 .axis path.domain {

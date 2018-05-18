@@ -51,7 +51,7 @@ var category = d3.scaleBand()
 ```javascript
 var positionDomain = [];
 data.forEach(function(d) {
-  d.values.forEach(function(v) { //values 값이 모두 일정하다는 보장이 없으므로 모든 values를 조사해봄
+  d.values.forEach(function(v) { //values 값이 모두 일정하다는 보장이 없으므로 모든 values를 조사해봄
     if(positionDomain.indexOf(v.position) < 0) positionDomain.push(v.position);
   })
 });

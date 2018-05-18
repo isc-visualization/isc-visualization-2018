@@ -94,7 +94,7 @@ d3.select("body").selectAll("p")
 
 데이터 활용
 ---
-- 위 예제에서 [text()](https://github.com/d3/d3-selection#selection_text)의 경우 넘겨진 데이터를 anonymous function을 콜백함수로 전달하여 직접 받아올 수 있음
+- 위 예제에서 [text()](https://github.com/d3/d3-selection#selection_text)의 경우 넘겨진 데이터를 anonymous function을 콜백함수로 전달하여 직접 받아올 수 있음
 
 > if the value is a function, then the function is evaluated for each selected element, in order, being passed the current datum (d), the current index (i), and the current group (nodes), with this as the current DOM element.
 

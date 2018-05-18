@@ -31,7 +31,7 @@ var y = 7; // 초기화 Initialize y
 https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
 - 코드의 실행 전, 컴파일 단계에서 scope 안에 있는 `function, var`가 미리 메모리에 선언
 - `function`의 경우 정의까지 됨
-- 실제 hoisting은 부수작용일뿐
+- 실제 hoisting은 부수작용일뿐
 
 ```javascript
 catName("Chloe");
@@ -54,7 +54,7 @@ Function-level Scoping
 ---
 - C나 Java와 같은 block scope({} 밖에서는 안을 알 수 없음)대신 function-level scope을 사용
 - function을 기준으로 scope이 결정됨
-- 참고: 현재 ES6에서는 `let, const`를 통해 블록 단위로 범위를 결정
+- 참고: 현재 ES6에서는 `let, const`를 통해 블록 단위로 범위를 결정
 
 ```javascript
 var foo = function() {
@@ -201,12 +201,12 @@ console.log(foo.apply(a));
 
 콜백Callback
 ---
-- 자바스크립트의 함수는 [Higher-order function](https://en.wikipedia.org/wiki/Higher-order_function) ([생활코드: 값으로서의 함수와 콜백](https://opentutorials.org/course/743/6508))
+- 자바스크립트의 함수는 [Higher-order function](https://en.wikipedia.org/wiki/Higher-order_function) ([생활코드: 값으로서의 함수와 콜백](https://opentutorials.org/course/743/6508))
   - 한개 이상의 함수를 함수의 인자로 사용 가능하다.
   - 함수가 함수를 반환 가능하다.
 - 함수형 언어 [Functional Languages](https://en.wikipedia.org/wiki/Functional_programming)
 
-- 콜백함수 Callback function가 빈번히 사용된다.
+- 콜백함수 Callback function가 빈번히 사용된다.
   - 함수를 인자로 받아
   - 특정 조건에 해당 함수를 실행시킨다.
 

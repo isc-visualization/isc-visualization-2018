@@ -49,7 +49,7 @@ function randDataset() {
 
 ```javascript
 svg.on('click', function(d) {
-  randDataset.apply(this); //bar 마다 데이터를 변화
+  randDataset.apply(this); //bar 마다 데이터를 변화
   bar.each(function(d) {
       xy.set(this, [x(d.product), y(d.sales)]); // d3.local을 업데이트 
     })
@@ -91,7 +91,7 @@ bar.data(dataset)
       return 'translate('+ xy.get(this) + ')'
     });
 bar.select('rect')
-  .transition() //transition 설정
+  .transition() //transition 설정
     .attr('height', function(d){return innerH - xy.get(this)[1]});
 ```
 

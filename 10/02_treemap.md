@@ -17,7 +17,7 @@ http://devdocs.io/d3~5/d3-hierarchy#hierarchy
 - 특정한 레이아웃에 데이터를 전달하기 전에 nested된 형태의 데이터를 `d3.hierarchy`에 전달하여 변형을 한 후, 특정한 레이아웃(treemap, tree 등)에 전달하여 변형한다.
 - 이때 반드시 최상위 노드가 1개인 루트 노드가 존재하는 경우만 가능
 - 결과로 개별 노드에는  depth, parent, children 등이 계산된 데이터가 계산된다.
-  - node.depth - 뿌리 노드는 0, 이후 단계마다 1씩 증가
+  - node.depth - 뿌리 노드는 0, 이후 단계마다 1씩 증가
   - node.height - 말단 노드는 0, 이후 단계마다 거꾸로 1씩 증가
   - node.parent - 부모 노드의 오브젝트, 뿌리 노드는 `undefined`
   - node.children - 자식 노드의 배열, 말단 노드는 `undefined`

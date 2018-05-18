@@ -13,9 +13,9 @@
 
 - [세계 경제포럼 성 격차 지수](https://docs.google.com/spreadsheets/d/1n0hO7HpRtRU8dFDYx4xPXm3CON1R159i3eV9rxF4oCQ/edit?usp=sharing)
   - [세계 경제포럼](https://www.weforum.org/reports/the-global-gender-gap-report-2017)
-  - (참고) [역대 보고서 전문](https://drive.google.com/open?id=1rLzNqY3p7-vSANNi2xKsFiZhvu_MvrDF)
+  - (참고) [역대 보고서 전문](https://drive.google.com/open?id=1rLzNqY3p7-vSANNi2xKsFiZhvu_MvrDF)
 
-- [역대 지방선거 시도지사 후보자 및 당선자 명부](https://docs.google.com/spreadsheets/d/1hMsHJHDfWONFohaoN9uQIKOdkl6D1EfBb97zMDifBLg/edit?usp=sharing)
+- [역대 지방선거 시도지사 후보자 및 당선자 명부](https://docs.google.com/spreadsheets/d/1hMsHJHDfWONFohaoN9uQIKOdkl6D1EfBb97zMDifBLg/edit?usp=sharing)
   - [선거통계시스템](http://info.nec.go.kr/)
  
 - 결과물은 반드시 HTML을 이용한 웹페이지 형태로 제작되어야 하며, 추가적인 데이터나 라이브러리의 활용이 가능합니다.(단, d3.js의 사용은 필수)
@@ -28,7 +28,7 @@
 
 3. 생각한 주제와 수집한 자료를 표현하기에 적합한 시각화 기법을 고민해봅니다. 기존에 수업시간에 배웠던 유형들이나, 참고하고 싶은 사례들을 중심으로 표현 기법을 정리합니다. 상호작용, 스토리텔링 방식 등도 함께 생각해보기 바랍니다. 
 
-4. 위의 내용들을 자유 형식으로 문서에 정리하여 PDF 형식으로 제출합니다. 반드시 **구체적인 주제와 표현방식을 정리하고 간략한 스케치**가 포함되야 합니다. 참고 사례나 추가 자료를 함께 첨부하여 설명하면 더욱 좋습니다. 여유가 있다면 실제 프로토타입이나 샘플을 첨부해도 좋습니다. 분량과 양식은 자유 입니다.
+4. 위의 내용들을 자유 형식으로 문서에 정리하여 PDF 형식으로 제출합니다. 반드시 **구체적인 주제와 표현방식을 정리하고 간략한 스케치**가 포함되야 합니다. 참고 사례나 추가 자료를 함께 첨부하여 설명하면 더욱 좋습니다. 여유가 있다면 실제 프로토타입이나 샘플을 첨부해도 좋습니다. 분량과 양식은 자유 입니다.
 다음 수업 시간에 이를 바탕으로 개별 상담할 예정입니다.
 
 

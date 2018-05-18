@@ -52,7 +52,7 @@ var randDataset = (function() {
    dataset.push(newVal); //새로운 데이터 추가
    dataset.shift(); // 맨 앞의 데이터는 제거
    curAscii +=1;
-   if (curAscii>asciiRange[1]) curAscii = asciiRange[0]; // Z까지 가고나면 다시 돌아오기 
+   if (curAscii>asciiRange[1]) curAscii = asciiRange[0]; // Z까지 가고나면 다시 돌아오기 
  }
 }());
 ```
@@ -147,9 +147,9 @@ barEnter.append('text')
 - 앞서 선택된 셀렉션과 새로 추가된 enter셀렉션을 merge를 통해 합친 후 업데이트 하고 이를 다시 bar에 저장 => .update 셀렉션
 
 ```javascript
-bar = barEnter.merge(bar) //새로 추가된 barEnter를 기존 bar와 병합한다.
+bar = barEnter.merge(bar) //새로 추가된 barEnter를 기존 bar와 병합한다.
 
-bar.call(updateBarPos) //모든 bar의 위치를 업데이트
+bar.call(updateBarPos) //모든 bar의 위치를 업데이트
   .transition(t)
   .call(translateBar);
 ```

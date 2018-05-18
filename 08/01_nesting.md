@@ -162,7 +162,7 @@ items.sort(function (a, b) {
 ```
 
 - nest.sortKeys : key의 순서를 정렬
-  - [d3.ascending, d3.descending](https://github.com/d3/d3-array#ascending)을 활용하면 편리
+  - [d3.ascending, d3.descending](https://github.com/d3/d3-array#ascending)을 활용하면 편리
 ```javascript
 nest
   .key(function(d){return d.category})

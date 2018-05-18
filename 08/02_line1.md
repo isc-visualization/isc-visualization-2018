@@ -78,7 +78,7 @@ var dataset = [
 
 
 - 스케일 세팅 하기
-  - x축은 [d3.scalePoint](https://github.com/d3/d3-scale#scalePoint) 사용
+  - x축은 [d3.scalePoint](https://github.com/d3/d3-scale#scalePoint) 사용
 ```javascript
 var w = 400, h = 300;
 var margin = {top:10, right:10, bottom: 20, left: 20};

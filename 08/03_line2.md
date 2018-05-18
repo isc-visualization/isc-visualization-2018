@@ -10,7 +10,7 @@
 ---
 
 - [샘플 파일](./sample/sample.line.json)을 불러와서, `c`를 key로 하여 묶는다. => `c`에 의해 묶인 데이터가 개별 라인(시리즈)가 된다.
-  - x 값에 따라 오름차순으로 정렬
+  - x 값에 따라 오름차순으로 정렬
 
 ```javascript
 var nest = d3.nest()

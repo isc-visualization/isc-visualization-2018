@@ -15,7 +15,7 @@
 - 순환 회로가 없고, 서로 다른 두 노드를 잇는 길이 하나뿐인 그래프
 
 ![Tree Structure](https://courses.cs.vt.edu/csonline/DataStructures/Lessons/Trees/tree_diagram.gif)
-- Root-Leaf Node(뿔리-말단 노드) Parent-Child Node(부모-자식 노드), Subtree(부트리), Arc or Edge(에지, 간선)
+- Root-Leaf Node(뿔리-말단 노드) Parent-Child Node(부모-자식 노드), Subtree(부트리), Arc or Edge(에지, 간선)
 
 네트워크와 트리의 시각적 표현방식
 ---

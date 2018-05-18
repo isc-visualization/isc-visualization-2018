@@ -56,7 +56,7 @@ console.log(ordinalScale(dataset[0].product)); //scale은 mapping 함수
 #### [scalePoint](http://devdocs.io/d3~4/d3-scale#scalePoint)
 ![point](https://raw.githubusercontent.com/d3/d3-scale/master/img/point.png)
  - categorical type의 attribute를 점으로 표현하고 싶을 때 사용
- - 추후에 라인 차트에서 활용 
+ - 추후에 라인 차트에서 활용 
 
 ```javascript
 var x = d3.scalePoint()
@@ -75,15 +75,15 @@ selection.attr('width', x.step()); //간격 알고 싶을때 point.step() 사용
 
 -  domain 에서 continuous-numeric한 값으로 이루어진 range로 매핑
 ![point](https://raw.githubusercontent.com/d3/d3-scale/master/img/band.png)
-- 막대 차트에서 활용 가능
+- 막대 차트에서 활용 가능
 
 ```javascript
 var x = d3.scaleBand()
   .domain(domain)
   .range([0, w]);
 
-console.log(x(dataset[1].product)); //2번째 band의 시작점
-console.log(x.bandwidth()); //band의 너비
+console.log(x(dataset[1].product)); //2번째 band의 시작점
+console.log(x.bandwidth()); //band의 너비
 ```
 
 
@@ -114,8 +114,8 @@ x.padding(0.2) //padding
 
 - scaleLinear를 간단히 직접 구현 해보기
 ```javascript
-var minSales = d3.min(dataset, function(d) { return d.sales;});
-var maxSales = d3.max(dataset, function(d) { return d.sales;});
+var minSales = d3.min(dataset, function(d) { return d.sales;});
+var maxSales = d3.max(dataset, function(d) { return d.sales;});
 
 function y(sales) {
   return  (sales - minSales)
