@@ -41,7 +41,7 @@ function callback(data) {
 ```javascript
 var cDomain = d3.set(data.nodes.map(function(d){return d.group;}))//d3.set을 통해 중복이 되지 않도록 d.group 모음
 cDomain = cDomain.values()
-cDomain.sort(d3.ascending); //번호 순서대로 정렬
+cDomain.sort(function(a,b) { return +b - +a;}); //번호 순서대로 정렬
 var c = d3.scaleOrdinal()
     .domain(cDomain)
     .range(d3.schemeCategory10);
