@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    .links line {
+      stroke: #aaa;
+    }
+
+    .links line.linked {
+      stroke: red;
+      stroke-width: 2px;
+    }
+
+
+    .nodes circle {
+      pointer-events: all;
+      stroke: #eee;
+      stroke-width: 2px;
+    }
+
+    .nodes circle.linked {
+      stroke: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    var w = 800, h = 600;
+    var margin = { top: 10, right: 10, bottom: 10, left: 10 };
+    var innerW = w - margin.right - margin.left,
+      innerH = h - margin.top - margin.bottom;
+
+    var svg = d3.select('body').append('svg')
+      .attr('width', w)
+      .attr('height', h)
+      .append('g')
+      .attr('transform', 'translate(' + [margin.left, margin.top] + ')');
+
+    var simulation = d3.forceSimulation() //시뮬레이션 생성기
+      .force('link', d3.forceLink().id(function (d) { return d.id; })) //자료에서 링크가 될 이름을 선택
+      .force('charge', d3.forceManyBody()) //서로 밀어내도록 설정
+      .force('center', d3.forceCenter(innerW / 2, innerH / 2)); //중앙으로 위치를 이동
+
+    d3.json('./miserables.json').then(callback);
+    function callback(data) {
+      var cDomain = d3.set(data.nodes.map(function (d) { return d.group; })) //d3.set을 통해 중복이 되지 않도록 d.group 모음
+        .values().sort(function (a, b) { return a - b; }); //번호 순서대로 정렬
+
+      var c = d3.scaleOrdinal() // 색상은 group값을 통해 결정
+        .domain(cDomain)
+        .range(d3.schemeCategory10);
+
+      var link = svg.append("g")
+        .attr('class', 'links')
+        .selectAll('line')
+        .data(data.links)
+        .enter().append('line') //링크의 개수만큼 선을 추가
+
+      var node = svg.append('g')
+        .attr('class', 'nodes')
+        .selectAll('circle')
+        .data(data.nodes)
+        .enter().append('circle')
+        .attr('r', 4)
+        .style('fill', function (d) { return c(d.group) }); //노드의 개수만큼 원을 추가
+      simulation.nodes(data.nodes) //nodes 에 대항하는 값을 전달한다.
+      simulation.force('link') //link로 이름 지은 d3.forceLink() 시뮬레이터를 불러옴
+        .links(data.links); //link 값을 전달
+      var drag = d3.drag()
+        .on('start', dragStrated)
+        .on('drag', dragged)
+        .on('end', dragEnded);
+
+      node.call(drag);
+
+      /*
+      for (var i = 0 ; i < 240 ; i ++ ) simulation.tick();
+      link.attr('x1', function(d){return d.source.x;}) //각각의 링크의 source와 target 값이 변형된 것을 확인할 수 있다.
+          .attr('y1', function(d){return d.source.y;})
+          .attr('x2', function(d){return d.target.x;})
+          .attr('y2', function(d){return d.target.y;});
+        node.attr('cx', function(d){return d.x;}) // node 값에도 x,y,vx,vy,index 값이 추가된다. 
+          .attr('cy', function(d){return d.y;});
+      */
+
+      simulation.on('tick', function () {
+        link.attr('x1', function (d) { return d.source.x; }) //각각의 링크의 source와 target 값이 변형된 것을 확인할 수 있다.
+          .attr('y1', function (d) { return d.source.y; })
+          .attr('x2', function (d) { return d.target.x; })
+          .attr('y2', function (d) { return d.target.y; });
+        node.attr('cx', function (d) { return d.x; }) // node 값에도 x,y,vx,vy,index 값이 추가된다. 
+          .attr('cy', function (d) { return d.y; });
+      })
+
+    }
+
+    function dragStrated(d) {
+      if (!d3.event.active) simulation.alphaTarget(0.3).restart(); // 운동이 정지하지 않음 
+      d.fx = d.x; //d.fx 값을 d.x 값으로 강제 이동
+      d.fy = d.y;
+
+      var linked = [];
+      svg.select('.links').selectAll('line').filter(function(l) { 
+        if (l.source === d) { // source가 현재 데이터와 같다면
+          if(linked.indexOf(l.target)<0) linked.push(l.target); //linked에 target이 없다면 해당 target을 추가
+          return true; // 해당 링크는 필터를 통과
+        } else if( l.target === d) { // target이 현재 데이터와 같다면
+          if(linked.indexOf(l.source)<0) linked.push(l.source); //linked에 source가 없다면 해당 source를 추가 
+          return true;
+        }
+        return false;
+      }).classed('linked', true);  
+
+      svg.select('.nodes').selectAll('circle').filter(function(n) {
+        return linked.indexOf(n) >= 0; // linked에 있는 노드라면
+      }).classed('linked', true); 
+    }
+    function dragged(d) {
+      d.fx = d3.event.x; // 마우스 포인터 위치로 fx를 이동
+      d.fy = d3.event.y;
+    }
+    function dragEnded(d) {
+      if (!d3.event.active) simulation.alphaTarget(0); //드래그 끝나면 target을 다시 0으로 설정 
+      d.fx = null; // fx를 없앰
+      d.fy = null;
+      svg.selectAll('.linked').classed('linked', false);
+    }
+
+  </script>
+</body>
+
+</html>

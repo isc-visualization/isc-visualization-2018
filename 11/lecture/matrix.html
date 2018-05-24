@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+  </style>
+</head>
+
+<body>
+  <script>
+    var w = 600; //너비와 높이가 동일 
+    var margin = { top: 20, right: 20, bottom: 20, left: 20 };
+    var innerW = w - margin.right - margin.left;
+
+    var svg = d3.select('body').append('svg')
+      .attr('width', w)
+      .attr('height', w)
+      .append('g')
+      .attr('transform', 'translate(' + [margin.left, margin.top] + ')');
+
+    d3.json('./miserables.json').then(callback);
+    function callback(data) {
+      var cDomain = d3.set(data.nodes.map(function(d){return d.group;}))//d3.set을 통해 중복이 되지 않도록 d.group 모음
+      cDomain = cDomain.values()
+      cDomain.sort(function(a,b) { return +b - +a;}); //번호 순서대로 정렬
+      var c = d3.scaleOrdinal()
+        .domain(cDomain)
+        .range(d3.schemeCategory10);
+      var x = d3.scaleBand()
+        .domain(data.nodes.map(function(d){return d.id;}))
+        .range([0, innerW]); // 너비만큼 range를 결정
+      var xNode = svg.selectAll('.x.node')
+        .data(data.nodes)
+      .enter().append('rect')
+        .attr('class', 'x node')
+        .attr('x', function(d){return x(d.id);})
+        .attr('y', function(d){return -x.bandwidth()*2;}) // 위로 2칸 이동
+        .attr('width', x.bandwidth())
+        .attr('height', x.bandwidth())
+        .style('fill', function(d){return c(d.group);});
+      xNode.on('mouseenter', function(d) {
+        xLink.filter(function(l) {
+          return l.source === d.id;
+        })
+        yLink.filter(function(l) {
+          return l.target === d.id;
+        })
+        yNode.filter(function(n) {
+          return n.id === d.id;
+        })
+      })
+      var yNode = svg.selectAll('.y.node')
+        .data(data.nodes)
+      .enter().append('rect')
+        .attr('class', 'y node')
+        .attr('x', -x.bandwidth()*2) //왼쪽으로 2칸 이동
+        .attr('y', function(d){return x(d.id);})
+        .attr('width', x.bandwidth())
+        .attr('height', x.bandwidth())
+        .style('fill', function(d){return c(d.group);});
+  
+      var xLink = svg.selectAll('.x.link')
+        .data(data.links)
+      .enter().append('rect')
+        .attr('class', 'x link')
+        .attr('x', function(d){return x(d.source);})
+        .attr('y', function(d){return x(d.target);})
+        .attr('width', x.bandwidth())
+        .attr('height', x.bandwidth());
+      /*
+      var yLink = svg.selectAll('.y.link')
+          .data(data.links)
+        .enter().append('rect')
+          .attr('class', 'y link')
+          .attr('x', function(d){return x(d.target);})
+          .attr('y', function(d){return x(d.source);})
+          .attr('width', x.bandwidth())
+          .attr('height', x.bandwidth());
+      */
+    }
+
+  </script>
+</body>
+
+</html>
