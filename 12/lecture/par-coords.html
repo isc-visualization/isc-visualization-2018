@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    .x.axis .domain {
+      stroke: none;
+    }
+
+    .series path {
+      fill: none;
+    }
+
+    .series.hidden path {
+      stroke: #ddd !important;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    var w = 800, h = 600;
+    var margin = { top: 20, right: 20, bottom: 20, left: 20 };
+    var innerW = w - margin.right - margin.left,
+      innerH = h - margin.top - margin.bottom;
+    var brush = d3.brushY(); //브러시 변수 추가
+
+    var xAxis = d3.axisBottom().tickSize(0).tickPadding(-12);
+    var yAxis = d3.axisLeft();
+
+    var x = d3.scalePoint().range([0, innerW]).padding(0.04);
+    var y = {}; //y 스케일이 여러개이므로 오브젝트로 나중에 추가
+
+    var c = d3.scaleOrdinal().range(d3.schemeCategory10);
+    var line = d3.line()
+      .x(function (d) { return d.x }) //값을 스케일로 미리 변환해서 넣어둘 예정 따라서 line 생성기에서 스케일을 사용할 필요 없음
+      .y(function (d) { return d.y; });
+    var svg = d3.select('body').append('svg')
+      .attr('width', w)
+      .attr('height', h)
+      .append('g')
+      .attr('transform', 'translate(' + [margin.left, margin.top] + ')');
+    d3.csv('./flower.csv', row).then(callback)
+    function row(d) { //행 처리
+      for (var k in d) {
+        if (d.hasOwnProperty(k) && k !== 'species') d[k] = + d[k];
+      }
+      return d;
+    }
+    var conditions = {}; // 축마다 현재 선택된 영역을 저장
+    function brushed(d) {
+      conditions[d.name] = d3.event.selection.map(y[d.name].invert); //현재 축 이름과 영역을 변환하여 저장, 
+      hide(); //영역 바깥의 선들은 감춰둠
+    }
+    function brushEnded(d) {
+      if (d3.event.selection === null) { //클릭만 했을 때
+        delete conditions[d.name]; //해당 영역의 조건을 지움
+        hide();
+      }
+    }
+    function hide() {
+      svg.selectAll('.series').classed('hidden', function (d) {
+        var result = false;
+        for (var k in conditions) { //세가지 조건 하나라도 밖에 있다면 감춰둠
+          var domain = conditions[k];
+          result = result || (d[k] < domain[1] || d[k] > domain[0])
+          if (result) return result;
+        }
+        if (!result)  this.parentNode.appendChild(this);
+        return result;
+      });
+    }
+    function callback(data) {
+      var headers = data.columns.slice(0, 4);
+      headers = headers.map(function (h) {
+        var domain = d3.extent(data, function (d) { return d[h]; });
+        return { name: h, domain: domain };
+      });
+
+      headers.forEach(function (h) {
+        y[h.name] = d3.scaleLinear().domain(h.domain).range([innerH, 0]);
+      });
+
+      x.domain(headers.map(function (d) { return d.name; }));
+      c.domain(d3.set(data, function (d) { return d.species; }).values());
+
+      svg.selectAll('.series')
+        .data(data)
+        .enter().append('g')
+        .attr('class', 'series')
+        .style('stroke', function (d) { return c(d.species) })
+        .selectAll('path')
+        .data(function (d) { return [series(d)] }) //데이터를 series로 변환한 다음 배열에 다시 넣어서 통째로 path에 전달
+        .enter().append('path')
+        .attr('d', line);
+      svg.selectAll('.y.axis')
+        .data(headers, function (d) { return d.name; })
+        .enter().append('g')
+        .attr('class', 'y axis')
+        .attr('transform', function (d) { return 'translate(' + [x(d.name), 0] + ')'; }) //축을 x 스케일을 이용해 이동
+        .each(function (d) {
+          yAxis.scale(y[d.name]); // 축마다 스케일을 가져와서 
+          d3.select(this).call(yAxis); //축을 그려줌
+        })
+      xAxis.scale(x);
+      svg.append('g')
+        .attr('class', 'x axis')
+        .call(xAxis);
+
+      brush = brush.extent([[-12, 0], [12, innerH]]) //[[x1,y1], [x2,y2]] 직사각형 형태로 영역을 설정
+        .on('brush', brushed)
+        .on('end', brushEnded);
+
+      svg.selectAll('.y.axis') //축을 모두 선택한 후 각각 g를 추가하고 brush를 추가
+        .append('g')
+        .attr('class', 'brush')
+        .call(brush);
+    }
+
+    function series(d) { //개별 아이템마다 배열로 아이템을 변환
+      return x.domain().map(function (h) { //축 순서대로 데이터에 접근
+        return { x: x(h), y: y[h](d[h]) };
+      });
+    }
+  </script>
+</body>
+
+</html>

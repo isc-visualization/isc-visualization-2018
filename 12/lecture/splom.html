@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    .point {
+      fill-opacity: .7;
+    }
+
+    .point.hidden {
+      fill: #ddd !important;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    var w = 800;
+    var margin = { top: 10, right: 10, bottom: 10, left: 10 };
+    var innerW = w - margin.right - margin.left;
+    var brush = d3.brush();
+    var scales = d3.local();
+
+    var xAxis = d3.axisBottom().ticks(6); //axis 기본 설정은 공유
+    var yAxis = d3.axisLeft().ticks(6);
+
+    var region = d3.scaleBand().range([0, innerW]).padding(.2);
+    var c = d3.scaleOrdinal().range(d3.schemeCategory10);
+    var svg = d3.select('body').append('svg')
+      .attr('width', w)
+      .attr('height', w)
+      .append('g')
+      .attr('transform', 'translate(' + [margin.left, margin.top] + ')');
+    d3.csv('./flower.csv', row).then(callback);
+
+    var brushCell;
+    function brushStarted(d) {
+      if (brushCell !== this) { // 드래그한 셀이 바뀌면 기존 브러쉬 영역을 지움
+        d3.select(brushCell).call(brush.move, null); //brush.move(selection, null) 하면 영역이 지워짐
+        brushCell = this;
+      }
+    }
+    function brushed(d) {
+      if (d3.event.selection === null) return; //선택된 것이 없으면 아무것도 하지 않음
+      var xName = d.x.name, yName = d.y.name;
+      var scale = scales.get(this); //현재 영역의 스케일을 local에서 찾아낸다
+      var domain = d3.event.selection.map(function (d) { //[[x0, y0], [x1,y1]]
+        return [scale.x.invert(d[0]), scale.y.invert(d[1])]; //거꾸로 range에서 domain을 찾음
+      });
+      svg.selectAll('.point').classed('hidden', function (d, i) {
+        return d[xName] < domain[0][0] || d[xName] > domain[1][0] || d[yName] > domain[0][1] || d[yName] < domain[1][1]; //영역 밖을 감춘다.
+      })
+    }
+
+    function brushEnded(d) {
+      if(d3.event.selection === null) { // 현재 선택 영역이 없다면 === 클릭만 한 경우
+        svg.selectAll('.point').classed('hidden', false);
+      }
+    }
+
+    function row(d) { //행 처리
+      for (var k in d) {
+        if (d.hasOwnProperty(k) && k !== 'species') d[k] = + d[k];
+      }
+      return d;
+    }
+
+    function callback(data) {
+      var headers = data.columns.slice(0, 4); // 헤더 중에 값 영역만
+      console.log(headers);
+      headers = headers.map(function (h) {
+        var domain = d3.extent(data, function (d) { return d[h]; });
+        return { name: h, domain: domain }; //헤더별로 도메인을 저장 
+      });
+      console.log(headers);
+
+      region.domain(headers.map(function (d) { return d.name; })); // 각 구역을 나눈다.
+      c.domain(d3.set(data, function (d) { return d.species; }).values());
+
+      brush = brush.extent([[0, 0], [region.bandwidth(), region.bandwidth()]])
+        .on('start', brushStarted)
+        .on('brush', brushed)
+        .on('end', brushEnded);
+      var cell = svg.selectAll('.cell')
+        .data(cross(headers))
+        .enter().append('g')
+        .attr('class', 'cell')
+        .attr('transform', function (d) {
+          return 'translate(' + [region(d.x.name), innerW - region(d.y.name) - region.bandwidth()] + ')'
+        }) //밑에서부터 올라오도록 위치를 조정
+        .each(function (d) {
+          var x = d3.scaleLinear().domain(d.x.domain).range([0, region.bandwidth()]); //개별 영역별로 스케일을 설정
+          var y = d3.scaleLinear().domain(d.y.domain).range([region.bandwidth(), 0]);
+          scales.set(this, { x: x, y: y }); //스케일을 영역별로 local에 저장
+        });
+
+      cell.append('g')
+        .attr('class', 'x axis')
+        .attr('transform', 'translate(' + [0, region.bandwidth()] + ')')
+        .each(function () { //x축 추가
+          var x = scales.get(this).x; //x 스케일을 가져와서
+          d3.select(this).call(xAxis.scale(x)); //xAxis의 스케일을 설정하고 축을 그림
+        });
+
+      cell.append('g')
+        .attr('class', 'y axis')
+        .each(function () { //y축 추가
+          var y = scales.get(this).y;
+          d3.select(this).call(yAxis.scale(y));
+        });
+
+      cell.each(function (d) {
+        d3.select(this).selectAll('.point')
+          .data(data)
+          .enter().append('circle')
+          .attr('class', 'point')
+          .attr('cx', function (p) { return scales.get(this).x(p[d.x.name]); })
+          .attr('cy', function (p) { return scales.get(this).y(p[d.y.name]); })
+          .attr('r', 2)
+          .style('fill', function (p) { return c(p.species); });
+      });
+
+      cell.append('g')
+        .attr('class', 'brush')
+        .call(brush);
+    }
+
+    function cross(headers) {
+      var result = [];
+
+      headers.forEach(function (a) { // 4X4 행렬
+        headers.forEach(function (b) {
+          result.push({ x: a, y: b }); // X-Y
+        });
+      });
+
+      return result;
+    }
+
+
+  </script>
+</body>
+
+</html>
