@@ -22,7 +22,7 @@ function randGen(length, width) {
   return results;
 }
 ```
-- [d3.randomNormal](http://devdocs.io/d3~5/d3-random#randomNormal): [정규분포](https://en.wikipedia.org/wiki/Normal_distribution)에 가까운 분포를 보이도록 무작위로 값을 뱉어냄 
+- [d3.randomNormal](http://devdocs.io/d3~5/d3-random#randomNormal): [정규분포](https://en.wikipedia.org/wiki/Normal_distribution)에 가까운 분포를 보이도록 무작위로 값을 뱉어냄 
   - 첫번째 값은 중심의 평균 위치, 두번째 값은 표준분포 값을 전달
     - 표준분포 값이 작을수록 평균 중심으로 모임
 
@@ -45,7 +45,7 @@ var x = d3.scaleLinear()
   .domain(d3.extent(data)).nice()
   .range([0, innerW]);
 ```
-- 빈(bins) 계산하기 : [d3.histogram](http://devdocs.io/d3~5/d3-array#histogram)
+- 빈(bins) 계산하기 : [d3.histogram](http://devdocs.io/d3~5/d3-array#histogram)
  - 결과는 bin 별로 데이터가 모임
  - .value() 로 값을 설정해야하지만 현재는 숫자만 담겨 있으므로 생략
  - `x.ticks()` 를 통해 동일한 간격의 범위를 정하고 이것을 `histogram.thresholds`에 전달
