@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 페이지 템플릿</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    .bar {
+      fill: steelblue;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    var data = randGen(5000, 50);
+    console.log(data);
+    console.log(d3.quantile(data, 0.5));
+    var w = 640, h = 480;
+    var margin = {top:10, right:40, bottom: 20, left: 40};
+    var innerW = w - margin.right - margin.left,
+      innerH = h - margin.top - margin.bottom;
+    var x = d3.scaleLinear()
+      .domain(d3.extent(data)).nice()
+      .range([0, innerW]);
+    console.log(x.ticks(40));
+    var bins = d3.histogram()
+      .domain(x.domain())
+      .thresholds(x.ticks(40));
+    bins = bins(data);
+    /*
+      x0 - the lower bound of the bin (inclusive).
+      x1 - the upper bound of the bin (exclusive, except for the last bin).
+    */
+    var y = d3.scaleLinear()
+      .domain([0, d3.max(bins, d => d.length)]).nice()
+      .range([innerH, 0]);
+    console.log(bins);
+
+    var xAxis = d3.axisBottom(x).tickSizeOuter(0);
+    var yAxis = d3.axisLeft(y);
+
+    var svg = d3.select('body').append('svg')
+        .attr('width', w)
+        .attr('height', h)
+      .append('g')
+        .attr('transform', 'translate('+ [margin.left, margin.top] + ')');
+    
+    svg
+      .selectAll(".bar")
+      .data(bins)
+    .enter().append("rect")
+      .attr('class', 'bar')
+      .attr("x", function(d) {return x(d.x0) + 1})
+      .attr("width", function(d) {return Math.max(0, x(d.x1) - x(d.x0) - 1)})
+      .attr("y", function(d) { return y(d.length)})
+      .attr("height", function(d) { return y(0) - y(d.length)});
+
+    svg.append('g')
+      .attr('class', 'x axis')
+      .attr('transform', 'translate(0,' + innerH + ')')
+      .call(xAxis);
+    
+    svg.append('g')
+      .attr('class', 'y axis')
+      .call(yAxis);
+    
+    function randGen(length, width) {
+      width = width || 100;
+      var ranGen = d3.randomNormal();
+      var results = [];
+      for (var i = 0 ; i < length; i++) {
+        results.push(ranGen() * width);
+      }
+      return results;
+    }
+  </script>
+</body>
+
+</html>
