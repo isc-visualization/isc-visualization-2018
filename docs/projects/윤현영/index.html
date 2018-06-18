@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="utf-8">
+    <title>Final Project</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <style>
+        .hover{
+            fill:cadetblue
+        }
+        .hidden{
+            visibility: hidden;
+        }
+        .country .selected{
+            opacity: 100%;
+        }
+        .country .initial{
+            opacity: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="graph"></div>
+    <button id="temp"></button>
+    <script type="text/javascript">
+    d3.json('./data180609.json').then(function(data) {
+        // 그래프의 크기
+        var w = 500, ctrH = 100, h = ctrH + 20 + 500;
+        var margin = {top: ctrH + 20, right:10, bottom:10, left:20}
+        var innerW = w - margin.right - margin.left,
+            innerH = h - margin.top - margin.bottom;
+        var xRange = [0, innerW], yRange = [innerH, 0];
+        // 통제 변인 그래프의 크기
+        var ctrM = {top: 10, right:10, bottom:10, left:20}
+        var ctrInnerH = ctrH - ctrM.top - ctrM.bottom
+        var ctrYrange = [ctrInnerH, 0]
+        
+        // 전체 svg
+        var svg = d3.select('div.graph').append('svg')
+                .attr('width', w).attr('height', h)
+        // 통제 변인 그래프 영역
+        var ctr = svg.append('g').attr('class', 'ctr')
+            .attr('transform', function(d){return 'translate(' + [ctrM.left, ctrM.top] + ')';})
+        // 메인 그래프 영역
+        var area = svg.append('g').attr('class', 'area')
+            .attr('transform', function(d){return 'translate(' + [margin.left, margin.top] + ')';})
+
+        ////////////// 메인 그래프 //////////////
+        // ggi
+        var ggiDomain = [0.45 , 1]
+        var ggiX = d3.scaleLinear().domain(ggiDomain).range(xRange)
+        // tfr
+        var tfrDomain = [0, Math.ceil(d3.max(data, function(d){return d.tfr}))]
+        var tfrY = d3.scaleLinear().domain(tfrDomain).range(yRange)
+
+        // x축
+        var xAxis = d3.axisBottom(ggiX).ticks(5).tickSize(0)
+        area.append('g')
+            .attr('class', 'x axis')
+            .attr('transform', 'translate('+ [0, innerH]+ ')')
+            .call(xAxis);
+        // y축
+        var yAxis = d3.axisLeft(tfrY).ticks(5).tickSize(0)
+        area.append('g')
+            .attr('class', 'y axis')
+            .call(yAxis)
+
+        // 각 country를 나타내는 circle
+        var country = area.selectAll('.country')
+            .data(data, function(d){return d.country})
+            .enter().append('circle')
+            .attr('r', 5)
+            .attr('class', function(d){return 'group'+d.gdpGroup.toString()})
+            .classed('country', true)
+            .attr('transform', function(d){return 'translate(' + [ggiX(d.ggi), tfrY(d.tfr)] + ')'})
+        
+        ////////////// 통제변인 /////////////////
+        gdpDomain = [d3.min(data, function(d){return d.gdp}), d3.max(data, function(d){return d.gdp})]
+        gdpX = d3.scaleLinear().domain(gdpDomain).range(xRange)
+        
+        var gdpAxis = d3.axisBottom(gdpX).ticks(5).tickSize(0)
+        ctr.append('g')
+            .attr('class', 'x axis')
+            .attr('transform', 'translate('+ [0, ctrInnerH]+ ')')
+            .call(gdpAxis);
+        
+        var ctrcountry = ctr.selectAll('.ctr')
+            .data(data, function(d){return d.country})
+            .enter().append('circle')
+            .attr('r', 5)
+            .attr('class', function(d){return 'group'+d.gdpGroup.toString()})
+            .classed('ctr', true)
+            .classed('country', true)
+            .attr('transform', function(d){return 'translate(' + [gdpX(d.gdp), ctrInnerH/2] + ')'})
+        
+        
+
+        // hover 동작: 같은 나라 표시하기
+        svg.selectAll('.country').on('mouseenter', function(d){
+            var tooltip = area.selectAll('.tooltip')
+                .data(data.filter(function(p) {return p.country == d.country}))
+            
+            tooltip.enter().append('text')
+                .attr('class', 'tooltip')
+                .merge(tooltip)
+                .attr('x', function (d) {
+                    return ggiX(d.ggi);
+                })
+                .attr('y', function (d) {
+                    return tfrY(d.tfr);
+                })
+                .attr('dx', '.35em').attr('dy', '-.35em')
+                .attr('fill', 'red')
+                .style('visibility', 'visible')
+                .text(function (d) {
+                    return d.country+ ', ' +d.gdp
+                });
+
+            svg.selectAll('.country')
+                .filter(function(p){return p.country == d.country})
+                .classed('hover', true)
+
+        }).on('mouseleave',function(){
+            var tooltip = area.selectAll('.tooltip')
+                .style('visibility', 'hidden')
+
+            svg.selectAll('.country')
+                .classed('hover', false)
+        })
+        
+        
+        
+        // gdp 영역별 보기
+        d3.select('body').selectAll('button').on('click', function () {
+            console.log('clicked');
+            var t = d3.transition().duration(1000);
+            
+            // 메인그래프 회색으로 초기화
+            area.selectAll('.country')
+                .transition(t)          // 왜 transition이 적용 안되는 느낌이지?
+                .attr('opacity', '0.2')
+
+            // 특정 영역 클릭하기  
+            ctr.selectAll('.ctr').on('click', function(d){
+                var currGroup = d.gdpGroup
+                // 그래프에 있는 ctr 포인트 모두 원래 위치로 돌려보내기
+                ctr.selectAll('.ctr')
+                    .attr('fill', 'black')
+                    .attr('transform', function(d){return 'translate(' + [gdpX(d.gdp), ctrInnerH/2] + ')'})
+
+                // 선택된 그룹 메인 영역에 뿌리기
+                var selected = ctr.selectAll('.group'+currGroup)
+                    // .transition().delay(100)
+                    .transition(t)
+                    .attr('transform', function(d){
+                        var y = margin.top - ctrM.top + tfrY(d.tfr)
+                        return 'translate(' + [ggiX(d.ggi), y] + ')'
+                    })
+                    .attr('fill', 'red')
+            })
+        })
+        
+
+    })
+
+    </script>
+</body>
+</html>

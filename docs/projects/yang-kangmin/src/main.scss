@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.4258;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 30px 0 75px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.4rem;
+  margin: 2rem 0;
+}
+
+.wrap {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.bar, .groupbar {
+  stroke: #000;
+  stroke-width: 1px;
+  stroke-opacity: 0.35;
+  shape-rendering: crispEdges;
+}
+
+.axis__text {
+  font-size: 1.0rem;
+  fill: #000;
+}
+
+.axis--y .axis__text {
+  text-anchor: start;
+}
+
+.axis--x .axis__text {
+  text-anchor: end;
+}
+
+.tick {
+  font-size: 0.9rem;
+}
+
+.chart {
+  margin: 85px 0;
+}
+
+.chart__title {
+  text-decoration: underline;
+}
+
+.chart__bar {
+  width: 450px;
+  height: 350px;
+}
+
+.chart__caption {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.chart__groupbar {
+  width: 900px;
+  height: 600px; 
+}
+
+.justify {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ref {
+  text-align: right;
+  font-size: 1.2rem;
+  margin: 50px 0;
+}
+
+.tip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6a6a6a;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.tip__block {
+  display: inline-block;
+  padding: 0 10px;
+
+  &:first-child {
+    padding-left: 0px;
+  }
+
+  &:last-child {
+    padding-right: 0px;
+  }
+
+  &:nth-of-type(n+2) {
+    border-left: 1px solid #6a6a6a;
+  }
+}
+
+.chart__round {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.chart__btn {
+  display: inline-block;
+  background: transparent;
+  outline: 0;
+  cursor: pointer;
+  border: 0;
+}
+
+.chart__round-text {
+  line-height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+}

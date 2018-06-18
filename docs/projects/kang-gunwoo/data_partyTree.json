@@ -1,0 +1,296 @@
+[
+	{
+		"NO" : 1,
+		"party":
+		[
+			{
+				"name" : "민주자유당",
+				"color" : "#003990",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "민주당",
+				"color" : "#D82634",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "친민당",
+				"color" : "#000000",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "통일한국당",
+				"color" : "#000000",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "자유민주연합",
+				"color" : "#1B5B40",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "무소속",
+				"color" : "#888888",
+				"parentStrong" : [],
+				"parentWeak" : []
+			}
+		]
+	},
+	{
+		"NO" : 2,
+		"party":
+		[
+			{
+				"name" : "한나라당",
+				"color" : "#003990",
+				"parentStrong" : ["민주자유당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "새정치국민회의",
+				"color" : "#00AA7B",
+				"parentStrong" : ["민주당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "국민신당",
+				"color" : "#1A5B9F",
+				"parentStrong" : [],
+				"parentWeak" : ["민주자유당"]
+			},
+			{
+				"name" : "자유민주연합",
+				"color" : "#1B5B40",
+				"parentStrong" : ["자유민주연합"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "무소속",
+				"color" : "#888888",
+				"parentStrong" : [],
+				"parentWeak" : []
+			}
+		]
+	},
+	{
+		"NO" : 3,
+		"party":
+		[
+			{
+				"name" : "한나라당",
+				"color" : "#003990",
+				"parentStrong" : ["한나라당"],
+				"parentWeak" : ["국민신당"]
+			},
+			{
+				"name" : "녹색평화당",
+				"color" : "#51B749",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "민국당",
+				"color" : "#000000",
+				"parentStrong" : [],
+				"parentWeak" : ["한나라당"]
+			},
+			{
+				"name" : "민주노동당",
+				"color" : "#EE7700",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "사회당",
+				"color" : "#E23620",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "새천년민주당",
+				"color" : "#00AA7B",
+				"parentStrong" : ["새정치국민회의"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "자민련",
+				"color" : "#1B5B40",
+				"parentStrong" : ["자유민주연합"],
+				"parentWeak" : ["국민신당"]
+			},
+			{
+				"name" : "무소속",
+				"color" : "#888888",
+				"parentStrong" : [],
+				"parentWeak" : []
+			}
+		]
+	},
+	{
+		"NO" : 4,
+		"party":
+		[
+			{
+				"name" : "국민중심당",
+				"color" : "#FF82FF",
+				"parentStrong" : ["자민련"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "민주노동당",
+				"color" : "#EE7700",
+				"parentStrong" : ["민주노동당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "민주당",
+				"color" : "#00736D",
+				"parentStrong" : ["새천년민주당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "시민당",
+				"color" : "#000000",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "열린우리당",
+				"color" : "#FFD918",
+				"parentStrong" : [],
+				"parentWeak" : ["새천년민주당"]
+			},
+			{
+				"name" : "한나라당",
+				"color" : "#008CD7",
+				"parentStrong" : ["한나라당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "한미준",
+				"color" : "#13007D",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "무소속",
+				"color" : "#888888",
+				"parentStrong" : [],
+				"parentWeak" : []
+			}
+		]
+	},
+	{
+		"NO" : 5,
+		"party":
+		[
+			{
+				"name" : "국민참여당",
+				"color" : "#FBC917",
+				"parentStrong" : ["열린우리당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "민주노동당",
+				"color" : "#EE7700",
+				"parentStrong" : ["민주노동당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "미래연합",
+				"color" : "#00008B",
+				"parentStrong" : [],
+				"parentWeak" : ["한나라당"]
+			},
+			{
+				"name" : "민주당",
+				"color" : "#00736D",
+				"parentStrong" : ["민주당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "자유선진당",
+				"color" : "#025BAD",
+				"parentStrong" : ["국민중심당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "진보신당",
+				"color" : "#E62020",
+				"parentStrong" : [],
+				"parentWeak" : ["민주노동당"]
+			},
+			{
+				"name" : "평화민주당",
+				"color" : "#00A850",
+				"parentStrong" : [],
+				"parentWeak" : ["민주당"]
+			},
+			{
+				"name" : "한나라당",
+				"color" : "#008CD7",
+				"parentStrong" : ["한나라당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "무소속",
+				"color" : "#888888",
+				"parentStrong" : [],
+				"parentWeak" : []
+			}
+		]
+	},
+	{
+		"NO" : 6,
+		"party":
+		[
+			{
+				"name" : "노동당",
+				"color" : "#FF0000",
+				"parentStrong" : [],
+				"parentWeak" : ["진보신당"]
+			},
+			{
+				"name" : "새누리당",
+				"color" : "#C01920",
+				"parentStrong" : ["한나라당"],
+				"parentWeak" : ["자유선진당"]
+			},
+			{
+				"name" : "새정치당",
+				"color" : "#000000",
+				"parentStrong" : [],
+				"parentWeak" : []
+			},
+			{
+				"name" : "새정치민주연합",
+				"color" : "#0082CD",
+				"parentStrong" : ["민주당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "정의당",
+				"color" : "#FFCC00",
+				"parentStrong" : ["국민참여당"],
+				"parentWeak" : []
+			},
+			{
+				"name" : "통합진보당",
+				"color" : "#782B8E",
+				"parentStrong" : [],
+				"parentWeak" : ["국민참여당","민주노동당","진보신당"]
+			},
+			{
+				"name" : "무소속",
+				"color" : "#888888",
+				"parentStrong" : [],
+				"parentWeak" : []
+			}
+		]
+	}
+]

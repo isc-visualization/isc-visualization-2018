@@ -1,0 +1,32 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Final</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style type="text/css">
+       svg {
+       }
+       .bar {
+            fill: steelblue;
+        }
+
+        #xaxis text, yaxis text { 
+            font-size : 12px;
+        }
+    </style>
+</head>
+<body>
+    <div><h1>남녀임금격차와 남녀고용률격차의 상관성</h1></div>
+    <div><h3>1. OECD 국가별 남녀임금격차</h3></div>
+    <br>
+    <p>2016년(자료가 없는 국가의 경우, 최신 자료 기준) 자료를 기준으로 우리나라의 남녀 임금 격차는 OECD 국가 중 최대치.</p> 
+    <div id="bar_chart"></div>
+    <br>
+
+    <div><h3>2. 시간별 고용률 지수 변화</h3></div>
+    <div id="multi_series_line"></div>
+
+    <script src="index.js"></script>    
+</body>
+</html>

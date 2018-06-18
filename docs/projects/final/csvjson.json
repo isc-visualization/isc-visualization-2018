@@ -1,0 +1,62 @@
+[
+  {
+    "GWG_KOR_OECDAverage": "",
+    "Korea": "Korea",
+    "Gender wage gap": "OECD - Average",
+    "": ""
+  },
+  {
+    "GWG_KOR_OECDAverage": "year",
+    "Korea": "Gender wage gap",
+    "Gender wage gap": "Gender wage gap",
+    "": "K-OECD"
+  },
+  {
+    "GWG_KOR_OECDAverage": 2009,
+    "Korea": 38.6,
+    "Gender wage gap": 14.9,
+    "": 23.7
+  },
+  {
+    "GWG_KOR_OECDAverage": 2010,
+    "Korea": 39.6,
+    "Gender wage gap": 14.5,
+    "": 25.1
+  },
+  {
+    "GWG_KOR_OECDAverage": 2011,
+    "Korea": 36.6,
+    "Gender wage gap": 14.4,
+    "": 22.2
+  },
+  {
+    "GWG_KOR_OECDAverage": 2012,
+    "Korea": 36.3,
+    "Gender wage gap": 14.3,
+    "": 22
+  },
+  {
+    "GWG_KOR_OECDAverage": 2013,
+    "Korea": 36.6,
+    "Gender wage gap": 14.3,
+    "": 22.3
+  },
+  {
+    "GWG_KOR_OECDAverage": 2014,
+    "Korea": 36.7,
+    "Gender wage gap": 14.3,
+    "": 22.4
+  },
+  {
+    "GWG_KOR_OECDAverage": 2015,
+    "Korea": 37.2,
+    "Gender wage gap": 14.3,
+    "": 22.9
+  },
+  {
+    "GWG_KOR_OECDAverage": 2016,
+    "Korea": 36.7,
+    "Gender wage gap": 14.1,
+    "": 22.6
+  }
+]

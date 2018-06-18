@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Visualization Final - 윤진 </title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://rawgit.com/Kcnarf/d3-beeswarm/master/build/d3-beeswarm.js"></script>
+	<style>
+			div {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+			}
+			p {
+				font-size: 0.9em;
+			}
+			li {
+				font-size: 0.9em;
+			}
+			text {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+			}
+			.desc {
+				margin-bottom: 40px;
+			}
+			.select_boxes {
+				display: inline;
+				margin-top: 10px;
+			}
+			.title {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+			 }
+			 #line-chart {
+				 margin-top: 20px;
+			 }
+	</style>
+</head>
+<body>
+	<h1 class="title">A Glance at Global Gender Gap Index</h1>
+	<div>
+		<p>
+			This document is intended to let readers read through the Gender Gap Index report without having to read hundreds of pages.<br>
+			Please refer to the charts and the description below to know how to browse through the massive information. Enjoy!
+		</p>
+	</div>
+	<div class="select_boxes" id="select_country" display="inline-block">Select country: </div>
+	<div id="line-chart"></div>
+
+	<h3 class="title">Time Series Line Graph</h3>
+	<div class="desc">
+		<p>
+			<ul>
+				<li>This chart shows chronological data of the global index & the subordinate four indexes.</li>
+				<li>Choose the country you want to view the chart of. The chart will be updated right after you select from the dropdown menu. </li>
+				<li>To check the detailed figure of each point, put your mouse over the point. You will be able to see all five figures of the very year you are checking. </li>
+				<li>To learn which color indicates the five indexes (including the global index), please refer to the legend on the top of the chart. </li>
+				<li>FYI, the indexes are as following: global index, economic index, educational index, health index and political index.</li>
+			</ul>
+		</p>
+	</div>
+
+
+
+	<div class="select_boxes" id="select_year" display="inline-block">   Select year: </div>
+	<div id="beeswarm"></div>
+	<div id="beeswarm2"></div>
+	<h3 class="title">GGG Distribution by Index </h3>
+	<div class="desc">
+			<p>
+				<ul>
+					<li>The charts above show you the distribution of global countries by index. The color index is same as above.</li>
+					<li>To view data from another year, please select the year from the drop down menu.</li>
+					<li>Just as the line chart explained above, you can check the specific figures by hovering your mouse above each point.</li>
+					<li>In case of charts that go over the highest limit of 1, it's because too many countries are concentrated near the highest number!  </li>
+				</ul>
+			</p>
+		</div>
+	<div>
+		<p>
+			<strong>For more info... </strong>
+			<a href="https://www.weforum.org/reports/the-global-gender-gap-report-2017">The Global Gender Gap Report 2017</a>		 
+
+		</p>
+	</div>
+	<script type="text/javascript" src="./index.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,3002 @@
+[
+ {
+   "country": "Albania",
+   "Age": 1,
+   "Value": 57.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Albania",
+   "Age": 2,
+   "Value": 80.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Albania",
+   "Age": 3,
+   "Value": 56.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Albania",
+   "Age": 4,
+   "Value": 43.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Algeria",
+   "Age": 1,
+   "Value": 20,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Algeria",
+   "Age": 2,
+   "Value": 24,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Algeria",
+   "Age": 3,
+   "Value": 10.3,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Algeria",
+   "Age": 4,
+   "Value": 6.4,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Argentina",
+   "Age": 1,
+   "Value": 63.2,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Argentina",
+   "Age": 2,
+   "Value": 71,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Argentina",
+   "Age": 3,
+   "Value": 56.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Argentina",
+   "Age": 4,
+   "Value": 31.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Armenia",
+   "Age": 1,
+   "Value": 80.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Armenia",
+   "Age": 2,
+   "Value": 75.2,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Armenia",
+   "Age": 3,
+   "Value": 72.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Armenia",
+   "Age": 4,
+   "Value": 55,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Australia",
+   "Age": 1,
+   "Value": 98.6,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Australia",
+   "Age": 2,
+   "Value": 85.2,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Australia",
+   "Age": 3,
+   "Value": 81.8,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Australia",
+   "Age": 4,
+   "Value": 54.4,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Austria",
+   "Age": 1,
+   "Value": 90.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Austria",
+   "Age": 2,
+   "Value": 92.5,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Austria",
+   "Age": 3,
+   "Value": 69.8,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Austria",
+   "Age": 4,
+   "Value": 50,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Bahrain",
+   "Age": 1,
+   "Value": 50.7,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Bahrain",
+   "Age": 2,
+   "Value": 55.2,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Bahrain",
+   "Age": 3,
+   "Value": 31,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Bahrain",
+   "Age": 4,
+   "Value": 16,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Bangladesh",
+   "Age": 1,
+   "Value": 70.2,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Bangladesh",
+   "Age": 2,
+   "Value": 37.6,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Bangladesh",
+   "Age": 3,
+   "Value": 20.5,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Bangladesh",
+   "Age": 4,
+   "Value": 23.1,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Barbados",
+   "Age": 1,
+   "Value": 81.1,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Barbados",
+   "Age": 2,
+   "Value": 95.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Barbados",
+   "Age": 3,
+   "Value": 84.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Barbados",
+   "Age": 4,
+   "Value": 56.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Belgium",
+   "Age": 1,
+   "Value": 85.2,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Belgium",
+   "Age": 2,
+   "Value": 88.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Belgium",
+   "Age": 3,
+   "Value": 79.8,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Belgium",
+   "Age": 4,
+   "Value": 32.7,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Benin",
+   "Age": 1,
+   "Value": 100,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Benin",
+   "Age": 2,
+   "Value": 89.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Benin",
+   "Age": 3,
+   "Value": 95,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Benin",
+   "Age": 4,
+   "Value": 63.1,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Bolivia",
+   "Age": 1,
+   "Value": 72.1,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Bolivia",
+   "Age": 2,
+   "Value": 75.7,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Bolivia",
+   "Age": 3,
+   "Value": 77.4,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Bolivia",
+   "Age": 4,
+   "Value": 71.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Botswana",
+   "Age": 1,
+   "Value": 85.8,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Botswana",
+   "Age": 2,
+   "Value": 84.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Botswana",
+   "Age": 3,
+   "Value": 77.8,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Botswana",
+   "Age": 4,
+   "Value": 53.8,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Brazil",
+   "Age": 1,
+   "Value": 78.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Brazil",
+   "Age": 2,
+   "Value": 75.8,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Brazil",
+   "Age": 3,
+   "Value": 53.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Brazil",
+   "Age": 4,
+   "Value": 34.8,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Brunei Darussalam",
+   "Age": 1,
+   "Value": 84,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Brunei Darussalam",
+   "Age": 2,
+   "Value": 79.9,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Brunei Darussalam",
+   "Age": 3,
+   "Value": 68.9,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Brunei Darussalam",
+   "Age": 4,
+   "Value": 50.4,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Bulgaria",
+   "Age": 1,
+   "Value": 69.9,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Bulgaria",
+   "Age": 2,
+   "Value": 91.2,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Bulgaria",
+   "Age": 3,
+   "Value": 86.2,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Bulgaria",
+   "Age": 4,
+   "Value": 42.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Burundi",
+   "Age": 1,
+   "Value": 100,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Burundi",
+   "Age": 2,
+   "Value": 99.9,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Burundi",
+   "Age": 3,
+   "Value": 96.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Burundi",
+   "Age": 4,
+   "Value": 100,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Cambodia",
+   "Age": 1,
+   "Value": 99.8,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Cambodia",
+   "Age": 2,
+   "Value": 79.2,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Cambodia",
+   "Age": 3,
+   "Value": 69,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Cambodia",
+   "Age": 4,
+   "Value": 53.5,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Cameroon",
+   "Age": 1,
+   "Value": 87.1,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Cameroon",
+   "Age": 2,
+   "Value": 86.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Cameroon",
+   "Age": 3,
+   "Value": 93.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Cameroon",
+   "Age": 4,
+   "Value": 83.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Canada",
+   "Age": 1,
+   "Value": 100,
+   "Region": "NORTH AMERICA"
+ },
+ {
+   "country": "Canada",
+   "Age": 2,
+   "Value": 90.4,
+   "Region": "NORTH AMERICA"
+ },
+ {
+   "country": "Canada",
+   "Age": 3,
+   "Value": 84.5,
+   "Region": "NORTH AMERICA"
+ },
+ {
+   "country": "Canada",
+   "Age": 4,
+   "Value": 56.6,
+   "Region": "NORTH AMERICA"
+ },
+ {
+   "country": "Chad",
+   "Age": 1,
+   "Value": 98.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Chad",
+   "Age": 2,
+   "Value": 74.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Chad",
+   "Age": 3,
+   "Value": 74.4,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Chad",
+   "Age": 4,
+   "Value": 66,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Chile",
+   "Age": 1,
+   "Value": 74.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Chile",
+   "Age": 2,
+   "Value": 74.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Chile",
+   "Age": 3,
+   "Value": 57.7,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Chile",
+   "Age": 4,
+   "Value": 34.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "China",
+   "Age": 1,
+   "Value": 94.1,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "China",
+   "Age": 2,
+   "Value": 84.2,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "China",
+   "Age": 3,
+   "Value": 68.2,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "China",
+   "Age": 4,
+   "Value": 56.6,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Colombia",
+   "Age": 1,
+   "Value": 76,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Colombia",
+   "Age": 2,
+   "Value": 77.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Colombia",
+   "Age": 3,
+   "Value": 58.4,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Colombia",
+   "Age": 4,
+   "Value": 41.7,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Costa Rica",
+   "Age": 1,
+   "Value": 63.8,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Costa Rica",
+   "Age": 2,
+   "Value": 65.4,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Costa Rica",
+   "Age": 3,
+   "Value": 46.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Costa Rica",
+   "Age": 4,
+   "Value": 23.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Cote d'Ivoire",
+   "Age": 1,
+   "Value": 66.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Cote d'Ivoire",
+   "Age": 2,
+   "Value": 65,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Cote d'Ivoire",
+   "Age": 3,
+   "Value": 66.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Cote d'Ivoire",
+   "Age": 4,
+   "Value": 52.8,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Croatia",
+   "Age": 1,
+   "Value": 77.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Croatia",
+   "Age": 2,
+   "Value": 92.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Croatia",
+   "Age": 3,
+   "Value": 67.4,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Croatia",
+   "Age": 4,
+   "Value": 52.9,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Czech Republic",
+   "Age": 1,
+   "Value": 69.9,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Czech Republic",
+   "Age": 2,
+   "Value": 86,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Czech Republic",
+   "Age": 3,
+   "Value": 72.2,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Czech Republic",
+   "Age": 4,
+   "Value": 52.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Denmark",
+   "Age": 1,
+   "Value": 100,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Denmark",
+   "Age": 2,
+   "Value": 92.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Denmark",
+   "Age": 3,
+   "Value": 88.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Denmark",
+   "Age": 4,
+   "Value": 39.1,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Dominican Republic",
+   "Age": 1,
+   "Value": 68.2,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Dominican Republic",
+   "Age": 2,
+   "Value": 73.2,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Dominican Republic",
+   "Age": 3,
+   "Value": 48.1,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Dominican Republic",
+   "Age": 4,
+   "Value": 29.7,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Ecuador",
+   "Age": 1,
+   "Value": 64.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Ecuador",
+   "Age": 2,
+   "Value": 71.4,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Ecuador",
+   "Age": 3,
+   "Value": 67,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Ecuador",
+   "Age": 4,
+   "Value": 55.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Egypt",
+   "Age": 1,
+   "Value": 47.6,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Egypt",
+   "Age": 2,
+   "Value": 28.8,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Egypt",
+   "Age": 3,
+   "Value": 21.6,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Egypt",
+   "Age": 4,
+   "Value": 10.1,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "El Salvador",
+   "Age": 1,
+   "Value": 53.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "El Salvador",
+   "Age": 2,
+   "Value": 66,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "El Salvador",
+   "Age": 3,
+   "Value": 55.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "El Salvador",
+   "Age": 4,
+   "Value": 37.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Estonia",
+   "Age": 1,
+   "Value": 87.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Estonia",
+   "Age": 2,
+   "Value": 87.3,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Estonia",
+   "Age": 3,
+   "Value": 100,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Estonia",
+   "Age": 4,
+   "Value": 86.3,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Ethiopia",
+   "Age": 1,
+   "Value": 95.9,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Ethiopia",
+   "Age": 2,
+   "Value": 82.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Ethiopia",
+   "Age": 3,
+   "Value": 52.2,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Ethiopia",
+   "Age": 4,
+   "Value": 36.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Finland\t",
+   "Age": 1,
+   "Value": 100,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Finland\t",
+   "Age": 2,
+   "Value": 92.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Finland\t",
+   "Age": 3,
+   "Value": 100,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Finland\t",
+   "Age": 4,
+   "Value": 50.9,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "France",
+   "Age": 1,
+   "Value": 85.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "France",
+   "Age": 2,
+   "Value": 89.5,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "France",
+   "Age": 3,
+   "Value": 91.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "France",
+   "Age": 4,
+   "Value": 55.4,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Gambia, The",
+   "Age": 1,
+   "Value": 80.4,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Gambia, The",
+   "Age": 2,
+   "Value": 71.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Gambia, The",
+   "Age": 3,
+   "Value": 66.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Gambia, The",
+   "Age": 4,
+   "Value": 53.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Germany",
+   "Age": 1,
+   "Value": 92.9,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Germany",
+   "Age": 2,
+   "Value": 89.9,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Germany",
+   "Age": 3,
+   "Value": 85.7,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Germany",
+   "Age": 4,
+   "Value": 47.9,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Ghana",
+   "Age": 1,
+   "Value": 100,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Ghana",
+   "Age": 2,
+   "Value": 94.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Ghana",
+   "Age": 3,
+   "Value": 89.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Ghana",
+   "Age": 4,
+   "Value": 75.1,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Greece",
+   "Age": 1,
+   "Value": 86.5,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Greece",
+   "Age": 2,
+   "Value": 83.4,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Greece",
+   "Age": 3,
+   "Value": 58.7,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Greece",
+   "Age": 4,
+   "Value": 52.4,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Guatemala",
+   "Age": 1,
+   "Value": 47,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Guatemala",
+   "Age": 2,
+   "Value": 50.7,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Guatemala",
+   "Age": 3,
+   "Value": 37.9,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Guatemala",
+   "Age": 4,
+   "Value": 30.4,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Guinea",
+   "Age": 1,
+   "Value": 100,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Guinea",
+   "Age": 2,
+   "Value": 93.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Guinea",
+   "Age": 3,
+   "Value": 68.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Guinea",
+   "Age": 4,
+   "Value": 49.2,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Honduras",
+   "Age": 1,
+   "Value": 56.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Honduras",
+   "Age": 2,
+   "Value": 62.4,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Honduras",
+   "Age": 3,
+   "Value": 54.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Honduras",
+   "Age": 4,
+   "Value": 36.1,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Hungary",
+   "Age": 1,
+   "Value": 78.2,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Hungary",
+   "Age": 2,
+   "Value": 86.4,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Hungary",
+   "Age": 3,
+   "Value": 69.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Hungary",
+   "Age": 4,
+   "Value": 42.6,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Iceland",
+   "Age": 1,
+   "Value": 100,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Iceland",
+   "Age": 2,
+   "Value": 93.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Iceland",
+   "Age": 3,
+   "Value": 87.2,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Iceland",
+   "Age": 4,
+   "Value": 56.2,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "India",
+   "Age": 1,
+   "Value": 30.3,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "India",
+   "Age": 2,
+   "Value": 29.7,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "India",
+   "Age": 3,
+   "Value": 27.7,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "India",
+   "Age": 4,
+   "Value": 20.4,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Indonesia",
+   "Age": 1,
+   "Value": 65.3,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Indonesia",
+   "Age": 2,
+   "Value": 58.2,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Indonesia",
+   "Age": 3,
+   "Value": 61,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Indonesia",
+   "Age": 4,
+   "Value": 47.8,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Iran, Islamic Rep.",
+   "Age": 1,
+   "Value": 24,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Iran, Islamic Rep.",
+   "Age": 2,
+   "Value": 21.4,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Iran, Islamic Rep.",
+   "Age": 3,
+   "Value": 13.9,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Iran, Islamic Rep.",
+   "Age": 4,
+   "Value": 8.8,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Ireland",
+   "Age": 1,
+   "Value": 92.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Ireland",
+   "Age": 2,
+   "Value": 82.2,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Ireland",
+   "Age": 3,
+   "Value": 72,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Ireland",
+   "Age": 4,
+   "Value": 35.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Israel",
+   "Age": 1,
+   "Value": 97.9,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Israel",
+   "Age": 2,
+   "Value": 89.4,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Israel",
+   "Age": 3,
+   "Value": 80.7,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Israel",
+   "Age": 4,
+   "Value": 48.2,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Italy",
+   "Age": 1,
+   "Value": 75.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Italy",
+   "Age": 2,
+   "Value": 75.7,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Italy",
+   "Age": 3,
+   "Value": 63.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Italy",
+   "Age": 4,
+   "Value": 27.9,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Jamaica",
+   "Age": 1,
+   "Value": 83.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Jamaica",
+   "Age": 2,
+   "Value": 80.7,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Jamaica",
+   "Age": 3,
+   "Value": 61.2,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Jamaica",
+   "Age": 4,
+   "Value": 41.7,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Japan",
+   "Age": 1,
+   "Value": 100,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Japan",
+   "Age": 2,
+   "Value": 79.7,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Japan",
+   "Age": 3,
+   "Value": 70.5,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Japan",
+   "Age": 4,
+   "Value": 50.3,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Jordan",
+   "Age": 1,
+   "Value": 37,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Jordan",
+   "Age": 2,
+   "Value": 28.7,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Jordan",
+   "Age": 3,
+   "Value": 4.6,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Jordan",
+   "Age": 4,
+   "Value": 3.1,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Kazakhstan",
+   "Age": 1,
+   "Value": 87.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Kazakhstan",
+   "Age": 2,
+   "Value": 94.9,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Kazakhstan",
+   "Age": 3,
+   "Value": 67.2,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Kazakhstan",
+   "Age": 4,
+   "Value": 52.6,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Kenya",
+   "Age": 1,
+   "Value": 83.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Kenya",
+   "Age": 2,
+   "Value": 87.1,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Kenya",
+   "Age": 3,
+   "Value": 86.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Kenya",
+   "Age": 4,
+   "Value": 81.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Korea, Rep.",
+   "Age": 1,
+   "Value": 100,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Korea, Rep.",
+   "Age": 2,
+   "Value": 72.5,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Korea, Rep.",
+   "Age": 3,
+   "Value": 66.9,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Korea, Rep.",
+   "Age": 4,
+   "Value": 56.1,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Kuwait",
+   "Age": 1,
+   "Value": 32.8,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Kuwait",
+   "Age": 2,
+   "Value": 74.6,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Kuwait",
+   "Age": 3,
+   "Value": 45.1,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Kuwait",
+   "Age": 4,
+   "Value": 22.9,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Kyrgyz Republic",
+   "Age": 1,
+   "Value": 62.6,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Kyrgyz Republic",
+   "Age": 2,
+   "Value": 70.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Kyrgyz Republic",
+   "Age": 3,
+   "Value": 53.3,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Kyrgyz Republic",
+   "Age": 4,
+   "Value": 51.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Lao PDR",
+   "Age": 1,
+   "Value": 100,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Lao PDR",
+   "Age": 2,
+   "Value": 94.8,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Lao PDR",
+   "Age": 3,
+   "Value": 81,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Lao PDR",
+   "Age": 4,
+   "Value": 52.5,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Latvia",
+   "Age": 1,
+   "Value": 83.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Latvia",
+   "Age": 2,
+   "Value": 94.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Latvia",
+   "Age": 3,
+   "Value": 95.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Latvia",
+   "Age": 4,
+   "Value": 68.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Lesotho",
+   "Age": 1,
+   "Value": 71.9,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Lesotho",
+   "Age": 2,
+   "Value": 83.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Lesotho",
+   "Age": 3,
+   "Value": 77.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Lesotho",
+   "Age": 4,
+   "Value": 54.9,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Liberia",
+   "Age": 1,
+   "Value": 96,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Liberia",
+   "Age": 2,
+   "Value": 90,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Liberia",
+   "Age": 3,
+   "Value": 86.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Liberia",
+   "Age": 4,
+   "Value": 64.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Lithuania",
+   "Age": 1,
+   "Value": 82.3,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Lithuania",
+   "Age": 2,
+   "Value": 98.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Lithuania",
+   "Age": 3,
+   "Value": 91.3,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Lithuania",
+   "Age": 4,
+   "Value": 61.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Luxembourg",
+   "Age": 1,
+   "Value": 100,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Luxembourg",
+   "Age": 2,
+   "Value": 87.1,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Luxembourg",
+   "Age": 3,
+   "Value": 69.1,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Luxembourg",
+   "Age": 4,
+   "Value": 23.8,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Macedonia, FYR",
+   "Age": 1,
+   "Value": 58.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Macedonia, FYR",
+   "Age": 2,
+   "Value": 70.4,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Macedonia, FYR",
+   "Age": 3,
+   "Value": 45.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Macedonia, FYR",
+   "Age": 4,
+   "Value": 40.9,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Madagascar",
+   "Age": 1,
+   "Value": 95.4,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Madagascar",
+   "Age": 2,
+   "Value": 93.8,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Madagascar",
+   "Age": 3,
+   "Value": 93.4,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Madagascar",
+   "Age": 4,
+   "Value": 81.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Malawi",
+   "Age": 1,
+   "Value": 94.8,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Malawi",
+   "Age": 2,
+   "Value": 86.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Malawi",
+   "Age": 3,
+   "Value": 85.4,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Malawi",
+   "Age": 4,
+   "Value": 69.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Malaysia",
+   "Age": 1,
+   "Value": 68.6,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Malaysia",
+   "Age": 2,
+   "Value": 69.5,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Malaysia",
+   "Age": 3,
+   "Value": 46.7,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Malaysia",
+   "Age": 4,
+   "Value": 26,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Mali",
+   "Age": 1,
+   "Value": 69,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mali",
+   "Age": 2,
+   "Value": 59.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mali",
+   "Age": 3,
+   "Value": 59.4,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mali",
+   "Age": 4,
+   "Value": 46.2,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Malta",
+   "Age": 1,
+   "Value": 89.8,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Malta",
+   "Age": 2,
+   "Value": 70.1,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Malta",
+   "Age": 3,
+   "Value": 42.1,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Malta",
+   "Age": 4,
+   "Value": 16.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Mauritania",
+   "Age": 1,
+   "Value": 53.5,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Mauritania",
+   "Age": 2,
+   "Value": 44.7,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Mauritania",
+   "Age": 3,
+   "Value": 39,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Mauritania",
+   "Age": 4,
+   "Value": 25,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Mauritius",
+   "Age": 1,
+   "Value": 77,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mauritius",
+   "Age": 2,
+   "Value": 67.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mauritius",
+   "Age": 3,
+   "Value": 47.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mauritius",
+   "Age": 4,
+   "Value": 27,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mexico",
+   "Age": 1,
+   "Value": 54.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Mexico",
+   "Age": 2,
+   "Value": 58.9,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Mexico",
+   "Age": 3,
+   "Value": 48.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Mexico",
+   "Age": 4,
+   "Value": 35.9,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Moldova",
+   "Age": 1,
+   "Value": 82.6,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Moldova",
+   "Age": 2,
+   "Value": 100,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Moldova",
+   "Age": 3,
+   "Value": 68.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Moldova",
+   "Age": 4,
+   "Value": 70.4,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Mongolia",
+   "Age": 1,
+   "Value": 73,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Mongolia",
+   "Age": 2,
+   "Value": 85.6,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Mongolia",
+   "Age": 3,
+   "Value": 54,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Mongolia",
+   "Age": 4,
+   "Value": 66.2,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Morocco",
+   "Age": 1,
+   "Value": 38.6,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Morocco",
+   "Age": 2,
+   "Value": 33.6,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Morocco",
+   "Age": 3,
+   "Value": 35.7,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Morocco",
+   "Age": 4,
+   "Value": 29.8,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Mozambique",
+   "Age": 1,
+   "Value": 100,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mozambique",
+   "Age": 2,
+   "Value": 100,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mozambique",
+   "Age": 3,
+   "Value": 99.9,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Mozambique",
+   "Age": 4,
+   "Value": 91.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Myanmar",
+   "Age": 1,
+   "Value": 77.9,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Myanmar",
+   "Age": 2,
+   "Value": 64.9,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Myanmar",
+   "Age": 3,
+   "Value": 48.4,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Myanmar",
+   "Age": 4,
+   "Value": 37.3,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Namibia",
+   "Age": 1,
+   "Value": 87.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Namibia",
+   "Age": 2,
+   "Value": 88.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Namibia",
+   "Age": 3,
+   "Value": 85.4,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Namibia",
+   "Age": 4,
+   "Value": 93.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Nepal",
+   "Age": 1,
+   "Value": 97.3,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Nepal",
+   "Age": 2,
+   "Value": 91,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Nepal",
+   "Age": 3,
+   "Value": 85.7,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Nepal",
+   "Age": 4,
+   "Value": 64.5,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Netherlands",
+   "Age": 1,
+   "Value": 100,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Netherlands",
+   "Age": 2,
+   "Value": 89.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Netherlands",
+   "Age": 3,
+   "Value": 74.8,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Netherlands",
+   "Age": 4,
+   "Value": 28.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "New Zealand",
+   "Age": 1,
+   "Value": 92.4,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "New Zealand",
+   "Age": 2,
+   "Value": 86.6,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "New Zealand",
+   "Age": 3,
+   "Value": 86.8,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "New Zealand",
+   "Age": 4,
+   "Value": 62.5,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Nicaragua",
+   "Age": 1,
+   "Value": 49.2,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Nicaragua",
+   "Age": 2,
+   "Value": 61.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Nicaragua",
+   "Age": 3,
+   "Value": 46.1,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Nicaragua",
+   "Age": 4,
+   "Value": 30.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Nigeria",
+   "Age": 1,
+   "Value": 86.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Nigeria",
+   "Age": 2,
+   "Value": 71.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Nigeria",
+   "Age": 3,
+   "Value": 80.1,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Nigeria",
+   "Age": 4,
+   "Value": 67.9,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Norway",
+   "Age": 1,
+   "Value": 100,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Norway",
+   "Age": 2,
+   "Value": 94.4,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Norway",
+   "Age": 3,
+   "Value": 90.5,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Norway",
+   "Age": 4,
+   "Value": 57.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Pakistan",
+   "Age": 1,
+   "Value": 33.3,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Pakistan",
+   "Age": 2,
+   "Value": 28,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Pakistan",
+   "Age": 3,
+   "Value": 28.3,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Pakistan",
+   "Age": 4,
+   "Value": 23.2,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Panama",
+   "Age": 1,
+   "Value": 57.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Panama",
+   "Age": 2,
+   "Value": 67.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Panama",
+   "Age": 3,
+   "Value": 38.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Panama",
+   "Age": 4,
+   "Value": 29,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Paraguay",
+   "Age": 1,
+   "Value": 59.9,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Paraguay",
+   "Age": 2,
+   "Value": 73.2,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Paraguay",
+   "Age": 3,
+   "Value": 62.6,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Paraguay",
+   "Age": 4,
+   "Value": 49.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Peru",
+   "Age": 1,
+   "Value": 79.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Peru",
+   "Age": 2,
+   "Value": 79,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Peru",
+   "Age": 3,
+   "Value": 71.9,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Peru",
+   "Age": 4,
+   "Value": 62,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Philippines",
+   "Age": 1,
+   "Value": 63.3,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Philippines",
+   "Age": 2,
+   "Value": 65.1,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Philippines",
+   "Age": 3,
+   "Value": 70,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Philippines",
+   "Age": 4,
+   "Value": 59.6,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Poland",
+   "Age": 1,
+   "Value": 72.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Poland",
+   "Age": 2,
+   "Value": 87,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Poland",
+   "Age": 3,
+   "Value": 66.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Poland",
+   "Age": 4,
+   "Value": 32.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Portugal",
+   "Age": 1,
+   "Value": 89.2,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Portugal",
+   "Age": 2,
+   "Value": 94.2,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Portugal",
+   "Age": 3,
+   "Value": 76.1,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Portugal",
+   "Age": 4,
+   "Value": 39.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Qatar",
+   "Age": 1,
+   "Value": 38.2,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Qatar",
+   "Age": 2,
+   "Value": 62.1,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Qatar",
+   "Age": 3,
+   "Value": 23,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Qatar",
+   "Age": 4,
+   "Value": 0,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Romania",
+   "Age": 1,
+   "Value": 64.4,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Romania",
+   "Age": 2,
+   "Value": 79.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Romania",
+   "Age": 3,
+   "Value": 62.4,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Romania",
+   "Age": 4,
+   "Value": 70.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Russian Federation",
+   "Age": 1,
+   "Value": 79.4,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Russian Federation",
+   "Age": 2,
+   "Value": 91.3,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Russian Federation",
+   "Age": 3,
+   "Value": 67.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Russian Federation",
+   "Age": 4,
+   "Value": 71.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Rwanda",
+   "Age": 1,
+   "Value": 100,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Rwanda",
+   "Age": 2,
+   "Value": 100,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Rwanda",
+   "Age": 3,
+   "Value": 98.9,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Rwanda",
+   "Age": 4,
+   "Value": 77.9,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Saudi Arabia",
+   "Age": 1,
+   "Value": 32.9,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Saudi Arabia",
+   "Age": 2,
+   "Value": 31.6,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Saudi Arabia",
+   "Age": 3,
+   "Value": 6.9,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Saudi Arabia",
+   "Age": 4,
+   "Value": 3.8,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Senegal",
+   "Age": 1,
+   "Value": 60.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Senegal",
+   "Age": 2,
+   "Value": 65,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Senegal",
+   "Age": 3,
+   "Value": 65,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Senegal",
+   "Age": 4,
+   "Value": 56.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Serbia",
+   "Age": 1,
+   "Value": 63.9,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Serbia",
+   "Age": 2,
+   "Value": 85.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Serbia",
+   "Age": 3,
+   "Value": 52.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Serbia",
+   "Age": 4,
+   "Value": 41.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Singapore",
+   "Age": 1,
+   "Value": 100,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Singapore",
+   "Age": 2,
+   "Value": 82.1,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Singapore",
+   "Age": 3,
+   "Value": 65.5,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Singapore",
+   "Age": 4,
+   "Value": 45.3,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Slovak Republic",
+   "Age": 1,
+   "Value": 62.2,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Slovak Republic",
+   "Age": 2,
+   "Value": 87.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Slovak Republic",
+   "Age": 3,
+   "Value": 80.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Slovak Republic",
+   "Age": 4,
+   "Value": 52.3,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Slovenia",
+   "Age": 1,
+   "Value": 82.9,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Slovenia",
+   "Age": 2,
+   "Value": 96.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Slovenia",
+   "Age": 3,
+   "Value": 74.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Slovenia",
+   "Age": 4,
+   "Value": 52.6,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "South Africa",
+   "Age": 1,
+   "Value": 80.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "South Africa",
+   "Age": 2,
+   "Value": 81.2,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "South Africa",
+   "Age": 3,
+   "Value": 66.8,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "South Africa",
+   "Age": 4,
+   "Value": 42.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Spain",
+   "Age": 1,
+   "Value": 90.1,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Spain",
+   "Age": 2,
+   "Value": 89,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Spain",
+   "Age": 3,
+   "Value": 77.1,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Spain",
+   "Age": 4,
+   "Value": 60.1,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Sri Lanka",
+   "Age": 1,
+   "Value": 59.2,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Sri Lanka",
+   "Age": 2,
+   "Value": 48,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Sri Lanka",
+   "Age": 3,
+   "Value": 41.2,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Sri Lanka",
+   "Age": 4,
+   "Value": 28.8,
+   "Region": "SOUTH ASIA"
+ },
+ {
+   "country": "Swaziland",
+   "Age": 1,
+   "Value": 72.1,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Swaziland",
+   "Age": 2,
+   "Value": 62.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Swaziland",
+   "Age": 3,
+   "Value": 48.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Swaziland",
+   "Age": 4,
+   "Value": 30,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Sweden",
+   "Age": 1,
+   "Value": 100,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Sweden",
+   "Age": 2,
+   "Value": 94.8,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Sweden",
+   "Age": 3,
+   "Value": 93.2,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Sweden",
+   "Age": 4,
+   "Value": 56.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Switzerland",
+   "Age": 1,
+   "Value": 100,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Switzerland",
+   "Age": 2,
+   "Value": 90.2,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Switzerland",
+   "Age": 3,
+   "Value": 84.4,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Switzerland",
+   "Age": 4,
+   "Value": 47.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "Tajikistan",
+   "Age": 1,
+   "Value": 81.1,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Tajikistan",
+   "Age": 2,
+   "Value": 69.4,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Tajikistan",
+   "Age": 3,
+   "Value": 44.5,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Tajikistan",
+   "Age": 4,
+   "Value": 29.4,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Tanzania",
+   "Age": 1,
+   "Value": 94.6,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Tanzania",
+   "Age": 2,
+   "Value": 91,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Tanzania",
+   "Age": 3,
+   "Value": 86.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Tanzania",
+   "Age": 4,
+   "Value": 76.7,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Thailand",
+   "Age": 1,
+   "Value": 68.8,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Thailand",
+   "Age": 2,
+   "Value": 85.3,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Thailand",
+   "Age": 3,
+   "Value": 72.1,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Thailand",
+   "Age": 4,
+   "Value": 50.1,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Tunisia",
+   "Age": 1,
+   "Value": 48.4,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Tunisia",
+   "Age": 2,
+   "Value": 36.4,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Tunisia",
+   "Age": 3,
+   "Value": 15.5,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Tunisia",
+   "Age": 4,
+   "Value": 12.2,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Turkey",
+   "Age": 1,
+   "Value": 56,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Turkey",
+   "Age": 2,
+   "Value": 46.2,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Turkey",
+   "Age": 3,
+   "Value": 35.2,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Turkey",
+   "Age": 4,
+   "Value": 27.7,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Uganda",
+   "Age": 1,
+   "Value": 96.8,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Uganda",
+   "Age": 2,
+   "Value": 93.2,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Uganda",
+   "Age": 3,
+   "Value": 95.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Uganda",
+   "Age": 4,
+   "Value": 66.5,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Ukraine",
+   "Age": 1,
+   "Value": 78.3,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Ukraine",
+   "Age": 2,
+   "Value": 88.7,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Ukraine",
+   "Age": 3,
+   "Value": 60.9,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "Ukraine",
+   "Age": 4,
+   "Value": 77.8,
+   "Region": "EASTERN EUROPE AND CENTRAL ASIA"
+ },
+ {
+   "country": "United Arab Emirates",
+   "Age": 1,
+   "Value": 52.9,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "United Arab Emirates",
+   "Age": 2,
+   "Value": 49.4,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "United Arab Emirates",
+   "Age": 3,
+   "Value": 16.8,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "United Arab Emirates",
+   "Age": 4,
+   "Value": 6.4,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "United Kingdom",
+   "Age": 1,
+   "Value": 97,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "United Kingdom",
+   "Age": 2,
+   "Value": 86.9,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "United Kingdom",
+   "Age": 3,
+   "Value": 81.6,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "United Kingdom",
+   "Age": 4,
+   "Value": 54.3,
+   "Region": "WESTERN EUROPE"
+ },
+ {
+   "country": "United States",
+   "Age": 1,
+   "Value": 95.2,
+   "Region": "NORTH AMERICA"
+ },
+ {
+   "country": "United States",
+   "Age": 2,
+   "Value": 83.9,
+   "Region": "NORTH AMERICA"
+ },
+ {
+   "country": "United States",
+   "Age": 3,
+   "Value": 83.3,
+   "Region": "NORTH AMERICA"
+ },
+ {
+   "country": "United States",
+   "Age": 4,
+   "Value": 64.8,
+   "Region": "NORTH AMERICA"
+ },
+ {
+   "country": "Uruguay",
+   "Age": 1,
+   "Value": 76.5,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Uruguay",
+   "Age": 2,
+   "Value": 84.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Uruguay",
+   "Age": 3,
+   "Value": 70.9,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Uruguay",
+   "Age": 4,
+   "Value": 41.9,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Venezuela",
+   "Age": 1,
+   "Value": 53.3,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Venezuela",
+   "Age": 2,
+   "Value": 71.9,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Venezuela",
+   "Age": 3,
+   "Value": 51.2,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Venezuela",
+   "Age": 4,
+   "Value": 34.9,
+   "Region": "LATIN AMERICA AND THE CARIBBEAN"
+ },
+ {
+   "country": "Vietnam",
+   "Age": 1,
+   "Value": 88.1,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Vietnam",
+   "Age": 2,
+   "Value": 92.7,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Vietnam",
+   "Age": 3,
+   "Value": 84.3,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Vietnam",
+   "Age": 4,
+   "Value": 67.9,
+   "Region": "EAST ASIA AND THE PACIFIC"
+ },
+ {
+   "country": "Yemen",
+   "Age": 1,
+   "Value": 20.4,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Yemen",
+   "Age": 2,
+   "Value": 12.5,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Yemen",
+   "Age": 3,
+   "Value": 11.5,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Yemen",
+   "Age": 4,
+   "Value": 13.4,
+   "Region": "MIDDLE EAST AND NORTH AFRICA"
+ },
+ {
+   "country": "Zimbabwe",
+   "Age": 1,
+   "Value": 82.2,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Zimbabwe",
+   "Age": 2,
+   "Value": 60.3,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Zimbabwe",
+   "Age": 3,
+   "Value": 68.4,
+   "Region": "SUB-SAHARAN AFRICA"
+ },
+ {
+   "country": "Zimbabwe",
+   "Age": 4,
+   "Value": 60.4,
+   "Region": "SUB-SAHARAN AFRICA"
+ }
+]

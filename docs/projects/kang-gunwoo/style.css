@@ -1,0 +1,96 @@
+@font-face{
+    font-family: "Dream Gothic";
+    src : url("./fonts./dreamGothic.ttf");
+}
+@font-face{
+    font-family: "Shin Gothic";
+    src : url("./fonts./shinGothic.ttf");
+}
+@font-face{
+    font-family: "Title Gothic";
+    src : url("./fonts./titleGothic.ttf");
+}
+
+.node, .link{
+    opacity: 1;
+    transition : opacity 0.3s ;
+}
+.hidden{
+    opacity: 0.2;
+    transition : opacity 0.3s ;
+}
+.completelyHidden{
+    opacity: 0.1;
+    transition : opacity 0.3s ;
+}
+.x-Axis path {
+    stroke: #DDDDDD;
+    shape-rendering: crispEdges;
+}
+
+.box{
+    display:table;top:0;left:0;width:100%;height:100%
+}
+
+.innerDiv {
+    display:table-cell; text-align:center; vertical-align:middle
+}
+
+.text {
+    display : table-cell ;
+    text-align : center ;
+    vertical-align: middle ;
+    font-family: "Shin Gothic";
+}
+
+.button {
+    display : inline-table ;
+    font-family: "Shin Gothic";
+    text-align : center ;
+    width : 150px ;
+    height : 50px ;
+    cursor: pointer;
+    padding : 0px 0px 0px 0px ;
+}
+
+.button :hover {
+    background-color : #FFDDFF;
+    transition-duration: 0.5s ;
+}
+
+.clicked {
+    background-color : #FFAAFF;
+}
+
+.regionChart {
+    display:table-cell; text-align:center; vertical-align:middle;
+    width : 1300px ;
+    height : 300px ;
+}
+
+.title{
+    font-family: "Title Gothic" ;
+    font-weight : normal ;
+    text-align: center;
+}
+.description{
+    text-align: center; font-size: 1em ;
+    margin-bottom: 25px ; vertical-align:middle ;
+    margin-right : 150px ; margin-left : 150px ;
+}
+.selectable{
+    text-anchor: middle; font-size: 0.8em ;
+    cursor: pointer;
+}
+
+.invisible{
+    visibility :hidden;
+}
+
+.node:not(.hidden) circle {
+    cursor: pointer ;
+}
+
+p {
+    padding : 1px ;
+}
