@@ -65,6 +65,8 @@ function makeChart(args) {
 
         var xy = d3.local();
 
+        // var divTooltip = d3.select(args.chartName).append("div").attr("class", "toolTip");
+
         var svg = d3.select(args.chartName).append('svg')/****/
             .attr('width', w)
             .attr('height', h)

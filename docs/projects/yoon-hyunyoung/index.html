@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="utf-8">
+    <title>출산이 선택이 되려면</title>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <section class="section">
+        <div id="graph">
+            <div class="graph container"></div>
+        </div>
+        <div id="article">
+            <!-- prologue -->
+            <div class="prologue container">
+                <div class="title">출산이<br>선택이<br>되려면</div>
+                <div class="comment" style="bottom: 40px">
+                    한국의 여성들은 일생동안 1.17명의 아이를 낳는다. 세계 144개국 중 최하위다. 앙골라의 여성들은 일생동안 5.69명을 출산하며, 스웨덴의 여성들은 1.85명의 아이를 낳는다. 다른 나라와 비교해 봤을 때에도 한국의 출산율은 유난히 가파르게 하락하고 있다. 이에 많은 이들은 생산인구 감소로 인한 경제 성장 둔화와 인구 구성 변화에 따른 부양 문제를 우려한다. 정부는 저출산 문제를 해소한다는 명목으로 ‘가임기 여성 지도’를 제작하기도 했다. 
+                </br>
+                    국가의 경제적 손실과 인구구성의 변화에 대한 우려로 빼곡한 저출산 담론 속에는 중요한 것이 한 가지 빠졌다. 바로 아이를 키우는 가족의, 그리고 출산의 당사자인 여성들의 선택에 대한 이야기다. 여성들은 출산을 할것인지 말것인지, 한다면 몇 명을 낳을 것인지 자신의 의지에 따라 결정하고 있는가?
+                </div>
+                <div class="footnote">
+                    이미지 출처: Actualitix
+                    자료 출처: World Economic Forum Gender Gap index, 
+                    <br>World Bank World Development Indicator
+                </div>
+                <div class="btn tochoice">next</div>
+            </div>
+
+            <!-- choice -->
+            <div class="choice container">
+                <div class="comment">
+                    출산율 하락은 사회경제적 발달에 따라 나타나는 자연스러운 현상이라고들 말한다. 실제로 GDP(국내 총생산량)가 커질수록 합계출산율*은 감소하는 추세를 띈다.
+                    <br>하지만 비슷한 경제 수준을 달성한 나라들 사이에서도 편차는 존재한다. 어떤 나라들은 여성들이 출산을 ‘선택’할 수 있는 환경을 마련한 반면 다른 나라들에는 여성들이 출산을 선택하거나 거부할 수 있는 환경이 조성되지 않았기 때문이다. 각 영역을 클릭해서 gdp 구간 별로 성격차**와 합계 출산율을 살펴보자.
+                </div>
+                <div class="footnote">
+                    *여성 한 명이 평생동안 낳을 것으로 예상되는 평균 출생아 수
+                    <br>**Global Economic Forum에서 분석한 각 국가 별 여성과 남성의 상대 편차. 경제, 정치, 교육, 보건복지 분야의 지표를 합산하여 계산한다
+                </div>
+            </div>
+
+
+            <!-- branch -->
+            <div class="branch container" id="group0">
+                <div class="btn rechoice">다시 선택하기</div>
+                <div class="subtitle">~5만</div>
+                <div class="comment">
+                    첫번째 구간에서는 성격차 지수가 완화되면서 합계출산율이 빠르게 하락하는 모양새를 보인다. 특히 이 구간의 왼쪽에 해당하는 국가들은 성과 생식에 대한 지식의 부재로 많은 여성들이 이른 나이에 원치 않는 임신을 경험한다. 성차별과 그에 따른 터부, 미신, 편견 등으로 피임율이 낮은 것도 한 몫 한다.*
+                    <br>이런 현상은 성격차가 완화되면서 일면 해소되는 모습을 보인다. 오른쪽으로 갈수록 합계 출산율은 가파르게 감소하며, 여성들은 원치 않는 출산을 선택하지 않을 수 있다는 점을 시사한다.
+                </div>
+                <div class="footnote">
+                    *참고: 코이카 아프리카 성색식 보건사업 http://www.koica.go.kr/WEBZINE/2007-spring/2021.php
+                </div>
+            </div>
+
+            <div class="branch container" id="group50000">
+                    <div class="btn rechoice">다시 선택하기</div>
+                <div class="subtitle">5만<br>~40만</div>
+                <div class="comment">
+                    두번째 구간은 전반적으로 첫번째 구간과 비슷한 모양새를 보이나 그 하락새가 그렇게 뚜렷하지 않다. 오히려 성 평등 지수가 높은 구간에서 출산율이 반등하는 모습이 주목할 만하다.                
+                </div>
+            </div>
+            <div class="branch container" id="group400000">
+                <div class="btn rechoice">다시 선택하기</div>
+                <div class="subtitle">40만~</div>
+                <div class="comment">
+                    세번째 구간에서는 성 격차가 크게 해소된 국가들에서 나타나는 출산율 반등이 뚜렷하다. 전반적으로 GDP 높은 국가들 내의 출산율은 U자 곡선을 그린다. 
+                    <br>이에 대해서는 경제 성장을 어느 정도 달성하고 여성들의 노동 참여 의지가 높은 국가에서 여성에 대한 차별이 출산을 가로막는다는 분석이 가능하다. 여성의 경력단절이나 독박 육아 등이 현저한 현실에서 출산을 원해도 하지 않거나 한 명으로 그친다는 것이다. 
+                    <br>한편 성격차지수에서 좋은 성과를 보인 북유럽 국가들은 아이슬란드 1.96명 스웨덴 1.92명 핀란드 1.8명 등으로 안정적인 출산율을 기록했다. 이들 국가들에서는 출산으로 여성들이 차별을 받는 일이 적고, 여성들은 자신의 자녀계획에 따라 출산을 결정할 수 있다.
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>

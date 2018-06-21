@@ -35,6 +35,8 @@ var scene1 = d3.select('#scene1')
 var scene2 = d3.select('#scene2')
 
 /***filter variables*********************************/
+var buf1 = 0;
+var buf2 = 0;
 
 var cnt = 0;
 var filtered = [];
@@ -92,10 +94,9 @@ var c = d3.scaleOrdinal().range(d3.schemeRdBu[10]);
 /***data function*********************************/
 
 d3.csv('./final.csv', row).then(callback);
-
 function row(d) { //행 처리
 	for(var k in d) {
-		if(d.hasOwnProperty(k) && k !== 'Region' && k!== 'Nation' && k!== 'nationKey') d[k] = + d[k];
+		if(d.hasOwnProperty(k) && k !== 'Region' && k!== 'Nation' && k!== 'nationKey' &&k!=='gppcode' && k!=='gpp') d[k] = + d[k];
 	}
 	return d;
 }
@@ -111,7 +112,8 @@ function series(d) { //개별 아이템마다 배열로 아이템을 변환
 function callback(data) {
 
 /***title ***/
-  
+  console.log(data);
+
   title1.append('text')
   .attr('text-anchor', 'middle')
   .attr('x', '220px')
@@ -119,7 +121,7 @@ function callback(data) {
   .attr('fill', '#555')
   .attr('font-style', 'Italic')
   .attr('font-size', '14px')
-  .text('<예상 기대 월소득과 상세 지표들 과의 관계>');
+  .text('<기대 월소득과 상세 지표들 과의 관계>');
 
 
   title1.append('text')
@@ -129,7 +131,7 @@ function callback(data) {
   .attr('fill', '#555')
   .attr('font-style', 'Italic')
   .attr('font-size', '14px')
-  .text('<졸업 학위 남녀 비율>');
+  .text('<졸업 전공 남녀 비율>');
 
   scene1.
   style('display','none');
@@ -284,7 +286,10 @@ function callback(data) {
   .data(r.ticks(10))
   .enter().append("g")
   .attr("text-anchor", "middle")
-  .attr('class', 'y axis');
+  .attr('class', 'y axis')
+  .attr('id', function(d) {
+        return d+'명';
+      });
 
   yTick.append("circle")
       .attr("fill", "none")
@@ -292,7 +297,7 @@ function callback(data) {
       .attr("opacity", 0.2)
       .attr("r", r);
 
-  yAxis2.append("circle")
+  yAxis2.append("circle")     
       .attr("fill", "none")
       .attr("stroke", "black")
       .attr("opacity", 0.2)
@@ -334,6 +339,8 @@ function callback(data) {
     .style("font-size", 10)
     .attr("opacity", 0.6)
   
+
+
   var title = g.append("g")
       .attr("class", "title")
       .append("text")
@@ -345,11 +352,11 @@ function callback(data) {
   var subtitle = g.append("text")
       .attr("dy", "1em")
       .attr("text-anchor", "middle")
-      .attr('font-size', '11px')
+      .attr('font-size', '10px')
       .attr("opacity", 0.6)
-      .text("(여/남 비율)");     
+      .text("(여성/전체 인원 비율)");     
 
-/***chart1,2 연결*********************************/
+/***chart1,2 연결*******************************************/
 
   var path1 = svg.selectAll('g .series path');
   var path2 = svg.selectAll('g .series2 path');
@@ -363,6 +370,7 @@ function callback(data) {
   .attr('id', function(d){
     return d.nationKey;
   })
+  .attr('opacity', 1);
 
   path2.data(data)
   .attr('class', function(d){
@@ -370,7 +378,9 @@ function callback(data) {
   })
   .attr('id', function(d){
     return d.nationKey;
-  }); 
+  })
+  .attr('opacity', 1);
+
 
   tick.data(data)
   .attr('class', function(d){
@@ -385,7 +395,7 @@ function callback(data) {
   .attr('opacity', 1);
 
 
-/***tooltip append********/
+/***chart tail tooltip append************************************/
 
   gTooltip
     .attr('class', 'tooltip')
@@ -426,7 +436,7 @@ function callback(data) {
     .attr('opacity', 0.7)
    
   
-    var tooltip = svg.selectAll('.tooltip .tick text');
+  var tooltip = svg.selectAll('.tooltip .tick text');
 
     tooltip.attr('class', function(d){
       return d.Region;
@@ -441,20 +451,126 @@ function callback(data) {
       filter(d.Nation, path1, path2, tick, tooltip);
     })
      .on('mouseover', function(d){
-      d3.select(this)
-        .attr('opacity', 0.2);
+      d3.select(this).attr('opacity', 0.2);
+      for(var k=0; k<36; k++) {
+        if(path1._groups[0][k].__data__.Nation == d.Nation && path1._groups[0][k].attributes[1].value != 0.05) {
+          buf1 = path1._groups[0][k].attributes[1].value;
+          buf2 = path2._groups[0][k].attributes[2].value;
+          path1._groups[0][k].attributes[1].value = 3.5;
+          path2._groups[0][k].attributes[2].value = 2.3;
+        } 
+      }
       info(d);
+      gppbar(d);
+
     })
-    .on('mouseout', function() {
-      d3.select(this)
-      .attr('opacity', 0.7);
+    .on('mouseout', function(d) {
+      d3.select(this).attr('opacity', 0.7);
+      for(var k=0; k<36; k++) {
+        if(path1._groups[0][k].__data__.Nation == d.Nation && path1._groups[0][k].attributes[1].value == 3.5) {
+          path1._groups[0][k].attributes[1].value = buf1;
+          path2._groups[0][k].attributes[2].value = buf2;
+        }
+      }
       svg.selectAll('.sceneText tspan')
       .attr('display', 'none');
       svg.selectAll('.ranking tspan')
       .attr('display', 'none');
       svg.selectAll('.name tspan')
-      .attr('display', 'none');
+      .attr('display', 'none')
+      svg.selectAll('.gpp')
+      .attr('display', 'none')
+      svg.selectAll('.gppavg')
+      .attr('display', 'none')
     });
+
+
+/***Scene Tooltip function ******************************/
+
+    function gppbar(d) {
+
+      titleTooltip
+        .append('rect')
+        .attr('class','gpp')
+        .attr('display', 'visible')
+        .attr('x', innerW*0.44)
+        .attr('y', innerH*1.08 -d.gpp2/600)
+        .attr('fill', color(d.color))
+        .attr('width',30)
+        .attr('height',d.gpp2/600)
+        .attr('opacity',0.7)
+        .attr('rx', 5)
+
+      titleTooltip
+        .append('text')
+        .attr('class','gpp')
+        .attr('display', 'visible')
+        .attr('x', innerW*0.438)
+        .attr('y', innerH*1.08 -d.gpp2/600 -2)
+        .text(d.gpp)
+        .attr('font-size', '11px')
+        .attr('font-style', 'italic')
+
+      titleTooltip
+        .append('text')
+        .attr('class','gpp')
+        .attr('display', 'visible')
+        .attr('x', innerW*0.44)
+        .attr('y', innerH*1.1)
+        .text('GDP/Capital')
+        .attr('font-size', '11px')
+        .attr('font-style', 'italic')
+        .attr('fill', '#aaa')
+
+      titleTooltip
+        .append('text')
+        .attr('class','gpp')
+        .attr('display', 'visible')
+        .attr('x', innerW*0.443)
+        .attr('y', innerH*1.24 -38905/420)
+        .text(d.nationKey)
+        .attr('font-size', '11px')
+        .attr('font-style', 'italic')
+        .attr('fill', '#fff')
+
+
+       titleTooltip
+        .append('rect')
+        .attr('class','gppavg')
+        .attr('display', 'visible')
+        .attr('x', innerW*0.471)
+        .attr('y', innerH*1.08 -38905/600)
+        .attr('fill', 'rgb(0,104,55)')
+        .attr('width',30)
+        .attr('height', 38905/600)
+        .attr('opacity',0.7)
+        .attr('rx', 5)
+
+      titleTooltip
+        .append('text')
+        .attr('class','gppavg')
+        .attr('display', 'visible')
+        .attr('x', innerW*0.469)
+        .attr('y', innerH*1.08 -38905/600 -2)
+        .text('$38.9K')
+        .attr('font-size', '11px')
+        .attr('font-style', 'italic')
+
+
+      titleTooltip
+        .append('text')
+        .attr('class','gppavg')
+        .attr('display', 'visible')
+        .attr('x', innerW*0.474)
+        .attr('y', innerH*1.24 -38905/420 )
+        .text('AVG')
+        .attr('font-size', '11px')
+        .attr('font-style', 'italic')
+        .attr('fill', '#fff')
+        
+        ;
+      }
+
 
     function info(d) {
       titleTooltip
@@ -466,23 +582,23 @@ function callback(data) {
       .append('svg:tspan')
       .attr('x', innerW*0.2+20)
       .attr('y', innerH*0.93)
-      .text('- 현재 월소득'+ ' : ' + d["현재 월소득"] + '만원 / 남성 100만원' )
+      .text('- 현재 월소득'+ ' : [여성 ' + d["현재 월소득"] + '만원] / 남성 100만원' )
       .append('svg:tspan')
       .attr('x', innerW*0.2+20)
       .attr('y', innerH*0.97)
-      .text('- 노동 참여'+ ' : ' + d["노동 참여"] + '명 / 남성 100명' )
+      .text('- 노동 참여'+ ' : [여성 ' + d["노동 참여"] + '명] / 남성 100명' )
       .append('svg:tspan')
       .attr('x', innerW*0.2+20)
       .attr('y', innerH*1.01)
-      .text('- 무임금 노동'+ ' : ' + d["무임금 노동"] + '분 / 남성 100분' )
+      .text('- 무임금 노동'+ ' :  [여성 ' + d["무임금 노동"] + '분] / 남성 100분' )
       .append('svg:tspan')
       .attr('x', innerW*0.2+20)
       .attr('y', innerH*1.05)
-      .text('- 임금 노동'+ ' : ' + d["노동 참여"] + '분 / 남성 100분' )
+      .text('- 임금 노동'+ ' : [여성 ' + d["노동 참여"] + '분] / 남성 100분' )
       .append('svg:tspan')
       .attr('x', innerW*0.2+20)
       .attr('y', innerH*1.09)
-      .text('- 예상 기대 월소득'+ ' : ' + d["예상 기대 월소득"] + '만원 / 남성 100만원' );
+      .text('- 기대 월소득'+ ' : [여성 ' + d["기대 월소득"] + '만원] / 남성 100만원' );
 
       titleTooltip
       .append('svg:text')
@@ -494,7 +610,8 @@ function callback(data) {
       .attr('x', innerW*0.2+20)
       .attr('y', innerH*0.86)
       .text( '('+d.ranking+'위 / OECD 36개국)')
-      .attr('fill', color(d.color));
+      .attr('fill', color(d.color))
+     
 
       titleTooltip
       .append('svg:text')
@@ -506,15 +623,15 @@ function callback(data) {
       .attr('x', innerW*0.2+20)
       .attr('y', innerH*0.82)
       .text(d.Nation)
-      .attr('fill', color(d.color));
+      .attr('fill', color(d.color));      
     }
 
 
-/***filter append****************************************/
+/***Regionfilter append****************************************/
   
    gFilter.append('rect')
     .attr("x",'-95px')             
-    .attr("y",'9px') 
+    .attr("y",'-5px') 
     .attr('rx',10)
     .attr('ry',10)
     .attr('width',60)
@@ -526,7 +643,7 @@ function callback(data) {
   .attr('class', 'filter')
   .append("text")
     .attr("x",'-87px')             
-    .attr("y",'23px') 
+    .attr("y",'8px') 
   .attr("class", "overall")
   .on("click", function(){
     filter('Overall', path1, path2, tick, tooltip)
@@ -750,22 +867,49 @@ function callback(data) {
     });
 
 
-/***Click Function*********************************/
+/***nation axis interaction*********************************/
 
   svg.selectAll(".nation.axis .tick")
-    .on("mouseover", function() {
+    .data(data)
+    .on("mouseover", function(d) {
     d3.select(this).attr('opacity', 0.3)
+     for(var k=0; k<36; k++) {
+        if(path1._groups[0][k].__data__.Nation == d.Nation && path1._groups[0][k].attributes[1].value != 0.05) {
+          buf1 = path1._groups[0][k].attributes[1].value;
+          buf2 = path2._groups[0][k].attributes[2].value;
+          path1._groups[0][k].attributes[1].value = 3.5;
+          path2._groups[0][k].attributes[2].value = 2.3;
+        } 
+      }
+    info(d);
+    gppbar(d);
     })
-    .on("mouseout", function() {
+    .on("mouseout", function(d) {
       d3.select(this).attr('opacity', 1);
       svg.selectAll('.sceneText text')
       .attr('opacity', 1);
+        for(var k=0; k<36; k++) {
+        if(path1._groups[0][k].__data__.Nation == d.Nation && path1._groups[0][k].attributes[1].value == 3.5) {
+          path1._groups[0][k].attributes[1].value = buf1;
+          path2._groups[0][k].attributes[2].value = buf2;
+        }
+      }
+      svg.selectAll('.sceneText tspan')
+      .attr('display', 'none');
+      svg.selectAll('.ranking tspan')
+      .attr('display', 'none');
+      svg.selectAll('.name tspan')
+      .attr('display', 'none')
+      svg.selectAll('.gpp')
+      .attr('display', 'none')
+      svg.selectAll('.gppavg')
+      .attr('display', 'none')
     })
     .on("click", function(d) {
-      filter(d, path1, path2, tick, tooltip);
+      filter(d.Nation, path1, path2, tick, tooltip);
     });
 
-/****Chart1 Tooltip*******************************/
+/****Chart1 index info*******************************/
 
 var titleTooltip = svg.append('g')
     .attr('class','titleTooltip')
@@ -775,7 +919,7 @@ var titleRect = titleTooltip
     .append('rect')
     .attr('y', '-15px')
     .attr('width', '280px')
-    .attr('height', '400px')
+    .attr('height', '410px')
     .attr('rx', 30)
     .attr('ry', 30)
     .attr('fill', '#222')
@@ -850,13 +994,9 @@ var titleText = titleTooltip
   .attr('dy', '1.3em')
   .text('여성의 임금 노동 시간')
 
-  .append('svg:tspan')
-  .attr('x', 22)
-  .attr('dy', '1.3em')
-  .text('* 참고 *')
-  .append('svg:tspan')
+
   .attr('x', 24)
-  .attr('dy', '1.3em')
+  .attr('dy', '2em')
   .text('남성, 여성의 일일 합산 노동 시간은 거의 동일하다. ')
   .append('svg:tspan')
   .attr('x', 24)
@@ -886,7 +1026,13 @@ var titleText = titleTooltip
   .append('svg:tspan')
   .attr('x', 22)
   .attr('dy', '1.3em')
-  .text('여성의 예상 기대 월소득');
+  .text('여성의 예상 기대 월소득')
+
+  .append('svg:tspan')
+  .attr('x', 22)
+  .attr('dy', '2em')
+  .text('<브러쉬> 기능을 통해 각 지표간의 관계를 비교할 수 있다.');
+
 
 
 title1.append('circle')
@@ -921,7 +1067,7 @@ title1.append('text')
   .attr('font-size', '12px')
   .text('!');
 
-/****Chart2 Tooltip***********************************************************/
+/****Chart2 index info***********************************************************/
 
 var titleRect2 = titleTooltip
     .append('rect')
@@ -965,7 +1111,7 @@ var titleText2 = titleTooltip
   .append('svg:tspan')
   .attr('x', 510)
   .attr('dy', '2em')
-  .text('예를 들어, 공학/건설 지표가 10이면')
+  .text('예를 들어, 공학/건설 지표가 10명이면')
   .append('svg:tspan')
   .append('svg:tspan')
   .attr('x', 510)
@@ -1009,6 +1155,7 @@ title2.append('text')
   .attr('font-style', 'Italic')
   .attr('font-size', '12px')
   .text('!');
+   
 
 /***Scene 내용*********************************/
 

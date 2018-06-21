@@ -88,6 +88,18 @@ function draw(singleData) {
     x.padding(0.2);
 
     //Draw bars
+    svg.selectAll('.full')
+        .data(singleData).enter()
+        .append('rect')
+        .attr('class', 'full')
+        .attr('x', function(d, i) {
+            return x(categoriesNames[i])+x.bandwidth()/2-10; 
+        })
+        .attr('y', 0)
+        .attr('width', 20)
+        .attr('height', innerH)
+        .attr('opacity', 0.1);
+
     var bar = svg.selectAll('rect.barKor')
         .data(singleData)
         .enter().append('rect')
@@ -105,6 +117,17 @@ function draw(singleData) {
         .attr('height', function(d){return innerH - y(d);})
         .attr('fill', 'steelblue')
         .attr('opacity', 0.5);
+    
+    svg.selectAll('.label').data(singleData).enter()
+        .append('text')
+        .attr('class', 'label')
+        .attr('x', function(d, i) {
+            return x(categoriesNames[i])+x.bandwidth()/2-15; 
+        })
+        .attr('y', function(d) {
+            return y(d)-3;
+        })
+        .text(function(d) {console.log('hello' + d); return d});
 
     //Draw axis
     var xAxis = d3.axisBottom(x) 
@@ -124,20 +147,20 @@ function draw(singleData) {
         .call(yAxis);
 
     bar.on("mousemove", function(d){
-            divTooltip.style("left", d3.event.pageX+10+"px");
-            divTooltip.style("top", d3.event.pageY-25+"px");
-            divTooltip.style("display", "inline-block");
+            // divTooltip.style("left", d3.event.pageX+10+"px");
+            // divTooltip.style("top", d3.event.pageY-25+"px");
+            // divTooltip.style("display", "inline-block");
             var x = d3.event.pageX, y = d3.event.pageY
             var elements = document.querySelectorAll(':hover');
             l = elements.length
             l = l-1
             elementData = elements[l].__data__;
             var activeBar = window.activeBar = elements[l];
-            divTooltip.html(d);
+            // divTooltip.html(d);
             d3.select(activeBar).style('opacity', 1);
         });
     bar.on("mouseout", function(d){
-            divTooltip.style("display", "none");
+            // divTooltip.style("display", "none");
             d3.select(window.activeBar).style('opacity',0.5);
             window.activeBar = {};
         });
@@ -188,7 +211,15 @@ function drawGroup(data) {
         .transition(t)
         .attr('transform', function(d){return 'translate(' + [-15, 0] + ')';})
         .remove();
-
+    svg.selectAll('.full')
+        .transition(t)
+        .attr('transform', function(d){return 'translate(' + [-15, 0] + ')';})
+        .remove();
+    svg.selectAll('.label')
+        .transition(t)
+        .attr('transform', function(d){return 'translate(' + [-15, 0] + ')';})
+        .remove();
+        
     //Draw bars
     var bar = region.selectAll('.bar')
         .data(function(d){return d.values}, function(d){return d.country})
