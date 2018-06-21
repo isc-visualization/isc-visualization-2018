@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2018VIS_KM.Yang</title>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
+    <link rel="stylesheet" href="main.bundle.css">
+  </head>
+  <body>
+    <article class="wrap">
+      <h1>
+        같은 나라 속 다른 나라, 경상도-전라도<br>
+        둘은 가까워질 수 있을까?
+      </h1>
+      <p style="text-align: right">
+        양강민(경영학과)
+      </p>
+      <p>
+        대학생이 되기 전까지 경주에서 살았던 나에게 대통령 선거를 제외하면 개표 방송은 나에게 너무 재미없는 것이었다.
+        "세상에서 가장 바보는 한나라당 공천을 받고도 당선되지 못하는 사람" 이라는 지역에서
+        당선자가 누구일지는 너무 뻔했으니깐.
+      </p>
+      <p>
+        경상도, 전라도의 역대 지방선거 시/도지사 당선 결과를
+        [자유당 계열_빨간색], [민주당 계열_파란색] 으로 하여 그려보니
+        <a href="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg" target="_blank">네덜란드 국기</a>를
+        연상시키는 형상이 되어버린다.
+        (며칠 전에 치뤄진 7회 지방선거 결과를 넣기 전에는 더더욱 비슷한 형상이었다.)<br>
+        내가 만약 전라도에 살았더라도 개표 방송에 흥미를 못 느끼는 건 마찬가지였을 것 같다.
+      </p>
+
+      <div class="chart">
+        <h2 class="chart__title">
+          경상도/전라도 역대 지방선거에서의<br>시.도지사 당선 결과
+        </h2>
+        <div class="justify">
+          <svg class="chart__bar gb"></svg>
+          <svg class="chart__bar gn"></svg>
+        </div>
+        <div class="justify">
+          <svg class="chart__bar jb"></svg>
+          <svg class="chart__bar jn"></svg>
+        </div>
+      </div>
+
+      <p>
+        당선만 두고 보면 이렇게 정당 계열이 정확히 반대이지만, 동시에 (가능성은 희박하겠지만..) 희망이 섞인 의문을 가지게 됐다.
+      </p>
+      <p>
+        <em>
+          '좀 더 들여다보면 사실은 각 지역 안에서는 자유당계열 vs 민주당계열의 꽤나 치열한 경쟁이 있었던 것은 아닐까?'
+        </em>
+      </p>
+      <p>
+        <em>
+          '만약 경상 / 전라 지역에서 치열한 득표 경쟁이 있었던 것이 아니라 한 쪽 정당계열의 압승이 계속되었다면,
+          이런 것이 두 지역만의 특이한 현상이 아니라, 선거라는 것 자체가 더 우세한 쪽으로의 쏠림이 나타나는 속성이 있는 것은 아닐까?<br>
+          그렇다면 지역 감정 얘기의 대상이 되지 않는 서울 / 경기 등의 지역에서도 당선 정당계열의 '득표 독식' 현상이 나타나고 있는 것은 아닐까?'
+        </em>
+      </p>
+
+      <div class="chart">
+        <h2 class="chart__title">
+          경상도/전라도/서울/경기 역대 지방선거에서의<br>
+          시.도지사 정당 계열별 득표율
+        </h2>
+
+        <div class="chart__round">
+          <button class="chart__btn chart__btn_left">◀</button>
+          <span class="chart__round-text">1회</span>
+          <button class="chart__btn chart__btn_right">▶</button>
+        </div>
+
+        <svg class="chart__groupbar"></svg>
+
+        <p class="chart__caption">* 득표율 1% 미만인 후보자는 고려하지 않음</p>
+        <p class="chart__caption">* 무소속 후보 중 과거 소속 정당 등 특정 정당 계열 성향이 뚜렷한 후보의 경우 '무소속자유' / '무소속민주' 로 구분함</p>
+        <p class="chart__caption">* 7회 지방선거에서 바른미래당을 자유한국당과 같은 계열로 분류하기에는 조금 애매했지만, 이 자료를 보고 자유당 계열로 분류하였다. <a href="https://commons.wikimedia.org/wiki/File:Political_parties_of_south_korea_(1988-).svg#/media/File:Political_parties_of_south_korea_(1988-).svg" target="_blank">(대한민국 정당사)</a></p>
+      </div>
+
+      <p>
+        1회부터 차례로 넘겨보면서 '희망이 섞인 의문은 단지 희망일 뿐'이라고 생각했다.
+      </p>
+      <p>
+        1회부터 6회까지는 (5회 지방선거 경남 지역만을 제외하고는) 경상도와 전라도 내에서는 각각 자유당 / 민주당 계열 정당의 압승만이 있었고,
+        이것은 대조 지역으로 잡아본 서울과 경기에서는 찾아볼 수 없는 현상이었다.
+      </p>
+      <p>
+        하지만, 7회 지방선거에서 반전이 일어났다.
+        공식과도 같았던 '경상도=자유당 승리'가 깨지고, 경남지사로 민주당 계열 후보가 당선된 것이다.
+        더 고집(?)이 센 경북에서는 여전히 자유당 계열 후보가 당선되기는 했지만, 경북지사 선거에서 민주당 계열 후보가 30% 이상 득표한 것은 지방선거 역사상 처음 있는 일이었다.
+      </p>
+      <p>
+        이 판국에도 독야청청이 아니라 '독야홍홍'하는 경상도지만, 그래도 이번 7회 지방선거에서<br>
+        - 경상도라고 '無조건' 자유당이 당선되는 것은 아니고 민주당도 당선될 수 있다는 것<br>
+        - 경상도에서도 서울/경기에서 볼 수 있을 법한 자유당vs민주당의 경쟁이 있을 수 있다는 것<br>
+        은 확인할 수 있었다. 정말 변할 수 없을 것만 같았던 이 곳도 변할 수는 있는 곳이었다!        
+      </p>
+      <p>
+        <em>
+          같은 나라 속 다른 나라였던 경상도-전라도, 이들의 화합에 대한 희망을 접기엔 아직 이르다. 
+        </em>
+      </p>
+
+      <div class="ref">
+        데이터 출처: 중앙선거관리위원회 선거통계시스템 <a href="http://info.nec.go.kr/" target="_blank">http://info.nec.go.kr/</a>
+      </div>
+    </article>
+
+    <script type="text/javascript" src="app.bundle.js"></script>
+  </body>
+</html>

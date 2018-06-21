@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="utf-8">
+  <title>Final Project</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <style>
+    .series path { fill : none; }
+    .x.axis .domain{ stroke : none; }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>지난 10년 간, 세계의 성격차지수는 어떻게 변화하였는가?</h1>
+    <p id="dynamicText">그리고, 지난 10년 간 Albania의 성격차지수는 어떻게 변화하였는가?</p>
+  </div>
+  <div>
+    <select id="selectBoxCategory" onchange="changeCategory()">
+      <option value=0>GLOBAL INDEX</option> <option value=1>ECONOMIC PARTICIPATION AND OPPORTUNITY</option> <option value=2>EDUCATIONAL ATTAINMENT</option> <option value=3>HEALTH AND SURVIVAL</option> <option value=4>POLITICAL EMPOWERMENT</option>
+    </select>
+    <select id="selectBoxRegion" onchange="changeRegion()">
+      <option value=0>EASTERN EUROPE AND CENTRAL ASIA</option> <option value=1>MIDDLE EAST AND NORTH AFRICA</option> <option value=2>SUB-SAHARAN AFRICA</option> <option value=3>LATIN AMERICA AND THE CARIBBEAN</option> <option value=4>EAST ASIA AND THE PACIFIC</option> <option value=5>WESTERN EUROPE</option> <option value=6>SOUTH ASIA</option> <option value=7>NORTH AMERICA</option>
+    </select>
+    <select id="selectBoxCountry" onchange="changeCountry()">
+    </select>
+  </div>
+<script>
+var width = 800, height = 600;
+var margin = { top:20, right:20, bottom: 20, left: 40 };
+var innerWidth = width- margin.right - margin.left,
+    innerHeight = height - margin.top - margin.bottom;
+
+var svg = d3.select('body').append('svg')
+            .attr('width', width)
+            .attr('height', height)
+            .append('g')
+            .attr('transform', 'translate('+ [margin.left, margin.top] + ')');
+
+var xAxis = d3.axisBottom().tickSize(0).tickPadding(-12); 
+var yAxis = d3.axisLeft();
+
+var Domain = [];
+var correction = false;
+var categories = [0,1,2,3,4];
+var cScale = d3.scaleOrdinal().domain(categories).range(d3.schemeCategory10);
+
+var x = d3.scalePoint().range([0, innerWidth]).padding(0.04);
+var y = {};
+
+var line  = d3.line()
+              .x(function(d){if(correction) { return d.x + margin.left; } else return d.x;}) //값을 스케일로 미리 변환해서 넣어둘 예정 따라서 line 생성기에서 스케일을 사용할 필요 없음
+              .y(function(d){if(correction) { return d.y + margin.top; } else return d.y;});
+
+var years = ['2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'];
+
+var Regions = [];
+var selectedCategory = 0;
+var selectedRegion = 0;
+var selectedCountry = "";
+var processedData = [[],[],[],[],[]];
+
+
+function changeCategory() {
+  var target = document.getElementById("selectBoxCategory");
+  selectedCategory = target.options[target.selectedIndex].value;
+  d3.selectAll('.series').remove();
+  d3.selectAll('.y.axis').remove();
+
+  years.forEach(function(h) {
+    y[h.name] = d3.scaleLinear().domain(Domain[selectedCategory]).range([innerHeight, 0]); 
+  });
+
+  line  = d3.line()
+            .x(function(d){if(correction) { return d.x+40; } else return d.x;})
+            .y(function(d){if(correction) { return d.y+20; } else return d.y;});
+
+  d3.selectAll('svg').selectAll('.series')
+    .data(processedData[selectedCategory])
+    .enter().append('g')
+    .attr('class', 'series')
+    .style('stroke', function(d){return cScale(selectedCategory)})
+    .style('opacity', '0.1')
+    .selectAll('path')
+    .data(function(d){return [series(d)]})//데이터를 series로 변환한 다음 배열에 다시 넣어서 통째로 path에 전달
+    .enter().append('path')
+    .attr('d', line);
+
+  svg.selectAll('.y.axis')
+     .data(years, function(d){return d.name;})
+     .enter().append('g')
+     .attr('class', 'y axis')
+     .attr('transform', function(d) {return 'translate(' + [x(d.name), 0] + ')';})
+     .each(function(d) {
+       yAxis.scale(y[d.name]);
+       d3.select(this).call(yAxis);
+     });
+
+  xAxis.scale(x);
+  d3.selectAll('svg').append('g')
+     .attr('class', 'x axis')
+     .call(xAxis);
+}
+
+function changeRegion() {
+  var target1 = document.getElementById("selectBoxRegion");
+  var target2 = document.getElementById("selectBoxCountry");
+  selectedRegion = target1.options[target1.selectedIndex].value;
+  while(target2.options.length > 0) { target2.options[0] = null; }
+  Regions[selectedRegion].forEach(function(d) {
+    if(d!=='undefined') {
+      var option = document.createElement("option");
+      option.text = d; option.value = d;
+      target2.appendChild(option);
+    }
+  })
+}
+
+function series(d) { //개별 아이템마다 배열로 아이템을 변환
+    return x.domain().map(function(h) { //축 순서대로 데이터에 접근
+      return {x:x(h), y:y[h](d[h])};
+    });
+  }
+
+function changeCountry() {
+  var target2 = document.getElementById("selectBoxCountry");
+  selectedCountry = target2.options[target2.selectedIndex].value;
+  d3.selectAll('.series').style('opacity', (function (d) {
+    if(d.country == selectedCountry) return'1.0';
+    else return '0.1';}));
+  var target1 = document.getElementById("dynamicText");
+  target1.innerHTML = "그리고, 지난 10년 간 "+selectedCountry+"의 성격차지수는 어떻게 변화하였는가?";
+}
+
+
+d3.csv('./combinedData.csv', row).then(callback).then(anotherCallback);
+
+function row(d) { for(var k in d) if(d.hasOwnProperty(k) && k !== 'country' && k !== 'Region') d[k] = + d[k]; return d; }
+
+function callback(data) {
+
+  var Countries = d3.set(data, function(d) { return d.country; }).values();
+  Regions[0] = d3.set(data, function(d) { if(d.Region === 'EASTERN EUROPE AND CENTRAL ASIA') { return d.country;} }).values();
+  Regions[1] = d3.set(data, function(d) { if(d.Region === 'MIDDLE EAST AND NORTH AFRICA') { return d.country;} }).values();
+  Regions[2] = d3.set(data, function(d) { if(d.Region === 'SUB-SAHARAN AFRICA') { return d.country;} }).values();
+  Regions[3] = d3.set(data, function(d) { if(d.Region === 'LATIN AMERICA AND THE CARIBBEAN') { return d.country;} }).values();
+  Regions[4] = d3.set(data, function(d) { if(d.Region === 'EAST ASIA AND THE PACIFIC') { return d.country;} }).values();
+  Regions[5] = d3.set(data, function(d) { if(d.Region === 'WESTERN EUROPE') { return d.country;} }).values();
+  Regions[6] = d3.set(data, function(d) { if(d.Region === 'SOUTH ASIA') { return d.country;} }).values();
+  Regions[7] = d3.set(data, function(d) { if(d.Region === 'NORTH AMERICA') { return d.country;} }).values();
+  Countries.forEach( function(d) {
+    var VO1 = {country:d}, VO2 = {country:d}, VO3 = {country:d}, VO4 = {country:d}, VO5 = {country:d};
+    processedData[0].push(VO1); processedData[1].push(VO2); processedData[2].push(VO3); processedData[3].push(VO4); processedData[4].push(VO5);
+  } );
+  
+  var i=-1, j=0;
+  var c="";
+  data.forEach( function(d) {
+    if(c !== d.country) {
+      i=j; j++;
+      c = d.country; }
+
+    processedData[0][i][d.Year] = d.GLOBALINDEX;
+    processedData[1][i][d.Year] = d.ECONOMICPARTICIPATIONANDOPPORTUNITY;
+    processedData[2][i][d.Year] = d.EDUCATIONALATTAINMENT;
+    processedData[3][i][d.Year] = d.HEALTHANDSURVIVAL;
+    processedData[4][i][d.Year] = d.POLITICALEMPOWERMENT;
+  });
+
+  Domain[0] = d3.extent(data, function(d) { return d.GLOBALINDEX; });
+  Domain[1] = d3.extent(data, function(d) { return d.ECONOMICPARTICIPATIONANDOPPORTUNITY; });
+  Domain[2] = d3.extent(data, function(d) { return d.EDUCATIONALATTAINMENT; });
+  Domain[3] = d3.extent(data, function(d) { return d.HEALTHANDSURVIVAL; });
+  Domain[4] = d3.extent(data, function(d) { return d.POLITICALEMPOWERMENT; });
+  
+  var machiningData = {Countries: Countries, processedData: processedData}; return machiningData;
+}
+
+function anotherCallback(data) {
+  var target2 = document.getElementById("selectBoxCountry");
+  Regions[selectedRegion].forEach(function(d) {
+    if(d!=='undefined') {
+      var option = document.createElement("option");
+      option.text = d; option.value = d;
+      target2.appendChild(option);
+    }
+  })
+
+  years = years.map(function(h) {
+    var domain = d3.extent(data.processedData[0], function(d){return d[h];});
+    return {name:h, domain:domain};
+  });
+
+  years.forEach(function(h) {
+    y[h.name] = d3.scaleLinear().domain(Domain[0]).range([innerHeight, 0]); 
+  });
+
+  x.domain(years.map(function(d){return d.name;}));
+  cScale.domain(categories);
+
+
+  svg.selectAll('.series')
+     .data(data.processedData[0])
+     .enter().append('g')
+     .attr('class', 'series')
+     .style('stroke', function(d){return cScale(0)})
+     .style('opacity', '0.1')
+     .selectAll('path')
+     .data(function(d){return [series(d)]})
+     .enter().append('path')
+     .attr('d', line);
+
+  svg.selectAll('.y.axis')
+    .data(years, function(d){return d.name;})
+    .enter().append('g')
+    .attr('class', 'y axis')
+    .attr('transform', function(d) {return 'translate(' + [x(d.name), 0] + ')';})
+    .each(function(d) {
+      yAxis.scale(y[d.name]);
+      d3.select(this).call(yAxis);
+    });
+
+  xAxis.scale(x);
+  svg.append('g')
+     .attr('class', 'x axis')
+     .call(xAxis);
+  correction = true;
+  console.log(Domain);
+}
+
+var dynamicText = d3.select("body").append("p").text("* 해당 자료의 출처는 세계 경제포럼이며, Path를 그리기 어려운 일부 케이스에 한해서 데이터셋에서 제외하였습니다");
+  </script>
+</body>
+</html>

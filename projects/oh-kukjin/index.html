@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8">
+        <title>기말프로젝트</title>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <style>
+            svg {
+                cursor: pointer;
+                pointer-events: bounding-box;
+            }
+            .label{
+                font-size:20px;
+                fill: white;
+                text-anchor:middle;
+                font-family: sans-serif;
+            }
+            .bar {
+                fill: #199cd1;
+            }
+			.axis text {
+				font-family: sans-serif;
+				font-size: 20px;
+			}
+            .hover {
+            fill-opacity: .4;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div id="topBar">
+        <h1>지방선거의 재선시도 과연 효과적인 전략일까?</h1>
+        <p>선거철에 들려오는 몇 가지 흥미로운 얘기 중 하나는 재선여부다. 이미 자기가 당선된 지역에서 재출마를 하는 것은 얼핏 확실한 보증수표로도 느껴진다. <br>그래서일까? 2대부터 7대까지 총 6번의 지방선거에서 많은 당선자들이 재선을 시도했다.
+        아래는 지방선거 회차별 재선시도 횟수를 나타낸 그래프다.</p>
+        <h3>지방선거 회차별 재선 시도</h3>
+
+
+        </div>
+        <br>
+        <p>6대 지방선거에서는 약간 주춤했으나 3대부터 7대까지 재선 시도는 꾸준히 늘어나고 있다. 특히 7대는 총 17명의 시/도지사 중 10명이 재선을 시도하는 모습을 보였다. <br>
+        이와 같은 모습을 보이는 가운데, 실제로 재선이 효과적인 선택인지 아래 내용을 통해 확인해보자. </p>
+        <h1>경기도</h1>
+        <p>경기도의 재선 시도는 총 2회로 4대 경기도지사 - 김문수, 6대 경기도지사 - 남경필 두 명이 경기도지사 재선을 시도했다.</p>
+        <div>
+            <div id="example" style="display: inline-block"><h3>김문수 - 지지율</h3></div>
+            <div id="example2"  style="display: inline-block"><h3>남경필 - 지지율</h3></div>
+        </div>
+        <h1>경상북도</h1>
+        <p>경상북도의 재선 시도는 총 4회로 1대 경상북도지사 - 이의근, 4대 경상북도지사 - 김관용 두 명이 경상북도지사 재선을 두 번씩 시도했다.</p>
+        <div>
+            <div id="example3" style="display: inline-block"><h3>이의근 - 지지율</h3></div>
+            <div id="example4"  style="display: inline-block"><h3>김관용 - 지지율</h3></div>
+        </div>
+        <p>경기도의 경우 두 번의 재선 시도 중 한 번이 실패한 반면에, 경상북도의 경우 네 번의 재선 시도 모두 성공한 모습을 보인다.<br>
+            어떻게 보면 당연하게도 지역별로 재선성공율이 차이가 난다. 아래의 지역별 재선 시도 그래프를 통하여 지역별로 나타나는 특성을 확인해보자.</p>
+        <div id="bottomBar">
+            <h1>지역별 재선 시도</h1>
+        </div>
+        <p>지역 마다 최소 0번부터 최대 5번까지 재선 시도가 이뤄졌다. 또한 가장 최근 생긴 세종시가 아니라 경상남도의 재선 시도가 0번이라는 것은 놀라운 사실이다.        </p>
+
+        <li>재선을 피해야하는 지역</li>
+        <p>대전시와 인천시는 크게 낮은 재선 성공률을 기록하고 있다. 둘 다 4번의 재선 시도가 이뤄진 가운데 1번씩만 성공하여 25%의 수치를 나타낸다.<br>
+        알던 얼굴이라고 해서 쉽게 뽑아주지 않는 곳이다. 이 두 곳에서는 재선을 시도하지 않는 것이 더 나은 선택일 수 있다.</p>
+        <li>재선을 시도해볼만한 지역</li>
+        <p>전라남/북도와 경상남/북도는 모두 100%의 재선 성공률을 기록하고 있다. 각자 진보세력과 보수세력의 텃밭으로 유명한 곳이다. <br>
+        이에따라 정치성향에 따라 당락이 정해지는 편이다. 전라도와 경상도의 도지사라면 재선 시도를 망설일 필요가 없어 보인다.</p>
+        <script src="topBar.js"></script>
+        <script src="bottomBar.js"></script>
+        <script src="example.js"></script>
+        <script src="example2.js"></script>
+        <script src="example3.js"></script>
+        <script src="example4.js"></script>
+
+    </body>
+</html>

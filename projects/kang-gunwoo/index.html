@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head> 
+        <meta charset="utf-8">
+        <title>2013-13424강건우</title>
+        <style>
+            @import url("style.css");
+        </style>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+    </head>
+    <body>
+        <div class = "box">
+            <h1 class = "title">정당 계통으로 보는 역대 지방선거 당선율과 득표율</h1>
+            <h3 class = "title">자유전공학부 2013-13424강건우</h3> 
+        </div>
+        <hr>
+
+        <div class= "box">
+            <div class = "description">
+                <p></p>
+                <p style = "font-size : 18px; font-family: Dream Gothic; margin-bottom : 10px">소개</p>
+                <p style = "margin : 0px ;">헌법 하에 정당 설립의 자유가 보장되는 한국에서는 수많은 정당이 상호작용하며 나타나고 사라졌다. </p>
+                <p style = "margin : 0px ;">이 자료에서는 90년대 이후 정당의 계보도와 그들의 지방선거 성적표를 통해, 대한민국 전체와 각 지역의 정치 지형 변화를 알아본다.</p>
+                <p style = "margin : 0px ;">첫번째 자료는 전국 시도지사 선거에 정당계통별로 몇 명의 후보자와 당선자를 냈는지 보여주며,</p>
+                <p style = "margin : 0px ;">두번째 자료는 각 지역별로 매 선거 정당계통별 득표율을 계통도와 함께 보여준다.</p>
+                <p style = "margin : 0px ;">이 자료를 작성하기 위해 중앙선거관리위원회의 선거통계시스템(<a href>http://info.nec.go.kr</a>)의 데이터를 활용했다.</p>
+                <p style = "font-size : 18px; font-family: Dream Gothic; margin-bottom : 10px; padding-top : 10px">보는 법</p>
+                <p style = "margin : 1px ;">전국 단위 데이터에서는 [후보 보기]/[당선자 보기]로 어떤 데이터를 볼지 선택할 수 있다.</p>
+                <p style = "margin : 1px ;">[숫자로 보기]/[순위로 보기]로 현재 보는 데이터를 어떻게 정렬할지 선택할 수 있다.</p>
+                <p style = "margin : 1px ;">노드에 마우스를 올리면 상세 정보 툴팁과 함께 해당 정당과 관련된 정당들이 강조되며, 클릭시 상태가 유지된다.</p>
+                <p style = "margin : 1px ;">선택 상태에서 노드 바깥을 클릭하면 선택하지 않은 상태로 돌아간다.</p>
+                <p style = "margin : 1px ;">[전체계통보기]를 선택하면 선택한 당과 약한 연관관계(탈당, 분당, 합당 등)의 정당을 함께 볼 수 있다.</p>
+                <p style = "margin : 1px ;">[강한계통보기]를 선택하면  선택한 당과 강한 연관관계(당명 변경, 주요인사 이동 등)의 정당만 볼 수 있다.</p>
+            </div>
+        </div>
+
+        <p style = "font-size : 1.5em; text-align : center; margin-top : 30px; margin-bottom : 30px;
+            font-family: Dream Gothic;">역대 시도지사 선거 후보 수와 당선자 수(전국)</p>
+        <div class = "box" >
+            <div class = "innerDiv">
+                <div class = "button clicked" id = "showCand"><span class = "text">후보 보기</span></div>
+                <div class = "button" id = "showEle"><span class = "text">당선자 보기</span></div>
+                <div class = "button clicked" id = "showByNumber_country"><span class = "text">숫자로 보기</span></div>
+                <div class = "button" id = "showByOrder_country"><span class = "text">순위로 보기</span></div>
+            </div>
+        </div>
+
+        <div class = "box">
+            <div id = "chart1" class = "innerDiv"></div>
+        </div>
+
+        <p style = "font-size : 1.2em; text-align : center; margin : 15px ; font-family : Shin Gothic" 
+            id = "countryDescription">전체 정당을 보고 있습니다.</p>
+        <div class = "box" style = "margin-bottom : 30px">
+            <div class = "innerDiv">
+                <div class = "button clicked" id = "countryShowAll"><span class = "text">전체 계통 보기</span></div>
+                <div class = "button" id = "countryShowStrong"><span class = "text">강한 계통 보기</span></div>
+            </div>
+        </div>
+        <div class= "box">
+            <div class = "description">
+                <p style = "font-size : 18px; font-family: Dream Gothic; margin-bottom : 10px; margin-top : 0px">활용 예</p>
+                <p style = "margin : 0px ;">출마 후보 수의 숫자를 확인해 보면 매 지방선거마다 다양한 정당에서 후보를 냈지만</p>
+                <p style = "margin : 0px ;">당선자 수를 확인해 보면 실제로 당선자는 민주당 계열과 한나라당 계열에 편중되어있음을 알 수 있다.</p>
+                <p style = "margin : 5px"></p>
+                <p style = "margin : 0px ;">정당별 당선자 수를 순위로 정렬해보면 지방선거가 시작된 이래로 한나라당 계열이 계속 가장 많은</p>
+                <p style = "margin : 0px ;">당선자를 배출하다가 5대부터 뒤집히기 시작했음을 확인할 수 있다.</p>
+                <p style = "margin : 5px"></p>
+                <p style = "margin : 0px ;">1대 시도지사선거에서는 무소속 출마 후보가 가장 많았다. 하지만 당선율은 높지 않았다.</p>
+            </div>
+        </div>
+        <hr>
+
+        <p style = "font-size : 1.5em; text-align : center; margin-top : 30px; margin-bottom : 10px; 
+            font-family: Dream Gothic;">역대 지방선거 지역별 득표율</p>
+        <div class = "box">
+            <div class = "innerDiv">
+                <div class = "button clicked" id = "showByNumber_region"><span class = "text">득표율로 보기</span></div>
+                <div class = "button" id = "showByOrder_region"><span class = "text">득표 순위로 보기</span></div>
+            </div>
+        </div>
+
+        <div class = "box" style = "padding-top : 20px">
+            <div class = "innerDiv" id = "chart2"></div>
+        </div>
+
+        <p style = "font-size : 1.2em; text-align : center; margin-bottom : 15px ; margin-top : 0px ; font-family : Shin Gothic" 
+            id = "regionDescription">전체 정당을 보고 있습니다.</p>
+        <div class = "box" style = "margin-bottom : 30px">
+            <div class = "innerDiv">
+                <div class = "button clicked" id = "regionShowAll"><span class = "text">전체 계통 보기</span></div>
+                <div class = "button" id = "regionShowStrong"><span class = "text"> 강한 계통 보기</span></div>
+            </div>
+        </div>
+        <div class= "box">
+            <div class = "description">
+                <p style = "font-size : 18px; font-family: Dream Gothic; margin-bottom : 10px; margin-top : 0px">활용 예</p>
+                <p style = "margin : 0px ;">순위로 정렬해 무소속을 선택하면 역대 지방선거에서 가장 많은 무소속 당선자가 나온 곳은 제주도임을 알 수 있다. </p>
+                <p style = "margin : 5px"></p>
+                <p style = "margin : 0px ;">득표율로 정렬해 지역내에서 정당 계통별 득표율을 확인해보면 전라도와 경상도에선 각각 민주당 계열과 한나라당 계열이 압도적이며</p>
+                <p style = "margin : 0px ;">서울, 충청, 강원에선 꾸준히 한나라당 계열이 득세하다 5대부터 경쟁이 치열해졌음을 확인할 수 있다.</p>
+                <p style = "margin : 5px"></p>
+            </div>
+        </div>
+        <hr>
+        <div class= "box">
+            <div class = "description">
+                <p style = "font-size : 12px; margin-bottom : 10px; margin-top : 10px">© 2018 Kang Geonwoo, Seoul National University ISC Visualization course Final Project</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

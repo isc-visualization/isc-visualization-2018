@@ -1,0 +1,145 @@
+Country,GLOBAL_INDEX,ECONOMIC,EDUCATIONAL,HEALTH,POLITIC,Region,OECD,Constitutional_form,Head_of_State,Rank
+Albania,0.728,0.673,0.986,0.968,0.284,EECA,N,Republic,Ceremonial,38
+Algeria,0.629,0.442,0.957,0.97,0.145,MENA,N,Republic,Executive,127
+Angola,0.64,0.56,0.763,0.976,0.262,SSA,N,Republic,Executive,123
+Argentina,0.732,0.596,0.998,0.98,0.356,LAC,N,Republic,Executive,34
+Armenia,0.677,0.671,0.999,0.939,0.099,EECA,N,Republic,Ceremonial,97
+Australia,0.731,0.724,1,0.97,0.232,EAP,Y,Constitutional?monarchy,Ceremonial,35
+Austria,0.709,0.66,0.988,0.975,0.216,WE,Y,Republic,Ceremonial,57
+Azerbaijan,0.676,0.717,0.984,0.941,0.063,EECA,N,Republic,Executive,98
+Bahamas,0.743,0.871,1,0.978,0.122,LAC,N,Constitutional?monarchy,Ceremonial,27
+Bahrain,0.632,0.537,0.991,0.961,0.037,MENA,N,Constitutional?monarchy,Executive,126
+Bangladesh,0.719,0.465,0.954,0.966,0.493,SA,N,Republic,Ceremonial,47
+Barbados,0.75,0.877,1,0.973,0.15,LAC,N,Constitutional?monarchy,Ceremonial,23
+Belarus,0.744,0.827,0.999,0.979,0.173,EECA,N,Republic,Executive,26
+Belgium,0.739,0.716,1,0.976,0.264,WE,Y,Constitutional?monarchy,Ceremonial,31
+Belize,0.692,0.772,0.988,0.976,0.032,LAC,N,Constitutional?monarchy,Ceremonial,78
+Benin,0.652,0.864,0.714,0.964,0.065,SSA,N,Republic,Executive,116
+Bhutan,0.638,0.622,0.916,0.959,0.056,SA,N,Constitutional?monarchy,Executive,124
+Bolivia,0.758,0.692,0.956,0.976,0.408,LAC,N,Republic,Executive,17
+Bosnia and Herzegovina,0.702,0.575,0.981,0.979,0.275,EECA,N,Republic,Ceremonial,65
+Botswana,0.72,0.822,1,0.978,0.079,SSA,N,Republic,Executive,46
+Brazil,0.684,0.655,1,0.98,0.101,LAC,N,Republic,Executive,90
+Brunei Darussalam,0.671,0.692,0.99,0.969,0.031,EAP,N,Absolute monarchy,Executive,102
+Bulgaria,0.756,0.71,0.99,0.979,0.346,EECA,N,Republic,Ceremonial,18
+Burkina Faso,0.646,0.716,0.829,0.963,0.075,SSA,N,Republic,Executive,121
+Burundi,0.755,0.911,0.876,0.98,0.255,SSA,N,Republic,Executive,21
+Cambodia,0.676,0.698,0.921,0.98,0.104,EAP,N,Constitutional?monarchy,Ceremonial,98
+Cameroon,0.689,0.725,0.868,0.972,0.191,SSA,N,Republic,Executive,86
+Canada,0.769,0.744,1,0.97,0.361,NA,Y,Constitutional?monarchy,Ceremonial,16
+Cape Verde,0.686,0.615,0.98,0.969,0.178,SSA,N,Republic,Executive,89
+Chad,0.575,0.667,0.572,0.974,0.087,SSA,N,Republic,Executive,141
+Chile,0.704,0.573,0.999,0.978,0.266,LAC,Y,Republic,Executive,63
+China,0.674,0.654,0.963,0.918,0.16,EAP,N,Republic,Executive,100
+Colombia,0.731,0.74,1,0.98,0.206,LAC,N,Republic,Executive,35
+Costa Rica,0.727,0.62,0.999,0.974,0.314,LAC,N,Republic,Executive,40
+C?te d'Ivoire,0.611,0.575,0.8,0.968,0.102,SSA,N,Republic,Executive,133
+Croatia,0.711,0.689,0.995,0.98,0.18,EECA,N,Republic,Ceremonial,54
+Cuba,0.745,0.629,1,0.97,0.382,LAC,N,Republic,Executive,25
+Cyprus,0.684,0.679,0.998,0.966,0.092,WE,N,Republic,Executive,90
+Czech Republic,0.688,0.643,1,0.98,0.13,EECA,Y,Republic,Ceremonial,88
+Denmark,0.776,0.728,1,0.971,0.406,WE,Y,Constitutional?monarchy,Ceremonial,14
+Dominican Republic,0.697,0.638,0.991,0.98,0.179,LAC,N,Republic,Executive,70
+Ecuador,0.724,0.642,0.996,0.977,0.283,LAC,N,Republic,Executive,42
+Egypt,0.608,0.413,0.96,0.971,0.087,MENA,N,Republic,Executive,134
+El Salvador,0.705,0.634,0.992,0.98,0.214,LAC,N,Republic,Executive,61
+Estonia,0.731,0.726,1,0.979,0.218,EECA,Y,Republic,Ceremonial,35
+Ethiopia,0.656,0.604,0.819,0.979,0.223,SSA,N,Republic,Ceremonial,115
+Fiji,0.638,0.479,0.991,0.979,0.104,EAP,N,Republic,Ceremonial,124
+Finland,0.823,0.793,1,0.978,0.519,WE,Y,Republic,Ceremonial,3
+France,0.778,0.683,1,0.977,0.453,WE,Y,Republic,Executive,11
+"Gambia, The",0.649,0.627,0.896,0.968,0.106,SSA,N,Republic,Executive,119
+Georgia,0.679,0.669,0.989,0.967,0.093,EECA,N,Republic,Executive,94
+Germany,0.778,0.72,0.97,0.975,0.447,WE,Y,Republic,Ceremonial,11
+Ghana,0.695,0.784,0.931,0.968,0.097,SSA,N,Republic,Executive,72
+Greece,0.692,0.67,0.991,0.973,0.136,WE,Y,Republic,Ceremonial,78
+Guatemala,0.667,0.626,0.962,0.98,0.102,LAC,N,Republic,Executive,110
+Guinea,0.659,0.813,0.699,0.964,0.162,SSA,N,Republic,Executive,113
+Honduras,0.711,0.669,1,0.974,0.2,LAC,N,Republic,Executive,54
+Hungary,0.67,0.675,0.992,0.979,0.035,EECA,Y,Republic,Ceremonial,103
+Iceland,0.878,0.798,0.995,0.969,0.75,WE,Y,Republic,Ceremonial,1
+India,0.669,0.376,0.952,0.942,0.407,SA,N,Republic,Ceremonial,106
+Indonesia,0.691,0.61,0.986,0.976,0.193,EAP,N,Republic,Executive,83
+"Iran, Islamic Rep.",0.583,0.357,0.965,0.963,0.046,MENA,N,Republic,Executive,139
+Ireland,0.794,0.71,1,0.971,0.493,WE,Y,Republic,Ceremonial,8
+Israel,0.721,0.681,1,0.971,0.232,MENA,Y,Republic,Ceremonial,44
+Italy,0.692,0.571,0.995,0.967,0.234,WE,Y,Republic,Ceremonial,78
+Jamaica,0.717,0.725,1,0.972,0.171,LAC,N,Constitutional?monarchy,Ceremonial,50
+Japan,0.657,0.58,0.991,0.98,0.078,EAP,Y,Constitutional?monarchy,Ceremonial,114
+Jordan,0.604,0.377,0.996,0.969,0.075,MENA,N,Constitutional?monarchy,Executive,135
+Kazakhstan,0.713,0.744,0.997,0.979,0.13,EECA,N,Republic,Executive,52
+Kenya,0.694,0.72,0.929,0.98,0.147,SSA,N,Republic,Executive,74
+"Korea, Rep.",0.65,0.533,0.96,0.973,0.134,EAP,Y,Republic,Executive,118
+Kuwait,0.628,0.518,0.996,0.969,0.027,MENA,N,Constitutional?monarchy,Executive,128
+Kyrgyz Republic,0.691,0.664,0.99,0.98,0.13,EECA,N,Republic,Ceremonial,83
+Lao PDR,0.703,0.769,0.933,0.974,0.137,EAP,N,Republic,Executive,64
+Latvia,0.756,0.798,1,0.98,0.246,EECA,Y,Republic,Ceremonial,18
+Lebanon,0.596,0.44,0.956,0.97,0.019,MENA,N,Republic,Ceremonial,137
+Lesotho,0.695,0.655,1,0.979,0.147,SSA,N,Constitutional?monarchy,Ceremonial,72
+Liberia,0.669,0.695,0.772,0.973,0.236,SSA,N,Republic,Executive,106
+Lithuania,0.742,0.749,1,0.98,0.241,EECA,N,Republic,Executive,28
+Luxembourg,0.706,0.667,1,0.973,0.184,WE,Y,Constitutional?monarchy,Ceremonial,59
+"Macedonia, FYR",0.702,0.636,0.985,0.976,0.209,EECA,N,Republic,Ceremonial,65
+Madagascar,0.692,0.716,0.95,0.974,0.127,SSA,N,Republic,Executive,78
+Malawi,0.672,0.654,0.908,0.974,0.152,SSA,N,Republic,Executive,101
+Malaysia,0.67,0.654,0.991,0.977,0.058,EAP,N,Constitutional?monarchy,Ceremonial,103
+Maldives,0.669,0.641,1,0.963,0.072,SA,N,Republic,Executive,106
+Mali,0.583,0.518,0.741,0.956,0.118,SSA,N,Republic,Executive,139
+Malta,0.682,0.61,1,0.971,0.146,WE,N,Republic,Ceremonial,93
+Mauritania,0.614,0.417,0.853,0.97,0.214,MENA,N,Republic,Executive,132
+Mauritius,0.664,0.595,0.992,0.98,0.09,SSA,N,Republic,Ceremonial,111
+Mexico,0.692,0.518,0.996,0.977,0.276,LAC,Y,Republic,Executive,78
+Moldova,0.74,0.811,0.992,0.98,0.176,EECA,N,Republic,Ceremonial,30
+Mongolia,0.713,0.776,0.993,0.98,0.102,EAP,N,Republic,Executive,52
+Montenegro,0.693,0.653,0.988,0.974,0.157,EECA,N,Republic,Ceremonial,77
+Morocco,0.598,0.391,0.92,0.965,0.117,MENA,N,Constitutional?monarchy,Executive,136
+Mozambique,0.741,0.789,0.857,0.977,0.34,SSA,N,Republic,Executive,29
+Myanmar,0.691,0.754,0.975,0.976,0.059,EAP,N,Republic,Executive,83
+Namibia,0.777,0.813,0.999,0.98,0.318,SSA,N,Republic,Executive,13
+Nepal,0.664,0.599,0.936,0.969,0.155,SA,N,Republic,Ceremonial,111
+Netherlands,0.737,0.657,1,0.97,0.323,WE,Y,Constitutional?monarchy,Ceremonial,32
+New Zealand,0.791,0.768,0.998,0.969,0.43,EAP,Y,Constitutional?monarchy,Ceremonial,9
+Nicaragua,0.814,0.702,1,0.98,0.576,LAC,N,Republic,Executive,6
+Nigeria,0.641,0.728,0.813,0.972,0.052,SSA,N,Republic,Executive,122
+Norway,0.83,0.816,0.999,0.973,0.53,WE,Y,Constitutional?monarchy,Ceremonial,2
+Pakistan,0.546,0.309,0.802,0.948,0.127,SA,N,Republic,Ceremonial,143
+Panama,0.722,0.691,0.995,0.98,0.222,LAC,N,Republic,Executive,43
+Paraguay,0.678,0.652,0.994,0.971,0.094,LAC,N,Republic,Executive,95
+Peru,0.719,0.632,0.988,0.978,0.277,LAC,N,Republic,Executive,47
+Philippines,0.79,0.764,1,0.979,0.416,EAP,N,Republic,Executive,10
+Poland,0.728,0.702,1,0.98,0.23,EECA,Y,Republic,Executive,38
+Portugal,0.734,0.73,0.992,0.977,0.24,WE,Y,Republic,Executive,33
+Qatar,0.626,0.523,1,0.965,0.016,MENA,N,Absolute monarchy,Executive,130
+Romania,0.708,0.698,0.995,0.98,0.159,EECA,N,Republic,Executive,58
+Russian Federation,0.696,0.724,0.997,0.98,0.085,EECA,N,Republic,Executive,71
+Rwanda,0.822,0.82,0.951,0.98,0.539,SSA,N,Republic,Executive,4
+Saudi Arabia,0.584,0.32,0.975,0.965,0.077,MENA,N,Absolute monarchy,Executive,138
+Senegal,0.684,0.624,0.831,0.973,0.308,SSA,N,Republic,Executive,90
+Serbia,0.727,0.67,0.997,0.98,0.262,EECA,N,Republic,Ceremonial,40
+Singapore,0.702,0.752,0.977,0.971,0.11,EAP,N,Republic,Ceremonial,65
+Slovak Republic,0.694,0.662,1,0.98,0.135,EECA,Y,Republic,Ceremonial,74
+Slovenia,0.805,0.801,1,0.98,0.44,EECA,Y,Republic,Ceremonial,7
+South Africa,0.756,0.652,0.993,0.98,0.399,SSA,N,Republic,Executive,18
+Spain,0.746,0.657,0.998,0.973,0.354,WE,Y,Constitutional?monarchy,Ceremonial,24
+Sri Lanka,0.669,0.521,0.986,0.98,0.188,SA,N,Republic,Executive,106
+Suriname,0.689,0.618,0.991,0.972,0.177,LAC,N,Republic,Executive,86
+Swaziland,0.67,0.595,0.995,0.98,0.109,SSA,N,Absolute monarchy,Executive,103
+Sweden,0.816,0.809,0.999,0.969,0.486,WE,Y,Constitutional?monarchy,Ceremonial,5
+Switzerland,0.755,0.743,0.993,0.972,0.314,WE,Y,Republic,Executive,21
+Syria,0.568,0.274,0.956,0.98,0.063,MENA,N,Republic,Executive,142
+Tajikistan,0.678,0.708,0.941,0.976,0.088,EECA,N,Republic,Executive,95
+Tanzania,0.7,0.674,0.91,0.976,0.239,SSA,N,Republic,Executive,68
+Thailand,0.694,0.767,0.958,0.978,0.072,EAP,N,Absolute monarchy,Executive,74
+Timor-Leste,0.628,0.393,0.934,0.979,0.205,EAP,N,Republic,Executive,128
+Tunisia,0.651,0.446,0.966,0.975,0.216,MENA,N,Republic,Executive,117
+Turkey,0.625,0.471,0.965,0.977,0.088,MENA,Y,Republic,Executive,131
+Uganda,0.721,0.693,0.913,0.973,0.305,SSA,N,Republic,Executive,44
+Ukraine,0.705,0.736,1,0.978,0.107,EECA,N,Republic,Executive,61
+United Arab Emirates,0.649,0.459,0.994,0.965,0.18,MENA,N,Absolute monarchy,Executive,119
+United Kingdom,0.77,0.705,0.999,0.971,0.404,WE,Y,Constitutional?monarchy,Ceremonial,15
+United States,0.718,0.776,1,0.973,0.124,NA,Y,Republic,Executive,49
+Uruguay,0.71,0.645,1,0.98,0.216,LAC,N,Republic,Executive,56
+Venezuela,0.706,0.678,0.997,0.98,0.167,LAC,N,Republic,Executive,59
+Vietnam,0.698,0.738,0.972,0.957,0.124,EAP,N,Republic,Executive,69
+Yemen,0.516,0.345,0.737,0.968,0.014,MENA,N,n/a,n/a,144
+Zimbabwe,0.717,0.71,0.986,0.976,0.197,SSA,N,Republic,Executive,50

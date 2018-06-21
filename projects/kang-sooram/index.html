@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="utf-8">
+    <title>Gender gap in Korea</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js'></script>
+    <style>
+    .toolTip {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        position: absolute;
+        display: none;
+        width: auto;
+        height: auto;
+        background: none repeat scroll 0 0 white;
+        border: 0 none;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: -3px 3px 15px #888888;
+        color: black;
+        font: 12px sans-serif;
+        padding: 5px;
+        text-align: center;
+    }
+    svg {
+      cursor: pointer;
+      /* pointer-events: bounding-box;
+      SVG2.0 이상에서 작동 */
+    }
+    .hover {
+        fill-opacity: .8;
+    }
+    #visualization-project {
+        margin-bottom: 64px;
+        height: 30px;
+        box-shadow: 0 3px 10px 0 rgba(93,93,93,.1);
+    }
+    #title-section {
+        text-align: center;
+    }
+    #title-section {
+        /* text-align: center; */
+        border-bottom: 1px dashed;
+    }
+    #title {
+        margin-top: 28px;
+        margin-bottom: 14px;
+        font-size: 46px;
+        font-weight: 700;
+        word-break: keep-all;
+    }
+    #title-sub {
+        font-size: 24px;
+        word-break: keep-all;
+    }
+    #writer {
+        margin: 40px auto;
+        font-size: 12px;
+        color: #4b4b4d;
+    }
+    #title-desc {
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 1.7;
+        width: 55%;
+        text-align: left;
+        max-width: 600px;
+        min-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 64px;
+    }
+    .index {
+        margin: 50px auto;
+    }
+    .index .name {
+        cursor: pointer;
+        display: inline-block;
+        /* height: 42px; */
+        border: 1px solid;
+        border-radius: 42px;
+        text-align: center;
+        padding: 11px 24px;
+        background-color: #fff;
+        font-size: 16px;
+    }
+    .index .zoom {
+        cursor: pointer;
+        font-size: 17px;
+        width: 300px;
+        /* height: 50px; */
+        text-align: center;
+        padding: 12px 0;
+        border: 1px solid #000;
+        margin: 0 calc(50% - 75px);
+    }
+    .index .compare {
+        cursor: pointer;
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+        padding: 12px 0;
+        border: 1px solid #000;
+        margin: 0 calc(40% - 75px);
+        display: inline-block; 
+    }
+    .index .upper .index .bottom{
+        width: 94%;
+        margin: 20px auto;
+        text-align: left;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    .category {
+        width: 70%;
+        max-width: 600px;
+        min-width: 300px;
+        margin: 0 auto;
+    }
+    .index .bottom {
+        position: relative;
+    }
+    .index .desc {
+        font-size: 15px;
+        /* color: #7a7a7a; */
+        line-height: 1.7;
+        text-align: left;
+        margin: 0 auto;
+    }
+    .index .subidx {
+        /* display: inline-block;  */
+        margin:10px;
+        float: right;
+        cursor: pointer;
+    }
+    .index .subidx:active, .subidx:hover {
+        font-weight: bold;
+    }
+    .total, .economy, .health, .edu, .politics {
+        display: inline-block;
+        width: 50px;
+        padding: 10px;
+    }
+    .source {
+        font-size: 13px;
+        margin-bottom: 64px;
+    }
+    .outer {
+        font-size: 15px;
+        color: #7a7a7a;
+        line-height: 1.7;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id='visualization-project'>2018-01 Visualization Final Report</div>
+        <section id='title-section'>
+            <figure id='title-image'>
+                <img src='images/title3.png' width='200' height='100'>
+            </figure>
+            <div id='title'>Gender gap in South Korea</div>
+            <div id='title-sub'>Gender inequality index of South Korea compared with those of other countries</div>
+            <div id='writer'>2012-10003 Sooram Kang</div>
+            <div id='title-desc'>
+                <p>
+                    2013년, 한국에는 최초로 여성 대통령이 취임했다. 
+                    여성 국회의원의 비율도 1996년 3%에서 2016년 17%로 큰 폭으로 증가했다(출처: 중앙선거관리위원회).
+                    또한 최근에는 미투 운동과 페미니즘 등 여성의 사회적 지위와 인권의 회복을 위한 운동이 확산되고 있다.
+                    실제로 2017년 많이 찾아본 국어사전 단어 2위가 '페미니스트'일 정도로 관심이 뜨겁다(출처: 네이버 사전).
+                </p>
+                <p>
+                    하지만 과연 한국 사회에서 양성 간의 격차는 충분히 줄어들었는가? 
+                    다른 나라들과 비교할 때 한국의 성 격차 지수는 어떠한가?
+                    세계 경제 포럼에서 발표한 세계 성 격차 지수 보고서의 내용을 바탕으로 한국의 성 격차 지수는 어느 수준인지,
+                    그리고 이는 한국과 사회⋅경제적으로 닮은 나라들과 비교했을 때 어떠한지 알아보자.
+                </p>
+            </div>
+        </section>
+    </header>
+    <section class=category id=introduction>
+        <article class=index>
+            <div class=outer>
+                <p>
+                    먼저, 성 격차 지수 보고서에서 우리나라는 어떤 성적을 받았는지 살펴보자. 
+                </p>
+            </div>
+            <div class=name id=koreaName>Indices of Korea</div>
+            <div id=koreaIndex></div>
+            <div class=compare id=avg>Compare with other countries</div>
+            <div class=desc>
+                <p>
+                    각 부문별로 양성 간의 격차가 어느 정도인지 막대의 길이로 짐작할 수 있다.
+                    경제, 교육, 건강, 정치의 네 가지 방면에서 종합적으로 평가한 우리나라의 성 격차 지수는 0.65이다. 
+                    특히, 경제와 정치 부문에서 막대가 굉장히 짧다는 것을 확인할 수 있다. 
+                    여성이 남성에 비해 절반을 조금 넘는 경제 참여 기회를 얻고 있으며, 정치 참여 또한 극히 제한적이다. 
+                </p>
+                <p>
+                    그렇다면 다른 나라의 성 격차 지수는 어떠할까? 
+                    버튼을 클릭하여 세계 평균, 1위를 차지한 아이슬란드, 꼴찌를 차지한 예멘과 비교해보자.
+                </p>
+                <p>
+                    우리나라의 성 격차 지수는 모든 부문에서 평균을 밑돌고 있다. 
+                    실제로 종합 지수에서 우리나라는 144개국 중 118위를 차지했다. 최하위권인 셈이다.
+                </p>
+            </div>
+        </article>
+    </section>
+    <section class=category>
+        <div class=outer>
+            <p>
+                다음으로, 우리나라와 경제적, 사회적으로 유사한 나라들과 우리나라의 성 격차 지수를 비교해보자.
+                1인당 GDP, 출생률, 민주주의 지수의 세 가지 지표를 기준으로 각 지표와 성 격차 지수의 상관관계를 알아보고,
+                지표별로 한국과 유사한 값을 지니는 국가들의 성 격차 지수는 어떠한지 살펴본다.
+            </p>
+        </div>
+        <article class=index>
+            <div class=GDPPC>
+                <div class=name id=GDPPCname>GDP per capita(GDPPC)</div>
+                <div class=subidx id=GDPPCtotal>합계</div>
+                <div class=subidx id=GDPPCeconomy>경제</div>
+                <div class=subidx id=GDPPCedu>교육</div>
+                <div class=subidx id=GDPPChealth>건강</div>
+                <div class=subidx id=GDPPCpolitics>정치</div>
+            </div>
+            <div class=upper>
+                <p>Which point do you think is representing Korea? Click and check each point.</p>
+            </div>
+            <div id='scatter1'></div>
+            <div class=bottom>
+                <div class=zoom id=GDPPC>Zoom Korea&neighboring points</div>
+                <div class=desc>
+                    <p>1인당 GDP와 성 격차 지수는 서유럽 국가들의 경우 어느 정도 상관 관계를 보이기는 하지만, 전체적으로는 명확한 상관 관계를 보이지 않는다. </p>
+                    <p>
+                        우리나라와 경제적으로 비슷한 수준의 나라들과 비교할 때, 우리나라의 성 격차 지수는 낮은 편에 속한다. 
+                        실제로는 여성 인권 후진국이라 불리는 중동 국가들을 제외하고 가장 낮은 지수를 보인다.
+                        특히, 교육 부문에 있어서는 기타 국가들에 비해 현저하게 낮다.
+                    </p>
+                </div>
+                <div class=source>
+                    (출처: World Economic Outlook Database, April 2018, International Monetary Fund. Accessed on 17 April 2018.)
+                </div>
+            </div>
+        </article>
+        <article class=index>
+            <div class=TFR>
+                <div class=name id=TFRname>Total fertility rate(TFR)</div>
+                <div class=subidx id=TFRtotal>합계</div>
+                <div class=subidx id=TFReconomy>경제</div>
+                <div class=subidx id=TFRedu>교육</div>
+                <div class=subidx id=TFRhealth>건강</div>
+                <div class=subidx id=TFRpolitics>정치</div>
+            </div>
+            <div class=upper>
+                <p>Which point do you think is representing Korea? Click and check each point.</p>
+            </div>
+            <div id='scatter2'></div>
+            <div class=bottom>
+                <div class=zoom id=TFR>Zoom Korea&neighboring points</div>
+                <div class=desc>
+                    <p>
+                        출생률과 성 격차 지수는 1인당 GDP와 마찬가지로 서유럽 국가들을 제외하고 뚜렷한 상관관계를 보이지 않는다.
+                        다만, 교육 부문에서는 출생률이 높을수록 성 격차 지수가 떨어지는 양상을 보인다.
+                    </p>
+                    <p>
+                        우리나라와 출생률이 비슷한 나라들은 대부분 동유럽 국가들이다. 이들과 비교할 때 우리나라는 성 격차 지수가 가장 낮다.
+                        정치 부문과 건강 부문에서는 꼴찌를 면했지만, 이들 부문에서도 평균보다 낮은 수치를 보인다.
+                    </p>
+                </div>
+                <div class=source>
+                    (출처: "The World Factbook — Central Intelligence Agency". Cia.gov. Retrieved 2018-01-04.)
+                </div>
+            </div>
+            </div>
+        </article>
+        <article class=index>
+            <div class=DI>
+                <div class=name id=DIname>Democracy Index(DI)</div>
+                <div class=subidx id=DItotal>합계</div>
+                <div class=subidx id=DIeconomy>경제</div>
+                <div class=subidx id=DIedu>교육</div>
+                <div class=subidx id=DIhealth>건강</div>
+                <div class=subidx id=DIpolitics>정치</div>
+            </div>
+            <div class=upper>
+                <p>Which point do you think is representing Korea? Click and check each point.</p>
+            </div>
+            <div id='scatter3'></div>
+            <div class=bottom>
+                <div class=zoom id=DI>Zoom Korea&neighboring points</div>
+                <div class=desc>
+                    <p>
+                        민주주의 지수와 성 격차 지수는 다른 지표에 비해 상대적으로 관계가 있다고 할 수 있다.
+                        특히, 서유럽과 중동 나라들은 비교적 명확히 상관관계를 보인다.
+                    </p>
+                    <p>
+                        우리나라와 민주주의 지수가 비슷한 나라들과 비교할 때, 우리나라는 이웃나라 일본과 함께 가장 낮은 수치를 보인다.
+                        출생률에서와 마찬가지로 교육과 경제 부문에서 최하위일 뿐만 아니라 모든 부문에서 평균보다 낮다.
+                    </p>
+                </div>
+                <div class=source>
+                    (출처:  "Democracy Index 2017 - Economist Intelligence Unit" (PDF). EIU.com. Retrieved 17 February 2018.)
+                </div>
+            </div>
+            </div>
+        </article>
+    </section>
+    <section class=category id=conclusion>
+        <div class=outer>
+            <p>
+                1인당 GDP, 출생률, 민주주의 지수 등 사회⋅경제적 지표들과 성 격차 지수는 크게 상관관계를 보이지 않았다.
+                그렇기에 이들 지표를 기준으로 한국과 다른 나라의 성 격차 지수를 비교하는 데에는 무리가 있다.
+                하지만, 그럼에도 지표별로 한국과 유사한 나라들 가운데 한국은 성 격차가 가장 심한 나라 중 하나라는 점을 알 수 있었다.
+                양성 간의 격차를 해소하여 성 격차 지수 최하위권을 벗어나려는 노력이 절실하다.
+            </p>
+        </div>
+        <div class=source>
+            (reference: http://project.newsjel.ly/governments/)
+        </div>
+    </section>
+    
+    <script src="bar.js"></script>
+    <script src='scatter2.js'></script>
+</body>
+</html>

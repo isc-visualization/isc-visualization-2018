@@ -1,0 +1,3163 @@
+Country,Sex,Age_Group,Time,Value
+Australia,Men,Total,1990,70.5
+Australia,Men,Total,1995,67.4
+Australia,Men,Total,2000,67.4
+Australia,Men,Total,2001,66.8
+Australia,Men,Total,2002,67.1
+Australia,Men,Total,2003,67.3
+Australia,Men,Total,2004,67.7
+Australia,Men,Total,2005,68.6
+Australia,Men,Total,2006,68.9
+Australia,Men,Total,2007,69.6
+Australia,Men,Total,2008,69.7
+Australia,Men,Total,2009,68.2
+Australia,Men,Total,2010,68.7
+Australia,Men,Total,2011,68.6
+Australia,Men,Total,2012,68
+Australia,Women,Total,1990,48.5
+Australia,Women,Total,1995,49.3
+Australia,Women,Total,2000,51.2
+Australia,Women,Total,2001,51.5
+Australia,Women,Total,2002,51.8
+Australia,Women,Total,2003,52.6
+Australia,Women,Total,2004,52.6
+Australia,Women,Total,2005,54
+Australia,Women,Total,2006,54.7
+Australia,Women,Total,2007,55.3
+Australia,Women,Total,2008,55.9
+Australia,Women,Total,2009,55.6
+Australia,Women,Total,2010,55.5
+Australia,Women,Total,2011,55.7
+Australia,Women,Total,2012,55.6
+Austria,Men,Total,1995,68.5
+Austria,Men,Total,2000,66.6
+Austria,Men,Total,2001,66.1
+Austria,Men,Total,2002,65.7
+Austria,Men,Total,2003,65.5
+Austria,Men,Total,2004,62.7
+Austria,Men,Total,2005,62.8
+Austria,Men,Total,2006,63.4
+Austria,Men,Total,2007,64.5
+Austria,Men,Total,2008,64.8
+Austria,Men,Total,2009,63.6
+Austria,Men,Total,2010,63.8
+Austria,Men,Total,2011,63.9
+Austria,Men,Total,2012,63.6
+Austria,Women,Total,1995,46.6
+Austria,Women,Total,2000,47.1
+Austria,Women,Total,2001,47.7
+Austria,Women,Total,2002,48.6
+Austria,Women,Total,2003,49
+Austria,Women,Total,2004,47.4
+Austria,Women,Total,2005,48.3
+Austria,Women,Total,2006,49.1
+Austria,Women,Total,2007,50
+Austria,Women,Total,2008,51
+Austria,Women,Total,2009,51.3
+Austria,Women,Total,2010,51.6
+Austria,Women,Total,2011,52
+Austria,Women,Total,2012,52.4
+Belgium,Men,Total,1990,58.3
+Belgium,Men,Total,1995,56.7
+Belgium,Men,Total,2000,58
+Belgium,Men,Total,2001,57.3
+Belgium,Men,Total,2002,56.8
+Belgium,Men,Total,2003,55.9
+Belgium,Men,Total,2004,56.5
+Belgium,Men,Total,2005,56.7
+Belgium,Men,Total,2006,56.4
+Belgium,Men,Total,2007,57
+Belgium,Men,Total,2008,56.9
+Belgium,Men,Total,2009,55.7
+Belgium,Men,Total,2010,55.9
+Belgium,Men,Total,2011,55.5
+Belgium,Men,Total,2012,55.2
+Belgium,Women,Total,1990,32.4
+Belgium,Women,Total,1995,35.6
+Belgium,Women,Total,2000,39.6
+Belgium,Women,Total,2001,39.2
+Belgium,Women,Total,2002,39.5
+Belgium,Women,Total,2003,39.8
+Belgium,Women,Total,2004,40.2
+Belgium,Women,Total,2005,41.3
+Belgium,Women,Total,2006,41.6
+Belgium,Women,Total,2007,42.6
+Belgium,Women,Total,2008,43.3
+Belgium,Women,Total,2009,43.1
+Belgium,Women,Total,2010,43.6
+Belgium,Women,Total,2011,43.7
+Belgium,Women,Total,2012,43.6
+Canada,Men,Total,1990,69.9
+Canada,Men,Total,1995,65.4
+Canada,Men,Total,2000,67.3
+Canada,Men,Total,2001,66.8
+Canada,Men,Total,2002,67.1
+Canada,Men,Total,2003,67.6
+Canada,Men,Total,2004,67.7
+Canada,Men,Total,2005,67.7
+Canada,Men,Total,2006,67.6
+Canada,Men,Total,2007,67.9
+Canada,Men,Total,2008,68
+Canada,Men,Total,2009,65.1
+Canada,Men,Total,2010,65.3
+Canada,Men,Total,2011,65.7
+Canada,Men,Total,2012,65.5
+Canada,Women,Total,1990,53.8
+Canada,Women,Total,1995,52.2
+Canada,Women,Total,2000,55.4
+Canada,Women,Total,2001,55.7
+Canada,Women,Total,2002,56.6
+Canada,Women,Total,2003,57.5
+Canada,Women,Total,2004,57.7
+Canada,Women,Total,2005,57.7
+Canada,Women,Total,2006,58.1
+Canada,Women,Total,2007,59
+Canada,Women,Total,2008,59
+Canada,Women,Total,2009,58
+Canada,Women,Total,2010,57.9
+Canada,Women,Total,2011,57.8
+Canada,Women,Total,2012,57.9
+Czech Republic,Men,Total,1995,69
+Czech Republic,Men,Total,2000,64.7
+Czech Republic,Men,Total,2001,64.7
+Czech Republic,Men,Total,2002,65.3
+Czech Republic,Men,Total,2003,64.5
+Czech Republic,Men,Total,2004,63.6
+Czech Republic,Men,Total,2005,64.3
+Czech Republic,Men,Total,2006,64.6
+Czech Republic,Men,Total,2007,65.5
+Czech Republic,Men,Total,2008,65.8
+Czech Republic,Men,Total,2009,64.3
+Czech Republic,Men,Total,2010,63.7
+Czech Republic,Men,Total,2011,63.7
+Czech Republic,Men,Total,2012,63.6
+Czech Republic,Women,Total,1995,49.8
+Czech Republic,Women,Total,2000,46.2
+Czech Republic,Women,Total,2001,46.2
+Czech Republic,Women,Total,2002,46.4
+Czech Republic,Women,Total,2003,45.8
+Czech Republic,Women,Total,2004,45.5
+Czech Republic,Women,Total,2005,45.7
+Czech Republic,Women,Total,2006,46.1
+Czech Republic,Women,Total,2007,46.4
+Czech Republic,Women,Total,2008,46.6
+Czech Republic,Women,Total,2009,45.7
+Czech Republic,Women,Total,2010,45.1
+Czech Republic,Women,Total,2011,45.6
+Czech Republic,Women,Total,2012,45.9
+Denmark,Men,Total,1990,69.2
+Denmark,Men,Total,1995,68
+Denmark,Men,Total,2000,68.3
+Denmark,Men,Total,2001,68.6
+Denmark,Men,Total,2002,68.1
+Denmark,Men,Total,2003,68
+Denmark,Men,Total,2004,68
+Denmark,Men,Total,2005,67.9
+Denmark,Men,Total,2006,68.7
+Denmark,Men,Total,2007,68.5
+Denmark,Men,Total,2008,69
+Denmark,Men,Total,2009,65.5
+Denmark,Men,Total,2010,63.3
+Denmark,Men,Total,2011,63.1
+Denmark,Men,Total,2012,62.3
+Denmark,Women,Total,1990,56
+Denmark,Women,Total,1995,52.5
+Denmark,Women,Total,2000,56.9
+Denmark,Women,Total,2001,57.5
+Denmark,Women,Total,2002,57.1
+Denmark,Women,Total,2003,56.2
+Denmark,Women,Total,2004,57
+Denmark,Women,Total,2005,57.2
+Denmark,Women,Total,2006,58.2
+Denmark,Women,Total,2007,58.1
+Denmark,Women,Total,2008,58.7
+Denmark,Women,Total,2009,57.4
+Denmark,Women,Total,2010,55.9
+Denmark,Women,Total,2011,55.2
+Denmark,Women,Total,2012,54.6
+Finland,Men,Total,1990,72.2
+Finland,Men,Total,1995,59.2
+Finland,Men,Total,2000,64.2
+Finland,Men,Total,2001,64.7
+Finland,Men,Total,2002,64
+Finland,Men,Total,2003,63.8
+Finland,Men,Total,2004,63.6
+Finland,Men,Total,2005,63.9
+Finland,Men,Total,2006,65.1
+Finland,Men,Total,2007,65.7
+Finland,Men,Total,2008,66.7
+Finland,Men,Total,2009,62.4
+Finland,Men,Total,2010,63.1
+Finland,Men,Total,2011,63.8
+Finland,Men,Total,2012,63.5
+Finland,Women,Total,1990,63.1
+Finland,Women,Total,1995,51.7
+Finland,Women,Total,2000,56.6
+Finland,Women,Total,2001,57.5
+Finland,Women,Total,2002,58.2
+Finland,Women,Total,2003,57.8
+Finland,Women,Total,2004,57.7
+Finland,Women,Total,2005,58.6
+Finland,Women,Total,2006,59.4
+Finland,Women,Total,2007,60.4
+Finland,Women,Total,2008,60.8
+Finland,Women,Total,2009,59.8
+Finland,Women,Total,2010,58.8
+Finland,Women,Total,2011,59.1
+Finland,Women,Total,2012,59.3
+France,Men,Total,1990,59.9
+France,Men,Total,1995,56.3
+France,Men,Total,2000,56.7
+France,Men,Total,2001,57.4
+France,Men,Total,2002,57
+France,Men,Total,2003,58.4
+France,Men,Total,2004,58
+France,Men,Total,2005,57.7
+France,Men,Total,2006,57.4
+France,Men,Total,2007,57.7
+France,Men,Total,2008,58
+France,Men,Total,2009,56.8
+France,Men,Total,2010,56.6
+France,Men,Total,2011,56.4
+France,Men,Total,2012,56
+France,Women,Total,1990,40.4
+France,Women,Total,1995,40.7
+France,Women,Total,2000,42.4
+France,Women,Total,2001,43.1
+France,Women,Total,2002,43.6
+France,Women,Total,2003,45.7
+France,Women,Total,2004,45.6
+France,Women,Total,2005,45.8
+France,Women,Total,2006,45.9
+France,Women,Total,2007,46.8
+France,Women,Total,2008,47.3
+France,Women,Total,2009,46.9
+France,Women,Total,2010,46.8
+France,Women,Total,2011,46.6
+France,Women,Total,2012,46.7
+Germany,Men,Total,1990,66.6
+Germany,Men,Total,1995,63.6
+Germany,Men,Total,2000,61.6
+Germany,Men,Total,2001,61.1
+Germany,Men,Total,2002,59.8
+Germany,Men,Total,2003,58.6
+Germany,Men,Total,2004,58
+Germany,Men,Total,2005,58.7
+Germany,Men,Total,2006,59.6
+Germany,Men,Total,2007,60.7
+Germany,Men,Total,2008,61.5
+Germany,Men,Total,2009,61
+Germany,Men,Total,2010,61.2
+Germany,Men,Total,2011,62.6
+Germany,Men,Total,2012,62.7
+Germany,Women,Total,1990,40.8
+Germany,Women,Total,1995,42.7
+Germany,Women,Total,2000,45.1
+Germany,Women,Total,2001,45.4
+Germany,Women,Total,2002,45.3
+Germany,Women,Total,2003,45.1
+Germany,Women,Total,2004,44.9
+Germany,Women,Total,2005,45.5
+Germany,Women,Total,2006,46.7
+Germany,Women,Total,2007,47.8
+Germany,Women,Total,2008,48.5
+Germany,Women,Total,2009,49.1
+Germany,Women,Total,2010,49.7
+Germany,Women,Total,2011,51
+Germany,Women,Total,2012,51.2
+Greece,Men,Total,1990,63
+Greece,Men,Total,1995,60.4
+Greece,Men,Total,2000,59.9
+Greece,Men,Total,2001,59.4
+Greece,Men,Total,2002,59.7
+Greece,Men,Total,2003,60.3
+Greece,Men,Total,2004,60.1
+Greece,Men,Total,2005,60.3
+Greece,Men,Total,2006,60.7
+Greece,Men,Total,2007,60.8
+Greece,Men,Total,2008,60.9
+Greece,Men,Total,2009,59.6
+Greece,Men,Total,2010,57.2
+Greece,Men,Total,2011,52.8
+Greece,Men,Total,2012,48.1
+Greece,Women,Total,1990,31.3
+Greece,Women,Total,1995,30.6
+Greece,Women,Total,2000,33.4
+Greece,Women,Total,2001,33
+Greece,Women,Total,2002,33.8
+Greece,Women,Total,2003,34.7
+Greece,Women,Total,2004,35.2
+Greece,Women,Total,2005,35.6
+Greece,Women,Total,2006,36.6
+Greece,Women,Total,2007,36.9
+Greece,Women,Total,2008,37.5
+Greece,Women,Total,2009,37.7
+Greece,Women,Total,2010,36.9
+Greece,Women,Total,2011,34.4
+Greece,Women,Total,2012,31.6
+Iceland,Men,Total,1995,81.4
+Iceland,Men,Total,2000,84.6
+Iceland,Men,Total,2001,84.7
+Iceland,Men,Total,2002,82.4
+Iceland,Men,Total,2003,82.8
+Iceland,Men,Total,2004,82.3
+Iceland,Men,Total,2005,83.8
+Iceland,Men,Total,2006,85.3
+Iceland,Men,Total,2007,85.5
+Iceland,Men,Total,2008,84.2
+Iceland,Men,Total,2009,77.4
+Iceland,Men,Total,2010,77.4
+Iceland,Men,Total,2011,77.2
+Iceland,Men,Total,2012,77.8
+Iceland,Women,Total,1995,72.3
+Iceland,Women,Total,2000,75.2
+Iceland,Women,Total,2001,75.4
+Iceland,Women,Total,2002,74.5
+Iceland,Women,Total,2003,75.9
+Iceland,Women,Total,2004,74.1
+Iceland,Women,Total,2005,75.7
+Iceland,Women,Total,2006,76.1
+Iceland,Women,Total,2007,76.8
+Iceland,Women,Total,2008,75.7
+Iceland,Women,Total,2009,72.7
+Iceland,Women,Total,2010,72.4
+Iceland,Women,Total,2011,72.2
+Iceland,Women,Total,2012,73.3
+Ireland,Men,Total,1990,60.4
+Ireland,Men,Total,1995,59.9
+Ireland,Men,Total,2000,68.5
+Ireland,Men,Total,2001,68.9
+Ireland,Men,Total,2002,67.7
+Ireland,Men,Total,2003,67.4
+Ireland,Men,Total,2004,68
+Ireland,Men,Total,2005,68.8
+Ireland,Men,Total,2006,70
+Ireland,Men,Total,2007,70.1
+Ireland,Men,Total,2008,68.2
+Ireland,Men,Total,2009,60.2
+Ireland,Men,Total,2010,57.3
+Ireland,Men,Total,2011,56.1
+Ireland,Men,Total,2012,55.5
+Ireland,Women,Total,1990,32.3
+Ireland,Women,Total,1995,34.9
+Ireland,Women,Total,2000,45.5
+Ireland,Women,Total,2001,46.3
+Ireland,Women,Total,2002,47
+Ireland,Women,Total,2003,47.2
+Ireland,Women,Total,2004,47.8
+Ireland,Women,Total,2005,49.7
+Ireland,Women,Total,2006,50.7
+Ireland,Women,Total,2007,52.2
+Ireland,Women,Total,2008,52.1
+Ireland,Women,Total,2009,49.5
+Ireland,Women,Total,2010,48.1
+Ireland,Women,Total,2011,47.5
+Ireland,Women,Total,2012,47
+Italy,Men,Total,1990,59.5
+Italy,Men,Total,1995,57.2
+Italy,Men,Total,2000,57.2
+Italy,Men,Total,2001,57.4
+Italy,Men,Total,2002,57.7
+Italy,Men,Total,2003,58.1
+Italy,Men,Total,2004,57.4
+Italy,Men,Total,2005,57.2
+Italy,Men,Total,2006,57.5
+Italy,Men,Total,2007,57.5
+Italy,Men,Total,2008,57.1
+Italy,Men,Total,2009,55.6
+Italy,Men,Total,2010,54.7
+Italy,Men,Total,2011,54.3
+Italy,Men,Total,2012,53.4
+Italy,Women,Total,1990,29.5
+Italy,Women,Total,1995,28.1
+Italy,Women,Total,2000,30.6
+Italy,Women,Total,2001,31.7
+Italy,Women,Total,2002,32.3
+Italy,Women,Total,2003,32.8
+Italy,Women,Total,2004,34.5
+Italy,Women,Total,2005,34.2
+Italy,Women,Total,2006,34.8
+Italy,Women,Total,2007,35
+Italy,Women,Total,2008,35.4
+Italy,Women,Total,2009,34.7
+Italy,Women,Total,2010,34.5
+Italy,Women,Total,2011,34.7
+Italy,Women,Total,2012,35
+Japan,Men,Total,1990,75.8
+Japan,Men,Total,1995,75.2
+Japan,Men,Total,2000,72.6
+Japan,Men,Total,2001,71.7
+Japan,Men,Total,2002,70.6
+Japan,Men,Total,2003,70.1
+Japan,Men,Total,2004,69.8
+Japan,Men,Total,2005,69.9
+Japan,Men,Total,2006,70
+Japan,Men,Total,2007,70.2
+Japan,Men,Total,2008,69.8
+Japan,Men,Total,2009,68.2
+Japan,Men,Total,2010,67.7
+Japan,Men,Total,2011,67.7
+Japan,Men,Total,2012,67.5
+Japan,Women,Total,1990,49
+Japan,Women,Total,1995,48.4
+Japan,Women,Total,2000,47.1
+Japan,Women,Total,2001,46.8
+Japan,Women,Total,2002,46.1
+Japan,Women,Total,2003,45.9
+Japan,Women,Total,2004,46.1
+Japan,Women,Total,2005,46.3
+Japan,Women,Total,2006,46.6
+Japan,Women,Total,2007,46.7
+Japan,Women,Total,2008,46.5
+Japan,Women,Total,2009,46.2
+Japan,Women,Total,2010,46.3
+Japan,Women,Total,2011,46.3
+Japan,Women,Total,2012,46.2
+Korea,Men,Total,1990,71.9
+Korea,Men,Total,1995,74.6
+Korea,Men,Total,2000,70.7
+Korea,Men,Total,2001,71
+Korea,Men,Total,2002,72.2
+Korea,Men,Total,2003,71.9
+Korea,Men,Total,2004,72
+Korea,Men,Total,2005,71.6
+Korea,Men,Total,2006,71.3
+Korea,Men,Total,2007,71.3
+Korea,Men,Total,2008,70.9
+Korea,Men,Total,2009,70.1
+Korea,Men,Total,2010,70.1
+Korea,Men,Total,2011,70.5
+Korea,Men,Total,2012,70.8
+Korea,Women,Total,1990,46.1
+Korea,Women,Total,1995,47.6
+Korea,Women,Total,2000,47
+Korea,Women,Total,2001,47.7
+Korea,Women,Total,2002,48.4
+Korea,Women,Total,2003,47.4
+Korea,Women,Total,2004,48.3
+Korea,Women,Total,2005,48.4
+Korea,Women,Total,2006,48.8
+Korea,Women,Total,2007,48.9
+Korea,Women,Total,2008,48.7
+Korea,Women,Total,2009,47.7
+Korea,Women,Total,2010,47.8
+Korea,Women,Total,2011,48.1
+Korea,Women,Total,2012,48.4
+Luxembourg,Men,Total,1990,66.9
+Luxembourg,Men,Total,1995,65
+Luxembourg,Men,Total,2000,64.9
+Luxembourg,Men,Total,2001,64.7
+Luxembourg,Men,Total,2002,65.2
+Luxembourg,Men,Total,2003,63.2
+Luxembourg,Men,Total,2004,62.5
+Luxembourg,Men,Total,2005,62.8
+Luxembourg,Men,Total,2006,58.2
+Luxembourg,Men,Total,2007,59.1
+Luxembourg,Men,Total,2008,61.4
+Luxembourg,Men,Total,2009,63.7
+Luxembourg,Men,Total,2010,63.3
+Luxembourg,Men,Total,2011,62.6
+Luxembourg,Men,Total,2012,62.7
+Luxembourg,Women,Total,1990,32.8
+Luxembourg,Women,Total,1995,34.3
+Luxembourg,Women,Total,2000,40.1
+Luxembourg,Women,Total,2001,41.5
+Luxembourg,Women,Total,2002,41.9
+Luxembourg,Women,Total,2003,41.6
+Luxembourg,Women,Total,2004,42.2
+Luxembourg,Women,Total,2005,43.7
+Luxembourg,Women,Total,2006,46.3
+Luxembourg,Women,Total,2007,48
+Luxembourg,Women,Total,2008,45.2
+Luxembourg,Women,Total,2009,46.8
+Luxembourg,Women,Total,2010,47.2
+Luxembourg,Women,Total,2011,47.1
+Luxembourg,Women,Total,2012,48.8
+Netherlands,Men,Total,1990,67.3
+Netherlands,Men,Total,1995,67
+Netherlands,Men,Total,2000,70.9
+Netherlands,Men,Total,2001,71.1
+Netherlands,Men,Total,2002,70.9
+Netherlands,Men,Total,2003,69.1
+Netherlands,Men,Total,2004,68.2
+Netherlands,Men,Total,2005,68.2
+Netherlands,Men,Total,2006,68.7
+Netherlands,Men,Total,2007,69.9
+Netherlands,Men,Total,2008,70.8
+Netherlands,Men,Total,2009,69.8
+Netherlands,Men,Total,2010,68.3
+Netherlands,Men,Total,2011,67.6
+Netherlands,Men,Total,2012,67.4
+Netherlands,Women,Total,1990,39.8
+Netherlands,Women,Total,1995,44.7
+Netherlands,Women,Total,2000,51.6
+Netherlands,Women,Total,2001,52.2
+Netherlands,Women,Total,2002,53.1
+Netherlands,Women,Total,2003,52.2
+Netherlands,Women,Total,2004,52.2
+Netherlands,Women,Total,2005,52.6
+Netherlands,Women,Total,2006,53.5
+Netherlands,Women,Total,2007,55.2
+Netherlands,Women,Total,2008,56.5
+Netherlands,Women,Total,2009,56.7
+Netherlands,Women,Total,2010,56.3
+Netherlands,Women,Total,2011,56.4
+Netherlands,Women,Total,2012,56.4
+New Zealand,Men,Total,1990,68.1
+New Zealand,Men,Total,1995,69.4
+New Zealand,Men,Total,2000,69
+New Zealand,Men,Total,2001,69.8
+New Zealand,Men,Total,2002,70.7
+New Zealand,Men,Total,2003,70.5
+New Zealand,Men,Total,2004,71.8
+New Zealand,Men,Total,2005,72.4
+New Zealand,Men,Total,2006,72.9
+New Zealand,Men,Total,2007,73
+New Zealand,Men,Total,2008,72.1
+New Zealand,Men,Total,2009,70.1
+New Zealand,Men,Total,2010,69.8
+New Zealand,Men,Total,2011,69.9
+New Zealand,Men,Total,2012,69.1
+New Zealand,Women,Total,1990,49.9
+New Zealand,Women,Total,1995,52.2
+New Zealand,Women,Total,2000,54
+New Zealand,Women,Total,2001,55.1
+New Zealand,Women,Total,2002,55.8
+New Zealand,Women,Total,2003,56.3
+New Zealand,Women,Total,2004,57.1
+New Zealand,Women,Total,2005,58.3
+New Zealand,Women,Total,2006,58.7
+New Zealand,Women,Total,2007,59.3
+New Zealand,Women,Total,2008,59.4
+New Zealand,Women,Total,2009,58.3
+New Zealand,Women,Total,2010,57.7
+New Zealand,Women,Total,2011,58.3
+New Zealand,Women,Total,2012,58
+Norway,Men,Total,1990,72.2
+Norway,Men,Total,1995,71.3
+Norway,Men,Total,2000,75.2
+Norway,Men,Total,2001,75
+Norway,Men,Total,2002,74.1
+Norway,Men,Total,2003,72.9
+Norway,Men,Total,2004,72.7
+Norway,Men,Total,2005,72.5
+Norway,Men,Total,2006,73
+Norway,Men,Total,2007,74
+Norway,Men,Total,2008,74.9
+Norway,Men,Total,2009,72.9
+Norway,Men,Total,2010,71.9
+Norway,Men,Total,2011,71.5
+Norway,Men,Total,2012,71.7
+Norway,Women,Total,1990,59.4
+Norway,Women,Total,1995,61.1
+Norway,Women,Total,2000,66.7
+Norway,Women,Total,2001,66.9
+Norway,Women,Total,2002,67.1
+Norway,Women,Total,2003,66.3
+Norway,Women,Total,2004,66.2
+Norway,Women,Total,2005,65.6
+Norway,Women,Total,2006,66
+Norway,Women,Total,2007,67.7
+Norway,Women,Total,2008,69
+Norway,Women,Total,2009,67.9
+Norway,Women,Total,2010,66.6
+Norway,Women,Total,2011,66.6
+Norway,Women,Total,2012,66.7
+Portugal,Men,Total,1990,68.9
+Portugal,Men,Total,1995,62.7
+Portugal,Men,Total,2000,67.6
+Portugal,Men,Total,2001,68
+Portugal,Men,Total,2002,67.6
+Portugal,Men,Total,2003,66.1
+Portugal,Men,Total,2004,65.3
+Portugal,Men,Total,2005,64.5
+Portugal,Men,Total,2006,64.8
+Portugal,Men,Total,2007,64.6
+Portugal,Men,Total,2008,64.5
+Portugal,Men,Total,2009,61.7
+Portugal,Men,Total,2010,60.7
+Portugal,Men,Total,2011,58.8
+Portugal,Men,Total,2012,56
+Portugal,Women,Total,1990,44.9
+Portugal,Women,Total,1995,45.3
+Portugal,Women,Total,2000,50.3
+Portugal,Women,Total,2001,50.9
+Portugal,Women,Total,2002,50.9
+Portugal,Women,Total,2003,50.6
+Portugal,Women,Total,2004,50.4
+Portugal,Women,Total,2005,50.5
+Portugal,Women,Total,2006,50.6
+Portugal,Women,Total,2007,50.7
+Portugal,Women,Total,2008,50.9
+Portugal,Women,Total,2009,50
+Portugal,Women,Total,2010,49.2
+Portugal,Women,Total,2011,47.5
+Portugal,Women,Total,2012,46.2
+Spain,Men,Total,1990,61.9
+Spain,Men,Total,1995,54.3
+Spain,Men,Total,2000,60.7
+Spain,Men,Total,2001,61.5
+Spain,Men,Total,2002,61.5
+Spain,Men,Total,2003,62.1
+Spain,Men,Total,2004,62.6
+Spain,Men,Total,2005,64.1
+Spain,Men,Total,2006,64.8
+Spain,Men,Total,2007,64.9
+Spain,Men,Total,2008,62.6
+Spain,Men,Total,2009,56.5
+Spain,Men,Total,2010,54.8
+Spain,Men,Total,2011,53.3
+Spain,Men,Total,2012,50.6
+Spain,Women,Total,1990,25.9
+Spain,Women,Total,1995,26.1
+Spain,Women,Total,2000,32.9
+Spain,Women,Total,2001,34.1
+Spain,Women,Total,2002,35.8
+Spain,Women,Total,2003,37.3
+Spain,Women,Total,2004,39
+Spain,Women,Total,2005,41.4
+Spain,Women,Total,2006,43
+Spain,Women,Total,2007,44.2
+Spain,Women,Total,2008,44.4
+Spain,Women,Total,2009,42.6
+Spain,Women,Total,2010,42
+Spain,Women,Total,2011,41.7
+Spain,Women,Total,2012,40.5
+Sweden,Men,Total,1990,76.2
+Sweden,Men,Total,1995,66.5
+Sweden,Men,Total,2000,69.6
+Sweden,Men,Total,2001,70.3
+Sweden,Men,Total,2002,70.1
+Sweden,Men,Total,2003,69.3
+Sweden,Men,Total,2004,68.6
+Sweden,Men,Total,2005,69.3
+Sweden,Men,Total,2006,70
+Sweden,Men,Total,2007,69.6
+Sweden,Men,Total,2008,69.7
+Sweden,Men,Total,2009,67.1
+Sweden,Men,Total,2010,67.4
+Sweden,Men,Total,2011,68.1
+Sweden,Men,Total,2012,67.9
+Sweden,Women,Total,1990,69.9
+Sweden,Women,Total,1995,61.8
+Sweden,Women,Total,2000,63.9
+Sweden,Women,Total,2001,65
+Sweden,Women,Total,2002,65
+Sweden,Women,Total,2003,64.6
+Sweden,Women,Total,2004,63.7
+Sweden,Women,Total,2005,63.6
+Sweden,Women,Total,2006,64
+Sweden,Women,Total,2007,63.9
+Sweden,Women,Total,2008,63.8
+Sweden,Women,Total,2009,62.2
+Sweden,Women,Total,2010,61.4
+Sweden,Women,Total,2011,62.6
+Sweden,Women,Total,2012,63
+Switzerland,Men,Total,1995,76.8
+Switzerland,Men,Total,2000,76
+Switzerland,Men,Total,2001,76.1
+Switzerland,Men,Total,2002,74.6
+Switzerland,Men,Total,2003,73.9
+Switzerland,Men,Total,2004,73
+Switzerland,Men,Total,2005,72.2
+Switzerland,Men,Total,2006,72.8
+Switzerland,Men,Total,2007,73.6
+Switzerland,Men,Total,2008,73.3
+Switzerland,Men,Total,2009,72.4
+Switzerland,Men,Total,2010,71
+Switzerland,Men,Total,2011,71.6
+Switzerland,Men,Total,2012,71.3
+Switzerland,Women,Total,1995,53.7
+Switzerland,Women,Total,2000,55.8
+Switzerland,Women,Total,2001,56.8
+Switzerland,Women,Total,2002,57.5
+Switzerland,Women,Total,2003,56.8
+Switzerland,Women,Total,2004,56.3
+Switzerland,Women,Total,2005,56.3
+Switzerland,Women,Total,2006,56.9
+Switzerland,Women,Total,2007,57.2
+Switzerland,Women,Total,2008,58.9
+Switzerland,Women,Total,2009,58.8
+Switzerland,Women,Total,2010,56.9
+Switzerland,Women,Total,2011,57.6
+Switzerland,Women,Total,2012,58
+United Kingdom,Men,Total,1990,70.2
+United Kingdom,Men,Total,1995,64.7
+United Kingdom,Men,Total,2000,66.8
+United Kingdom,Men,Total,2001,66.7
+United Kingdom,Men,Total,2002,66.6
+United Kingdom,Men,Total,2003,67.1
+United Kingdom,Men,Total,2004,66.8
+United Kingdom,Men,Total,2005,66.8
+United Kingdom,Men,Total,2006,66.6
+United Kingdom,Men,Total,2007,66.7
+United Kingdom,Men,Total,2008,66.7
+United Kingdom,Men,Total,2009,64.1
+United Kingdom,Men,Total,2010,63.6
+United Kingdom,Men,Total,2011,63.7
+United Kingdom,Men,Total,2012,63.8
+United Kingdom,Women,Total,1990,49.8
+United Kingdom,Women,Total,1995,49.5
+United Kingdom,Women,Total,2000,52.3
+United Kingdom,Women,Total,2001,52.6
+United Kingdom,Women,Total,2002,53
+United Kingdom,Women,Total,2003,53
+United Kingdom,Women,Total,2004,53.3
+United Kingdom,Women,Total,2005,53.6
+United Kingdom,Women,Total,2006,53.8
+United Kingdom,Women,Total,2007,53.4
+United Kingdom,Women,Total,2008,53.9
+United Kingdom,Women,Total,2009,52.9
+United Kingdom,Women,Total,2010,52.8
+United Kingdom,Women,Total,2011,52.6
+United Kingdom,Women,Total,2012,52.6
+United States,Men,Total,1990,72
+United States,Men,Total,1995,70.8
+United States,Men,Total,2000,71.9
+United States,Men,Total,2001,70.9
+United States,Men,Total,2002,69.7
+United States,Men,Total,2003,68.9
+United States,Men,Total,2004,69.2
+United States,Men,Total,2005,69.6
+United States,Men,Total,2006,70.1
+United States,Men,Total,2007,69.8
+United States,Men,Total,2008,68.5
+United States,Men,Total,2009,64.5
+United States,Men,Total,2010,63.7
+United States,Men,Total,2011,63.9
+United States,Men,Total,2012,64.4
+United States,Women,Total,1990,54.3
+United States,Women,Total,1995,55.6
+United States,Women,Total,2000,57.5
+United States,Women,Total,2001,57
+United States,Women,Total,2002,56.3
+United States,Women,Total,2003,56.1
+United States,Women,Total,2004,56
+United States,Women,Total,2005,56.2
+United States,Women,Total,2006,56.6
+United States,Women,Total,2007,56.6
+United States,Women,Total,2008,56.2
+United States,Women,Total,2009,54.4
+United States,Women,Total,2010,53.6
+United States,Women,Total,2011,53.2
+United States,Women,Total,2012,53.1
+Israel,Men,Total,1990,64.1
+Israel,Men,Total,1995,67.7
+Israel,Men,Total,2000,62.4
+Israel,Men,Total,2001,61.8
+Israel,Men,Total,2002,60
+Israel,Men,Total,2003,59.6
+Israel,Men,Total,2004,60.6
+Israel,Men,Total,2005,61.6
+Israel,Men,Total,2006,62.4
+Israel,Men,Total,2007,63.7
+Israel,Men,Total,2008,64.7
+Israel,Men,Total,2009,62.5
+Israel,Men,Total,2010,63.4
+Israel,Men,Total,2011,64.3
+Israel,Men,Total,2012,64.6
+Israel,Women,Total,1990,40.2
+Israel,Women,Total,1995,46.3
+Israel,Women,Total,2000,47.8
+Israel,Women,Total,2001,47.7
+Israel,Women,Total,2002,46.9
+Israel,Women,Total,2003,47.2
+Israel,Women,Total,2004,47.6
+Israel,Women,Total,2005,49.2
+Israel,Women,Total,2006,49.7
+Israel,Women,Total,2007,50.9
+Israel,Women,Total,2008,51.9
+Israel,Women,Total,2009,52.1
+Israel,Women,Total,2010,52.9
+Israel,Women,Total,2011,53.2
+Israel,Women,Total,2012,54.1
+OECD - Average,Men,Total,1990,73.1
+OECD - Average,Men,Total,1995,69.5
+OECD - Average,Men,Total,2000,68.8
+OECD - Average,Men,Total,2001,68.2
+OECD - Average,Men,Total,2002,66.4
+OECD - Average,Men,Total,2003,66
+OECD - Average,Men,Total,2004,66
+OECD - Average,Men,Total,2005,66.3
+OECD - Average,Men,Total,2006,66.6
+OECD - Average,Men,Total,2007,66.8
+OECD - Average,Men,Total,2008,66.5
+OECD - Average,Men,Total,2009,64.1
+OECD - Average,Men,Total,2010,63.8
+OECD - Average,Men,Total,2011,64
+OECD - Average,Men,Total,2012,63.9
+OECD - Average,Women,Total,1990,49.5
+OECD - Average,Women,Total,1995,47.2
+OECD - Average,Women,Total,2000,47.5
+OECD - Average,Women,Total,2001,47.6
+OECD - Average,Women,Total,2002,46.2
+OECD - Average,Women,Total,2003,46.2
+OECD - Average,Women,Total,2004,46.4
+OECD - Average,Women,Total,2005,46.8
+OECD - Average,Women,Total,2006,47.4
+OECD - Average,Women,Total,2007,47.8
+OECD - Average,Women,Total,2008,47.9
+OECD - Average,Women,Total,2009,47.2
+OECD - Average,Women,Total,2010,47
+OECD - Average,Women,Total,2011,47.1
+OECD - Average,Women,Total,2012,47.2
+Canada,Men,55-64,2012,64
+Australia,Women,25-54,2008,72.4
+Korea,Men,25-54,2010,86.8
+Denmark,Women,25-54,2006,82
+Israel,Men,55-64,2002,59.1
+OECD - Average,Men,25-54,1995,87.7
+United States,Women,25-54,2011,69
+Switzerland,Women,55-64,2001,53.6
+Finland,Women,25-54,1995,73.5
+Sweden,Women,55-64,2012,69.8
+United Kingdom,Women,55-64,2013,53
+Norway,Men,25-54,2008,89.5
+New Zealand,Women,55-64,2008,63.6
+Austria,Women,25-54,2010,78.9
+Belgium,Women,55-64,1990,9.4
+New Zealand,Women,25-54,2002,71.4
+Belgium,Women,25-54,1990,54.5
+Czech Republic,Men,55-64,2002,57.3
+Denmark,Men,55-64,2008,65.2
+Luxembourg,Men,55-64,1990,42.9
+Japan,Men,25-54,2004,92.1
+Finland,Men,25-54,2008,87.3
+Sweden,Men,55-64,2008,73.6
+Denmark,Men,25-54,2002,88.4
+Belgium,Men,55-64,2006,40.9
+United States,Men,25-54,2010,81
+United Kingdom,Men,55-64,2009,66.1
+Denmark,Women,55-64,2012,55.8
+Japan,Women,25-54,2008,67.5
+Norway,Women,25-54,1995,77.4
+Iceland,Men,25-54,2002,94.2
+Japan,Men,55-64,2001,77.5
+New Zealand,Women,25-54,2005,73.6
+Austria,Women,25-54,2007,76.7
+Norway,Men,55-64,2011,72.9
+Spain,Women,25-54,2013,61.2
+Iceland,Men,55-64,2008,88.7
+France,Women,55-64,1995,28.9
+Switzerland,Men,25-54,2008,93.7
+Sweden,Women,25-54,2009,81.9
+Canada,Men,55-64,2009,61.8
+Norway,Men,25-54,2005,86.3
+Canada,Women,Total,2013,58.1
+Canada,Men,25-54,2006,86.2
+Denmark,Women,25-54,2009,82.5
+United States,Men,55-64,2013,66
+Belgium,Women,55-64,2013,35.8
+Switzerland,Men,25-54,2011,91.6
+Portugal,Women,25-54,2001,74.7
+Spain,Women,25-54,2010,63.9
+Finland,Women,25-54,2012,79.4
+Switzerland,Women,25-54,1995,72
+Portugal,Men,25-54,2000,90
+Czech Republic,Men,25-54,2002,90.2
+Australia,Women,55-64,2011,53.4
+Sweden,Women,25-54,2012,82.5
+Japan,Men,25-54,2001,92.8
+Belgium,Men,25-54,2009,85.7
+Australia,Women,25-54,2005,70.6
+Australia,Women,55-64,2008,49.1
+Luxembourg,Women,Total,2013,49.1
+Korea,Men,55-64,2010,75.1
+Switzerland,Men,55-64,2000,77
+Iceland,Women,25-54,2006,83.8
+OECD - Average,Women,55-64,2008,44.3
+Finland,Women,55-64,1995,34
+France,Women,55-64,2001,31.8
+New Zealand,Women,55-64,2002,52.1
+Korea,Men,25-54,2004,88.4
+Greece,Men,25-54,2013,71.4
+Austria,Women,55-64,2010,33
+Norway,Men,55-64,2008,74.2
+Austria,Women,25-54,2004,74.7
+Italy,Women,55-64,2001,16.2
+France,Men,25-54,2011,86.8
+Belgium,Women,55-64,2010,29.2
+Italy,Women,25-54,2001,52.8
+Denmark,Women,25-54,2012,79.1
+Canada,Men,25-54,2012,85.1
+Iceland,Women,25-54,2012,82.3
+Spain,Women,55-64,2013,36.3
+United Kingdom,Men,55-64,2003,65.7
+Ireland,Women,55-64,2012,43.2
+Canada,Men,25-54,2009,83.5
+Korea,Men,55-64,2007,74.7
+Israel,Men,55-64,2005,61.2
+New Zealand,Women,55-64,2005,61.2
+Austria,Women,55-64,2007,26.5
+Denmark,Women,55-64,2009,51.7
+Switzerland,Women,55-64,2004,54.1
+Italy,Women,25-54,1995,46.6
+Luxembourg,Men,25-54,1990,94
+Australia,Women,25-54,2011,72.3
+Belgium,Men,25-54,2006,85.9
+Spain,Women,55-64,1990,18
+Korea,Men,25-54,2007,87.3
+United Kingdom,Men,25-54,2000,87.4
+OECD - Average,Men,55-64,2001,59.8
+Portugal,Men,55-64,2000,62.2
+Ireland,Women,25-54,2012,64.7
+Iceland,Men,55-64,2002,89.9
+United Kingdom,Women,55-64,1990,36.7
+Netherlands,Women,25-54,2002,71.9
+Netherlands,Men,55-64,1995,41.1
+Germany,Women,55-64,2007,43.4
+OECD - Average,Men,25-54,2001,87.6
+Spain,Women,25-54,1990,37.1
+Iceland,Women,25-54,2009,80.6
+Norway,Women,55-64,1995,56.4
+Luxembourg,Women,55-64,2011,31.3
+Luxembourg,Men,55-64,2013,48.3
+Finland,Women,55-64,2012,59.7
+Belgium,Men,25-54,2003,85
+Iceland,Men,55-64,2005,89.3
+Norway,Men,25-54,2011,87.1
+Japan,Women,55-64,2011,52
+Czech Republic,Women,25-54,2003,73.5
+Greece,Men,25-54,1990,91.3
+Greece,Men,55-64,2013,46
+Ireland,Women,25-54,2009,67
+Canada,Men,25-54,2003,85.6
+Greece,Women,55-64,2003,25.6
+Sweden,Women,Total,2013,63.3
+Luxembourg,Women,25-54,2005,68.4
+Spain,Women,55-64,2010,33.1
+Greece,Women,55-64,2006,26.6
+France,Men,55-64,2005,41.5
+Switzerland,Women,Total,2013,58.1
+Switzerland,Men,25-54,2005,92.6
+Luxembourg,Men,55-64,2010,47.7
+Finland,Men,25-54,2005,84.4
+Germany,Women,55-64,2004,33
+Israel,Women,25-54,2000,63.5
+Italy,Men,25-54,2011,83.4
+Ireland,Women,25-54,1995,48.8
+Sweden,Women,55-64,2009,66.8
+Czech Republic,Women,25-54,2006,74.5
+Ireland,Women,25-54,2006,68
+Greece,Men,25-54,2010,85.3
+Norway,Men,25-54,2002,88.1
+Austria,Men,25-54,2011,88.4
+Czech Republic,Men,Total,2013,64.1
+Denmark,Women,55-64,2003,52.9
+Luxembourg,Women,25-54,2008,69.5
+Canada,Women,25-54,2007,78.2
+Spain,Women,55-64,2007,30.2
+Iceland,Women,25-54,2003,85.9
+Korea,Men,55-64,2001,69.7
+Czech Republic,Women,25-54,2000,73.7
+Spain,Men,25-54,2000,85.6
+New Zealand,Men,25-54,2012,86.9
+Greece,Women,25-54,2011,57.8
+Austria,Women,55-64,2001,17.7
+OECD - Average,Women,25-54,2013,66.5
+Netherlands,Men,25-54,2006,90.5
+Germany,Men,55-64,2011,67.1
+New Zealand,Men,25-54,2009,87.4
+Luxembourg,Women,25-54,2011,72.9
+Germany,Men,25-54,2011,88
+Australia,Men,25-54,1995,85.3
+Sweden,Women,55-64,2000,62.4
+Ireland,Women,Total,2013,47.3
+Italy,Men,25-54,2002,86
+Switzerland,Men,55-64,2003,77.7
+Canada,Women,25-54,2004,76.7
+Denmark,Men,25-54,2013,85
+Korea,Women,25-54,2008,60.8
+Denmark,Women,55-64,2000,46.6
+Ireland,Women,55-64,2006,39.7
+Netherlands,Women,55-64,2013,50
+Greece,Men,55-64,1990,58.4
+United States,Women,25-54,2005,72
+New Zealand,Women,Total,2013,58.5
+Iceland,Women,55-64,2003,78.9
+OECD - Average,Men,55-64,1995,59
+Ireland,Women,55-64,2009,41.4
+Portugal,Women,25-54,2012,72.5
+France,Men,25-54,2005,87.7
+OECD - Average,Men,55-64,2009,63.2
+Korea,Men,55-64,2004,71.6
+Netherlands,Women,25-54,1990,52.4
+United Kingdom,Women,25-54,2012,74.3
+New Zealand,Men,55-64,2012,79.6
+Belgium,Men,55-64,2000,36.4
+Sweden,Women,55-64,2003,66.8
+United States,Women,55-64,2012,56.1
+Switzerland,Men,55-64,2006,74.9
+Italy,Men,25-54,2005,86.6
+Spain,Women,55-64,2001,21.8
+Finland,Women,55-64,2009,56.5
+Norway,Women,25-54,2003,79.6
+Israel,Women,55-64,1995,32.6
+Korea,Women,25-54,2005,58.6
+OECD - Average,Men,55-64,2012,64.4
+United Kingdom,Women,25-54,1995,69.5
+Finland,Men,25-54,2002,84
+France,Men,25-54,2008,89.3
+Portugal,Women,25-54,1995,68.7
+Norway,Men,55-64,2005,73.1
+Canada,Men,55-64,2006,62.7
+Israel,Men,55-64,2011,68.3
+Denmark,Women,25-54,2000,79.8
+Germany,Women,25-54,2012,78.2
+Netherlands,Women,55-64,2010,43.3
+Italy,Men,25-54,2008,86.8
+Iceland,Women,25-54,2000,86
+Japan,Men,25-54,1995,95.3
+Denmark,Women,55-64,2006,54.3
+Australia,Men,25-54,2012,86.7
+France,Men,25-54,2002,87.4
+Spain,Women,55-64,2004,24.9
+Canada,Men,55-64,2000,57.4
+Korea,Women,25-54,2002,57.7
+Italy,Women,55-64,1995,13.5
+New Zealand,Men,55-64,2009,79.4
+United States,Women,25-54,2008,72.3
+Sweden,Women,55-64,2006,67.1
+Australia,Women,55-64,2005,43.1
+Italy,Women,55-64,2012,30.8
+Finland,Women,55-64,2006,54.3
+Greece,Men,55-64,2010,56.5
+Switzerland,Men,25-54,2002,93.9
+Luxembourg,Women,55-64,2008,29.3
+Iceland,Women,55-64,2000,74.4
+United Kingdom,Women,55-64,2002,44.7
+Netherlands,Women,55-64,1990,15.9
+Denmark,Women,25-54,2003,79
+Japan,Men,55-64,1995,80.8
+Netherlands,Men,25-54,2003,89.5
+Germany,Men,55-64,2008,61.7
+Israel,Men,25-54,2004,77.8
+Australia,Women,55-64,2002,37.9
+Greece,Men,55-64,2007,59.1
+France,Men,55-64,2008,40.6
+United States,Men,55-64,2002,66.3
+Belgium,Men,25-54,2000,87.3
+Austria,Women,55-64,2004,18.2
+Switzerland,Men,55-64,2009,77.1
+Canada,Men,55-64,2003,60.9
+Norway,Men,55-64,2002,72.8
+Israel,Men,55-64,2008,66.3
+Luxembourg,Women,55-64,1995,13.2
+Austria,Men,55-64,2001,39.5
+Ireland,Men,25-54,2008,86.4
+Austria,Men,55-64,2000,40.5
+Greece,Women,55-64,2000,24.3
+United Kingdom,Women,25-54,2004,74.3
+Portugal,Women,25-54,2004,74.8
+OECD - Average,Women,55-64,2005,41.7
+Sweden,Men,25-54,2000,85.9
+Korea,Women,55-64,2006,46.4
+Spain,Men,55-64,2004,58.5
+Canada,Women,25-54,2008,78
+Austria,Men,25-54,1995,91.1
+Germany,Men,55-64,1995,48.2
+Norway,Women,25-54,2010,82.2
+France,Men,55-64,2006,40.5
+OECD - Average,Men,25-54,2010,84.6
+Luxembourg,Men,25-54,2002,93.3
+Belgium,Women,25-54,2002,66.8
+Czech Republic,Men,25-54,2011,90.9
+United States,Women,55-64,2005,55.1
+Luxembourg,Women,55-64,2012,34.3
+Switzerland,Women,25-54,2007,78.5
+Italy,Men,55-64,2006,43.7
+Greece,Women,25-54,1995,49
+France,Women,25-54,2013,76.2
+Ireland,Women,55-64,1990,18.2
+Belgium,Women,25-54,2005,70.4
+Netherlands,Men,25-54,2013,86.4
+Iceland,Women,55-64,2007,80
+Netherlands,Men,25-54,2007,91.4
+Czech Republic,Women,25-54,2001,74.3
+Israel,Men,25-54,2008,81.3
+Australia,Women,Total,2013,55.4
+Spain,Men,25-54,2001,85.9
+Japan,Men,55-64,2002,76.8
+Ireland,Men,25-54,2003,86.9
+France,Women,25-54,2010,76.8
+Israel,Men,25-54,2011,81.1
+OECD - Average,Women,25-54,2000,63.8
+Switzerland,Men,55-64,2002,77.3
+Canada,Men,55-64,2010,62.9
+Denmark,Men,25-54,2000,88.5
+United States,Men,25-54,2005,86.9
+Ireland,Men,25-54,2006,88.4
+Switzerland,Women,25-54,2010,77.9
+Korea,Women,25-54,2009,59.8
+Netherlands,Men,55-64,2013,70.2
+United States,Women,55-64,2008,57
+Canada,Women,55-64,2011,53.7
+Iceland,Women,25-54,2007,84.1
+Portugal,Women,55-64,2002,42.3
+Spain,Men,55-64,2001,57.9
+OECD - Average,Men,Total,2013,63.7
+Netherlands,Men,25-54,2010,90
+Sweden,Men,55-64,2003,71.1
+Czech Republic,Women,55-64,2004,29.4
+Finland,Men,55-64,2003,51.4
+Norway,Women,55-64,2007,64
+Italy,Men,55-64,2009,46.6
+Canada,Women,55-64,2008,51.6
+Italy,Men,55-64,2012,50.4
+Finland,Men,25-54,2000,84.1
+United Kingdom,Men,25-54,2009,85.4
+United States,Men,25-54,2002,86.6
+Japan,Women,25-54,2000,63.6
+Luxembourg,Men,25-54,2008,90.2
+France,Men,55-64,2012,47.5
+New Zealand,Men,55-64,2013,79.3
+Israel,Women,55-64,2011,54.1
+Korea,Women,25-54,2006,60
+Ireland,Men,25-54,2000,88.4
+Norway,Women,55-64,2010,65
+Iceland,Women,55-64,2004,76.9
+Czech Republic,Women,55-64,2001,23.2
+Portugal,Men,25-54,2012,78.6
+United Kingdom,Men,25-54,2012,86.4
+Denmark,Women,55-64,2007,52.9
+Belgium,Men,55-64,2001,35.1
+Belgium,Women,25-54,2008,73.8
+Norway,Women,25-54,1990,76.1
+Norway,Men,55-64,2006,73.2
+France,Men,55-64,2009,41.5
+Ireland,Women,55-64,2013,43.2
+Canada,Women,25-54,2011,77.2
+Israel,Men,55-64,1990,68.8
+Netherlands,Men,25-54,1990,89.2
+Italy,Men,25-54,2006,87.2
+Italy,Women,Total,2013,34.5
+Netherlands,Men,55-64,2010,64.8
+Japan,Women,25-54,2003,64.4
+Finland,Women,55-64,1990,39.7
+Luxembourg,Men,25-54,2005,92.8
+Austria,Men,55-64,1995,42.8
+New Zealand,Men,25-54,1990,87
+Finland,Men,55-64,2006,54.8
+Switzerland,Men,55-64,2005,74.9
+Sweden,Men,55-64,2000,67.7
+Korea,Women,55-64,2012,49.3
+Italy,Men,25-54,2009,84.7
+Australia,Men,55-64,2002,58.8
+Korea,Women,55-64,2009,46.7
+Finland,Men,25-54,2003,83.3
+Norway,Women,25-54,2007,82.3
+Israel,Men,25-54,2005,78.1
+Japan,Women,25-54,2006,66.6
+Belgium,Men,55-64,2004,39.1
+Italy,Women,25-54,2010,58.8
+Iceland,Men,25-54,2000,95.1
+Finland,Men,25-54,2006,85.2
+Portugal,Men,25-54,2009,84.7
+Australia,Men,55-64,2013,69
+Finland,Men,55-64,2000,43.7
+Germany,Men,25-54,2003,84.2
+Netherlands,Men,55-64,2001,48.5
+United Kingdom,Men,25-54,2003,87.7
+Italy,Men,55-64,2003,42.8
+Korea,Women,Total,2013,48.8
+OECD - Average,Women,55-64,2000,36.8
+Korea,Women,25-54,2003,56.8
+Ireland,Men,55-64,2003,65
+Germany,Women,55-64,2013,57.6
+Germany,Women,25-54,1990,59.6
+France,Women,55-64,2007,36
+Luxembourg,Women,55-64,2009,29.4
+Korea,Women,55-64,2003,45.4
+Greece,Women,25-54,2009,62.3
+Portugal,Men,55-64,2009,57.4
+Ireland,Men,55-64,2000,63.6
+Czech Republic,Men,55-64,2005,59.4
+United States,Women,Total,2013,53.2
+Norway,Women,55-64,2001,62.3
+Japan,Women,55-64,2000,47.9
+Portugal,Men,25-54,2003,87.9
+Australia,Men,25-54,1990,88.7
+Canada,Women,25-54,2005,76.5
+Norway,Women,55-64,2004,62.7
+Greece,Women,25-54,2012,53.9
+Netherlands,Men,55-64,2004,55.5
+United States,Men,55-64,1990,65.2
+Austria,Men,55-64,2012,50.2
+United Kingdom,Men,25-54,2006,87.8
+Italy,Women,25-54,2004,58
+OECD - Average,Men,25-54,2007,87.9
+Greece,Women,Total,2013,30
+Germany,Women,55-64,2010,50.5
+Belgium,Men,55-64,1995,34.5
+Sweden,Women,25-54,1995,81.1
+OECD - Average,Men,25-54,2004,86.7
+Korea,Women,55-64,2000,47.9
+Australia,Men,55-64,1990,58.8
+Netherlands,Women,25-54,2005,73.5
+France,Women,25-54,2007,76.1
+Finland,Women,25-54,2004,78.1
+Italy,Women,25-54,2007,59.6
+Portugal,Women,55-64,1990,32
+New Zealand,Women,25-54,2011,73.5
+Israel,Women,25-54,2003,63.5
+Portugal,Men,55-64,2006,58.2
+Greece,Women,55-64,2012,26.1
+Czech Republic,Men,55-64,2008,61.9
+Germany,Women,25-54,2010,76.3
+Spain,Men,25-54,1995,78.6
+United States,Men,25-54,1990,89.1
+Iceland,Men,55-64,2011,82.4
+Japan,Men,25-54,2010,91.4
+Greece,Women,55-64,2009,27.8
+OECD - Average,Women,55-64,2011,46
+New Zealand,Men,55-64,2010,79.5
+New Zealand,Women,55-64,2011,67.5
+Austria,Women,55-64,2013,35.2
+Iceland,Men,25-54,2008,92.9
+Norway,Women,25-54,2001,81.2
+Canada,Women,25-54,2002,75.3
+Italy,Men,55-64,2000,40.9
+Greece,Men,25-54,2002,88.7
+Czech Republic,Women,55-64,1995,20.6
+United Kingdom,Women,25-54,1990,68.6
+Korea,Men,25-54,2013,87.8
+Switzerland,Women,25-54,2004,77.1
+Germany,Men,25-54,2000,87.2
+Canada,Women,55-64,2002,41.3
+Germany,Women,55-64,1990,22.4
+Switzerland,Women,25-54,2001,76.8
+Netherlands,Men,25-54,2001,91.8
+Israel,Men,25-54,2002,77.2
+Finland,Women,25-54,2001,78.2
+Korea,Men,25-54,1990,92.2
+Denmark,Men,55-64,2011,63.8
+Iceland,Women,55-64,2001,80.2
+Austria,Women,25-54,2013,80.5
+New Zealand,Men,55-64,2007,80.7
+United Kingdom,Men,55-64,2000,59.7
+Germany,Women,25-54,2013,78.6
+New Zealand,Women,25-54,2008,74.8
+Switzerland,Women,55-64,1995,46.4
+Norway,Women,25-54,2004,80
+Spain,Men,55-64,1995,48.4
+Japan,Men,25-54,2007,92.8
+Greece,Men,25-54,2006,90
+Luxembourg,Women,25-54,2004,66.2
+Denmark,Men,55-64,1995,63.2
+Austria,Men,25-54,2010,87.7
+France,Women,55-64,2008,35.9
+Iceland,Men,55-64,1995,88.8
+Belgium,Men,25-54,2013,84
+Israel,Women,25-54,2010,69.9
+Canada,Men,25-54,2002,85.2
+Canada,Women,55-64,2005,46.8
+United States,Women,55-64,2011,55.9
+Czech Republic,Men,55-64,2011,58.9
+Portugal,Men,55-64,2003,62.1
+Netherlands,Women,25-54,2012,78.9
+Portugal,Men,55-64,2010,55.8
+United States,Men,Total,2013,64.4
+United States,Women,25-54,2001,73.4
+Luxembourg,Women,25-54,2007,71.7
+Germany,Men,25-54,2007,86.4
+Switzerland,Men,25-54,1995,95.4
+France,Women,55-64,2011,38.9
+United Kingdom,Men,25-54,1990,89.5
+Korea,Men,25-54,2000,88
+Czech Republic,Men,55-64,2009,59.6
+Ireland,Women,25-54,2005,67.2
+Greece,Men,25-54,2009,88.3
+Sweden,Men,25-54,2012,87.8
+Czech Republic,Men,25-54,2005,89.8
+Iceland,Men,25-54,2011,87.5
+France,Women,55-64,2004,34.2
+Portugal,Men,25-54,2006,87.5
+France,Women,25-54,2004,73.7
+Czech Republic,Men,25-54,2008,92.1
+Korea,Men,55-64,2013,78.2
+Netherlands,Men,25-54,2004,89.1
+Netherlands,Men,55-64,2007,60
+New Zealand,Men,55-64,1990,53.7
+France,Women,25-54,2001,70.8
+OECD - Average,Men,25-54,2011,85
+Italy,Women,55-64,2008,23.9
+Spain,Women,25-54,2000,51
+Ireland,Women,55-64,2002,30.8
+Australia,Women,55-64,2001,36
+Germany,Men,25-54,2004,83.9
+Finland,Women,55-64,2002,47.3
+Austria,Men,Total,2013,63.3
+Luxembourg,Men,55-64,2006,38.7
+Australia,Women,25-54,1995,64.7
+Korea,Men,55-64,2000,68.5
+Finland,Women,55-64,2005,52.7
+Austria,Women,55-64,2000,16.8
+OECD - Average,Men,25-54,2008,87.5
+United Kingdom,Men,55-64,2013,66.5
+France,Women,25-54,2011,76.2
+United Kingdom,Men,25-54,2007,88.3
+OECD - Average,Men,55-64,2008,64.2
+Netherlands,Women,25-54,2006,75.1
+Belgium,Women,25-54,2003,67.8
+OECD - Average,Men,25-54,2005,87
+New Zealand,Women,55-64,1995,37.8
+Netherlands,Women,25-54,2009,79.3
+Israel,Women,25-54,2007,67.7
+Portugal,Men,55-64,1990,65.4
+Australia,Women,55-64,1995,27.3
+Spain,Women,55-64,2000,20.1
+OECD - Average,Men,55-64,2011,63.3
+Italy,Women,25-54,2008,60.2
+United Kingdom,Men,25-54,2010,85.2
+United States,Men,55-64,2009,65.2
+Netherlands,Women,55-64,2012,49.1
+Sweden,Women,55-64,2002,65.9
+Greece,Men,55-64,2006,59.2
+Japan,Men,25-54,2011,91.6
+Netherlands,Women,55-64,2009,42
+Finland,Women,25-54,2005,79
+Israel,Men,55-64,1995,63.6
+Spain,Women,55-64,2003,23.7
+Iceland,Men,25-54,1995,93.9
+Luxembourg,Men,55-64,2003,39.7
+Norway,Women,55-64,2005,62.1
+Czech Republic,Women,25-54,2013,75.5
+Japan,Women,55-64,2001,47.3
+Canada,Women,55-64,2009,52.9
+Norway,Women,55-64,2008,64.3
+Italy,Women,25-54,2005,58
+Switzerland,Women,55-64,2011,58.4
+Italy,Women,25-54,2011,59
+Italy,Women,55-64,2011,28.1
+Finland,Women,55-64,2008,55.8
+Sweden,Women,25-54,2002,82.4
+Spain,Women,25-54,2003,57.4
+Luxembourg,Men,25-54,2003,91.6
+Japan,Men,55-64,2011,78.7
+Portugal,Men,55-64,2007,58.7
+New Zealand,Women,55-64,2012,68.4
+Germany,Men,25-54,2010,86.5
+Spain,Men,25-54,2013,70.4
+Ireland,Women,25-54,2002,65.1
+Luxembourg,Men,55-64,2000,37.9
+Belgium,Women,55-64,2000,16.6
+United States,Women,25-54,2004,71.8
+Czech Republic,Men,55-64,2012,60.4
+Finland,Women,25-54,2002,79.1
+Greece,Men,25-54,2003,89.3
+Germany,Men,55-64,2007,59.4
+Czech Republic,Women,55-64,2007,33.5
+Denmark,Women,25-54,1990,80.3
+United Kingdom,Women,55-64,2012,51
+Italy,Men,25-54,2012,81.7
+Portugal,Women,25-54,2005,74.8
+Belgium,Men,55-64,2007,42.9
+Korea,Women,25-54,2012,61.2
+Netherlands,Women,55-64,2003,29.7
+Japan,Men,25-54,2005,92.1
+Portugal,Women,25-54,2011,74.1
+New Zealand,Men,25-54,2005,90
+Norway,Men,25-54,2001,88.9
+Australia,Men,25-54,2011,87.4
+United Kingdom,Women,25-54,2011,74.4
+Spain,Men,55-64,2007,59.6
+Sweden,Men,55-64,2006,72.4
+Iceland,Women,55-64,2013,75.9
+Switzerland,Men,25-54,2009,92.8
+Sweden,Men,25-54,2003,85.3
+Portugal,Women,25-54,2002,74
+Belgium,Men,55-64,2010,45.6
+Iceland,Men,Total,2013,79.4
+Belgium,Men,25-54,2010,85.5
+Norway,Men,55-64,1995,70
+United Kingdom,Women,55-64,2009,49.3
+United States,Men,55-64,2012,65.5
+Greece,Men,55-64,2000,55.2
+Germany,Men,55-64,2001,46.4
+France,Men,25-54,2012,86
+Canada,Men,25-54,1990,86.4
+Belgium,Men,55-64,2013,47.7
+Iceland,Women,55-64,2010,77
+Switzerland,Men,25-54,2012,91.5
+Belgium,Men,25-54,2007,87
+Portugal,Women,55-64,2005,43.6
+Czech Republic,Women,25-54,2007,74.9
+Denmark,Women,25-54,2013,79
+Luxembourg,Women,25-54,1995,50.6
+Iceland,Women,25-54,2010,80.6
+Greece,Men,25-54,2000,88.5
+Germany,Men,55-64,2004,50.7
+Belgium,Men,25-54,2004,85.8
+Greece,Men,55-64,2003,58.7
+Canada,Men,55-64,1990,60
+Netherlands,Women,25-54,2003,72.1
+Denmark,Women,55-64,1990,42.4
+Japan,Men,55-64,2008,81.4
+Israel,Women,25-54,2004,63.8
+Portugal,Women,55-64,2008,44
+Israel,Women,25-54,2001,63.1
+Czech Republic,Women,55-64,2010,35.5
+France,Men,55-64,1995,38.4
+Czech Republic,Women,25-54,2004,73.4
+Spain,Men,25-54,2004,85.9
+Finland,Men,55-64,2009,54.7
+United States,Women,25-54,1995,72.2
+Germany,Men,25-54,2001,86.9
+Japan,Men,25-54,2008,92.6
+Iceland,Women,25-54,2013,82.3
+Netherlands,Women,55-64,2006,35.1
+Netherlands,Women,25-54,2000,70.3
+Australia,Men,25-54,2006,87.2
+Israel,Women,55-64,2004,42
+Australia,Men,55-64,2012,69.1
+Ireland,Men,55-64,2013,58.7
+Denmark,Men,55-64,2010,63.3
+Switzerland,Men,55-64,2012,76.8
+Japan,Women,55-64,2013,54.2
+United States,Men,25-54,2009,81.5
+Ireland,Men,25-54,2010,75.6
+Israel,Women,55-64,2001,38.9
+Germany,Women,25-54,2003,72
+Austria,Men,25-54,2005,87.9
+Sweden,Men,25-54,2013,87.9
+OECD - Average,Women,55-64,2010,45.4
+United Kingdom,Women,25-54,2009,74.3
+France,Men,55-64,2002,44.2
+Australia,Men,25-54,2009,86.3
+Sweden,Men,55-64,1990,74.5
+Denmark,Men,55-64,2007,64.9
+Japan,Women,25-54,2010,68.2
+Spain,Men,25-54,2011,74.6
+Norway,Men,Total,2013,71.2
+Japan,Women,25-54,2013,70.8
+Austria,Men,25-54,2008,88.9
+OECD - Average,Women,55-64,2007,43.7
+Finland,Men,25-54,2013,83.8
+United Kingdom,Women,25-54,2006,74.8
+OECD - Average,Women,55-64,2013,48.1
+New Zealand,Men,25-54,2006,90
+Germany,Women,55-64,2006,40.3
+OECD - Average,Women,25-54,2007,66.3
+Austria,Men,55-64,2008,48.9
+Greece,Women,25-54,2002,54.6
+Austria,Men,55-64,2011,48.2
+United States,Women,55-64,1995,47.5
+Sweden,Men,25-54,2010,87
+New Zealand,Men,25-54,2003,87.8
+Australia,Men,55-64,2009,66.7
+OECD - Average,Women,25-54,2010,65.8
+New Zealand,Men,55-64,2003,73.3
+Czech Republic,Women,55-64,2006,32.1
+Iceland,Women,55-64,2012,75.5
+Sweden,Men,55-64,2013,77
+Luxembourg,Women,25-54,2002,64.5
+Luxembourg,Women,55-64,2005,24.9
+Italy,Men,55-64,2002,41.2
+New Zealand,Men,25-54,2000,87
+Finland,Men,25-54,1990,90.6
+Greece,Women,55-64,2005,25.9
+Denmark,Men,25-54,2007,89.8
+New Zealand,Men,55-64,2006,79.5
+United States,Men,25-54,2012,82.5
+Ireland,Men,25-54,2013,76.2
+Ireland,Men,25-54,2007,87.9
+Belgium,Women,55-64,2009,27.7
+Japan,Women,25-54,2007,67.4
+Switzerland,Women,25-54,2008,80.6
+Denmark,Men,25-54,2001,88.2
+Iceland,Men,25-54,2001,95
+Germany,Women,55-64,2000,29
+Greece,Women,55-64,2002,24
+Denmark,Men,25-54,2004,87.6
+Portugal,Men,25-54,1990,92
+United Kingdom,Men,55-64,2010,65
+Belgium,Women,55-64,2006,23.2
+Canada,Women,55-64,1995,33.3
+United States,Men,25-54,2006,87.3
+Ireland,Men,55-64,2010,58.4
+Luxembourg,Men,25-54,2012,91
+Belgium,Women,25-54,2006,70.7
+Belgium,Women,55-64,2012,33.1
+Switzerland,Women,25-54,2011,79.1
+Denmark,Men,55-64,2004,67.3
+Japan,Men,Total,2013,67.5
+Belgium,Women,25-54,2009,73.8
+Iceland,Men,55-64,2001,91
+Japan,Women,55-64,2007,51.2
+Korea,Women,25-54,1990,53.7
+Luxembourg,Men,25-54,2009,90.8
+Sweden,Women,55-64,2005,66.9
+OECD - Average,Women,25-54,2004,64.5
+Czech Republic,Men,55-64,1995,51.1
+Israel,Women,55-64,2010,53.1
+Luxembourg,Men,25-54,2006,92.7
+Finland,Men,55-64,1990,46.3
+Ireland,Men,55-64,1990,59.5
+Portugal,Men,25-54,2013,77.1
+Japan,Women,25-54,2004,65
+United Kingdom,Men,25-54,2013,86.5
+Luxembourg,Men,55-64,2012,47.4
+Israel,Women,55-64,2007,49.3
+Germany,Women,55-64,2003,30.9
+United States,Women,55-64,2001,51.7
+Czech Republic,Men,25-54,1995,92.9
+Spain,Women,55-64,2006,28.9
+Germany,Women,25-54,2000,71.2
+Luxembourg,Men,55-64,2009,46.5
+Japan,Women,55-64,2010,52.1
+Iceland,Men,55-64,2004,87.1
+Canada,Women,25-54,1995,69.4
+Sweden,Women,25-54,2006,81.5
+Netherlands,Women,55-64,2002,29.3
+Germany,Women,25-54,2004,72.1
+OECD - Average,Women,55-64,1995,34.6
+New Zealand,Women,25-54,1995,67.9
+Luxembourg,Men,Total,2013,62.7
+United States,Men,55-64,2006,67.5
+Israel,Men,55-64,2012,71.6
+United Kingdom,Women,55-64,2000,41.4
+Czech Republic,Women,55-64,2009,35
+Norway,Women,25-54,2012,82.1
+Austria,Men,55-64,2003,40.4
+Canada,Women,55-64,2013,56
+Sweden,Men,25-54,2002,86
+Spain,Men,55-64,2006,60.2
+Australia,Men,55-64,2001,57.2
+Germany,Women,55-64,2001,29.4
+United States,Women,55-64,2003,54.5
+Australia,Men,25-54,2004,86.3
+OECD - Average,Women,25-54,2002,63.9
+Israel,Men,25-54,2013,81.7
+United States,Men,25-54,2007,87.5
+Luxembourg,Women,55-64,2000,16.8
+Sweden,Men,55-64,2005,72.2
+Netherlands,Men,25-54,2012,88.6
+Denmark,Women,25-54,2002,79.8
+Norway,Men,25-54,1995,87.3
+France,Men,25-54,2001,88.1
+Ireland,Men,55-64,2001,64.9
+New Zealand,Men,25-54,1995,86.9
+Finland,Men,25-54,2011,84.7
+Iceland,Women,Total,2013,74.6
+United States,Men,25-54,2004,86.3
+Ireland,Men,25-54,2005,88.3
+United Kingdom,Women,55-64,2010,49
+Korea,Women,25-54,2011,61
+France,Men,25-54,2004,87.7
+United States,Men,55-64,2003,65.6
+Belgium,Women,55-64,2003,18.7
+United Kingdom,Women,55-64,2003,46.4
+Greece,Women,55-64,1990,24
+Portugal,Men,Total,2013,54.7
+Denmark,Men,55-64,2005,65.6
+Netherlands,Men,55-64,2008,63.4
+New Zealand,Women,55-64,2009,64.8
+Switzerland,Men,Total,2013,70.8
+United Kingdom,Women,25-54,2005,74.6
+Australia,Men,25-54,2005,87
+Belgium,Men,55-64,2009,42.9
+Canada,Men,55-64,2013,64.7
+United States,Men,25-54,2008,86
+Ireland,Men,25-54,2009,78
+OECD - Average,Men,55-64,2005,62.4
+Czech Republic,Women,55-64,2003,28.4
+Portugal,Women,55-64,2001,40.3
+Japan,Women,25-54,2011,68.5
+Korea,Men,55-64,1990,76.3
+Norway,Men,55-64,2012,74.8
+Israel,Men,Total,2013,65.1
+Japan,Women,25-54,2009,67.6
+United States,Women,55-64,2002,53.2
+Denmark,Women,55-64,2013,56.8
+Ireland,Men,55-64,2011,57.8
+Spain,Women,Total,2013,39.6
+Denmark,Men,55-64,2002,64.5
+Israel,Women,55-64,2012,55.1
+Spain,Men,25-54,2006,87.5
+Japan,Women,55-64,2008,51.7
+Finland,Men,55-64,2008,57
+Belgium,Women,Total,2013,43.9
+Luxembourg,Men,25-54,2013,90.1
+Switzerland,Women,25-54,2012,79.9
+France,Women,25-54,1995,67.6
+Iceland,Men,25-54,2005,92.8
+Norway,Women,25-54,2013,81.6
+Finland,Men,25-54,2009,84.4
+United Kingdom,Women,25-54,2002,73.9
+Denmark,Men,25-54,2003,87.9
+Switzerland,Women,25-54,2013,79.7
+Australia,Women,55-64,2012,53.9
+Sweden,Men,25-54,2008,89.4
+Austria,Men,25-54,2003,91.1
+Canada,Women,25-54,2013,78.1
+Portugal,Women,55-64,2007,44.3
+Ireland,Men,55-64,2008,66.5
+New Zealand,Men,55-64,2001,70.7
+Netherlands,Women,55-64,2000,25.5
+Finland,Men,25-54,2012,84.5
+Spain,Men,25-54,2010,75.9
+OECD - Average,Women,25-54,2003,64
+United Kingdom,Women,25-54,2008,75.3
+Australia,Men,25-54,2008,88.3
+Austria,Men,25-54,2007,89
+Italy,Women,55-64,2005,20.8
+Norway,Men,55-64,2009,72.8
+Luxembourg,Men,25-54,2010,92
+Iceland,Women,55-64,2009,76.4
+Germany,Men,55-64,2000,46.4
+Korea,Women,25-54,1995,54.9
+France,Men,25-54,1995,86.6
+Portugal,Women,55-64,2004,42.4
+Japan,Men,55-64,2004,78.1
+Netherlands,Men,25-54,1995,88.2
+Austria,Women,55-64,2011,32.2
+Japan,Men,55-64,2005,78.9
+OECD - Average,Women,25-54,2006,65.7
+Sweden,Men,25-54,2009,86.9
+Greece,Women,25-54,2001,52.8
+OECD - Average,Women,25-54,2005,64.8
+Israel,Women,55-64,2009,51.7
+Spain,Men,25-54,2009,77.3
+Italy,Men,55-64,2011,48.2
+Belgium,Women,25-54,2010,74.4
+Ireland,Women,55-64,1995,19.5
+Finland,Men,55-64,2011,56.7
+Spain,Men,55-64,2009,56.4
+OECD - Average,Women,55-64,2002,38.8
+United States,Women,55-64,2000,50.6
+Sweden,Men,25-54,2005,86.6
+United Kingdom,Women,25-54,2001,73.6
+Norway,Women,55-64,2012,66.9
+Spain,Men,25-54,2003,85.8
+New Zealand,Men,25-54,2001,87.2
+Australia,Men,55-64,2007,65.7
+Australia,Men,55-64,2004,62.1
+Austria,Men,25-54,2000,91.4
+Australia,Men,25-54,2001,85.3
+France,Men,55-64,2011,44.1
+Greece,Women,25-54,2003,56.5
+Belgium,Women,25-54,2007,72.3
+Japan,Men,55-64,2007,81.5
+Spain,Women,25-54,2007,66.3
+Japan,Women,25-54,2005,65.7
+Austria,Men,55-64,2006,41.9
+Netherlands,Men,25-54,2009,91.4
+Switzerland,Women,25-54,2009,80.4
+Luxembourg,Men,25-54,2001,93.2
+Belgium,Women,25-54,2001,66.5
+Luxembourg,Men,55-64,2007,35.6
+Portugal,Men,55-64,2008,58.3
+Italy,Women,55-64,2009,25.3
+Korea,Women,55-64,2011,48.1
+France,Women,55-64,2009,36.5
+Belgium,Women,55-64,2007,26
+Portugal,Men,55-64,2011,54.2
+Czech Republic,Men,25-54,2013,91.2
+United Kingdom,Men,55-64,1995,56.1
+Switzerland,Women,25-54,2006,77.6
+Israel,Men,25-54,2007,80.6
+Belgium,Men,25-54,1990,88.5
+Spain,Men,25-54,2007,87.5
+Portugal,Men,55-64,2004,59.1
+Luxembourg,Men,55-64,2004,38.3
+France,Women,25-54,2012,76.1
+New Zealand,Men,55-64,1995,62.6
+Germany,Women,55-64,1995,26.8
+France,Women,55-64,2012,41.6
+United States,Women,55-64,2009,56.4
+Canada,Women,55-64,2010,53.3
+United Kingdom,Men,25-54,2008,87.9
+United States,Women,55-64,2006,56.5
+France,Women,25-54,2009,76.7
+Israel,Men,25-54,2010,80.1
+Belgium,Women,25-54,2004,68.5
+Japan,Women,55-64,2002,47.1
+Belgium,Women,55-64,2001,15.5
+Canada,Women,55-64,1990,32.9
+Portugal,Men,25-54,2011,81.7
+Ireland,Men,55-64,2005,65.7
+Norway,Women,55-64,2009,64.6
+Japan,Women,25-54,2002,63.9
+Czech Republic,Men,55-64,2010,58.4
+Japan,Women,55-64,2005,49.4
+Ireland,Men,25-54,2002,87.4
+United States,Men,25-54,2001,87.9
+Germany,Women,25-54,1995,66.4
+Belgium,Women,25-54,2013,74
+Ireland,Men,25-54,2011,74.2
+United Kingdom,Women,55-64,2006,48.9
+Sweden,Women,55-64,1990,64.7
+Netherlands,Men,55-64,2012,68.1
+Norway,Women,25-54,2006,81
+Israel,Men,25-54,1990,81.4
+Ireland,Men,55-64,2002,65.1
+New Zealand,Women,25-54,2013,74
+Netherlands,Women,Total,2013,55.7
+Germany,Women,25-54,2001,71.6
+Denmark,Men,25-54,2005,88.3
+Israel,Women,55-64,2006,46.5
+Belgium,Women,55-64,2004,21.1
+Switzerland,Women,25-54,2003,77.3
+Portugal,Men,25-54,2008,87.6
+Czech Republic,Men,25-54,2010,90.5
+Czech Republic,Men,55-64,2013,62.5
+United Kingdom,Men,55-64,2006,66
+Israel,Women,Total,2013,54.6
+Luxembourg,Men,25-54,2004,92.2
+Canada,Women,25-54,2010,77.1
+Norway,Women,25-54,2009,83.5
+Austria,Men,25-54,2004,88.1
+Italy,Women,55-64,2002,17.3
+Czech Republic,Women,25-54,2010,73.4
+Israel,Women,55-64,2008,50.7
+Germany,Women,25-54,2002,71.8
+Denmark,Men,25-54,2006,90.1
+New Zealand,Men,25-54,2002,87.6
+Ireland,Men,25-54,2012,74.2
+France,Women,55-64,2005,35.7
+Israel,Women,25-54,2012,72.1
+Sweden,Women,25-54,2004,80.8
+Australia,Women,55-64,2000,34.2
+Netherlands,Women,25-54,2011,79
+Canada,Men,25-54,2004,86
+Korea,Men,55-64,2002,72.2
+Sweden,Women,55-64,2010,67
+United States,Men,55-64,2001,66
+United Kingdom,Men,55-64,2008,67.6
+New Zealand,Women,55-64,2006,60.8
+Portugal,Women,25-54,2008,75.8
+Australia,Men,25-54,2002,85.6
+Denmark,Women,55-64,2010,53.6
+Italy,Men,25-54,1995,84.4
+United States,Men,25-54,2011,81.4
+OECD - Average,Men,55-64,2002,60.5
+Greece,Women,25-54,2000,52.7
+Korea,Men,25-54,1995,92.7
+Spain,Women,25-54,2001,52.8
+Korea,Women,55-64,2005,45.7
+OECD - Average,Women,25-54,2009,65.9
+Korea,Men,55-64,2011,76.5
+Israel,Women,55-64,2005,43.9
+Luxembourg,Women,25-54,2001,63.8
+Sweden,Men,25-54,2006,87.7
+Austria,Men,25-54,2001,91
+Germany,Women,25-54,2006,72.6
+United States,Men,25-54,1995,87.6
+France,Women,25-54,2000,69.6
+Portugal,Women,55-64,2012,42
+Portugal,Men,25-54,2002,89.3
+Finland,Women,Total,2013,58.6
+Finland,Men,55-64,2013,56.8
+Austria,Women,25-54,2009,78.4
+Ireland,Women,55-64,2003,33.5
+Australia,Women,25-54,2010,71.8
+Czech Republic,Women,55-64,2008,34.4
+Korea,Men,25-54,2009,86.3
+Austria,Women,55-64,2002,19.4
+New Zealand,Women,25-54,2000,69.9
+United Kingdom,Men,55-64,2011,64.3
+Greece,Women,25-54,2005,58.6
+Italy,Women,25-54,2013,58
+Greece,Men,25-54,2008,90.1
+Germany,Men,55-64,2012,68.6
+Greece,Men,55-64,2011,52.3
+Belgium,Men,55-64,2011,46
+Germany,Women,25-54,2009,75.4
+Portugal,Men,55-64,1995,58.2
+Ireland,Women,25-54,2007,69.5
+Canada,Men,25-54,2001,85.3
+Sweden,Women,25-54,2007,83
+Germany,Women,Total,2013,51.9
+Finland,Women,25-54,2007,80.7
+Switzerland,Women,55-64,2012,59.8
+Finland,Women,55-64,2013,60.5
+Luxembourg,Men,25-54,1995,92.2
+Norway,Women,25-54,2000,81.6
+Canada,Women,25-54,2001,74.3
+Ireland,Men,25-54,1990,80.9
+United Kingdom,Women,Total,2013,53.1
+Korea,Men,55-64,2005,72.2
+Germany,Men,25-54,2009,86.1
+Israel,Men,25-54,1995,83.8
+Greece,Women,25-54,2008,62
+Iceland,Men,25-54,2007,94.2
+Czech Republic,Men,25-54,2001,89.7
+OECD - Average,Men,25-54,1990,90
+Belgium,Women,55-64,2011,31.6
+Ireland,Women,55-64,2007,40
+Greece,Men,25-54,2011,79.9
+Netherlands,Women,25-54,2010,79.3
+Finland,Women,25-54,2010,79.1
+Portugal,Men,25-54,1995,88.2
+OECD - Average,Men,25-54,2009,84.8
+Netherlands,Women,25-54,2013,78.3
+Canada,Women,25-54,1990,69.8
+Austria,Women,25-54,1995,70
+Canada,Men,55-64,2004,61.9
+Germany,Men,25-54,2012,88.4
+Australia,Women,25-54,2000,67
+Denmark,Women,55-64,2004,53.3
+Spain,Women,25-54,2008,66.5
+Israel,Men,55-64,2010,66.4
+Finland,Women,55-64,2010,56.9
+Ireland,Women,55-64,2010,43.1
+Switzerland,Women,55-64,2009,59.6
+New Zealand,Men,Total,2013,69.7
+Australia,Women,55-64,2006,45.9
+Australia,Women,25-54,2003,69
+Austria,Women,25-54,2002,76
+Italy,Women,25-54,1990,47.1
+France,Women,25-54,1990,65.1
+Sweden,Women,55-64,2004,67.4
+Korea,Men,25-54,2002,88.7
+New Zealand,Women,55-64,2000,46.1
+OECD - Average,Men,55-64,2013,65
+United States,Women,25-54,2006,72.5
+Norway,Men,25-54,2000,88.8
+Australia,Men,55-64,2006,64.9
+Austria,Women,55-64,1995,18.5
+United Kingdom,Men,55-64,2001,61.5
+Czech Republic,Men,25-54,2004,89.2
+Denmark,Men,25-54,2010,85.3
+Iceland,Men,25-54,2010,86.9
+Israel,Women,25-54,2011,70.8
+Italy,Women,25-54,2012,59.2
+Greece,Men,25-54,2007,90.1
+Italy,Men,55-64,2005,42.7
+Portugal,Women,55-64,2006,42.8
+Israel,Men,25-54,2001,78.6
+Norway,Women,55-64,2006,61.6
+Italy,Men,55-64,2008,45.3
+Australia,Men,55-64,1995,55.7
+Canada,Men,55-64,2007,63.5
+Sweden,Women,55-64,2007,67.2
+Denmark,Women,25-54,2001,80.6
+Spain,Women,25-54,2005,62.3
+Norway,Men,55-64,2003,73.5
+Spain,Women,55-64,2011,35.6
+Finland,Women,55-64,2007,54.8
+Spain,Women,55-64,2005,27.7
+Sweden,Women,25-54,2001,82.4
+United States,Men,55-64,2004,66
+OECD - Average,Men,25-54,2013,84.9
+New Zealand,Women,55-64,2003,55.5
+Austria,Women,55-64,2005,21.8
+Korea,Men,25-54,2005,87.9
+Iceland,Men,55-64,2003,87.6
+Switzerland,Women,55-64,2006,56.6
+OECD - Average,Women,Total,2013,47.4
+Germany,Men,25-54,2008,87.1
+Finland,Men,55-64,2005,52.5
+Switzerland,Women,55-64,2013,61.3
+United Kingdom,Men,55-64,2012,65.3
+Spain,Women,25-54,2002,55.2
+Australia,Women,55-64,2003,39.6
+Spain,Women,55-64,2008,31.2
+Netherlands,Men,25-54,2000,91.4
+Luxembourg,Women,55-64,2002,18.1
+Japan,Men,25-54,1990,96.2
+Ireland,Women,55-64,2001,28.7
+Greece,Men,25-54,2005,89.5
+Portugal,Women,55-64,2013,41
+Germany,Men,55-64,2009,63.8
+Luxembourg,Women,25-54,2003,63.8
+Norway,Men,55-64,2000,73.1
+France,Men,25-54,2000,87.1
+Belgium,Men,25-54,2012,84.5
+Sweden,Men,55-64,2002,70.8
+Finland,Women,25-54,2009,80.4
+Finland,Men,55-64,2002,48.3
+Ireland,Women,25-54,2003,64.6
+United States,Women,25-54,2002,72.3
+OECD - Average,Women,25-54,1990,61.6
+Greece,Men,55-64,2004,56.4
+Netherlands,Women,55-64,2007,37.5
+Australia,Men,55-64,2010,68.6
+Germany,Men,25-54,2006,84.8
+OECD - Average,Men,55-64,1990,62.4
+Ireland,Women,55-64,2004,34.1
+Spain,Men,55-64,2003,59
+Israel,Women,25-54,2008,68.9
+Finland,Men,Total,2013,61.7
+Denmark,Women,55-64,2001,49.7
+Israel,Men,55-64,2013,72.9
+Austria,Men,25-54,2006,88.4
+Israel,Women,25-54,2009,68.7
+United States,Women,25-54,2000,74.2
+Finland,Women,25-54,2003,78.8
+Canada,Women,55-64,2007,50.7
+Netherlands,Men,55-64,2009,64.6
+Japan,Men,25-54,2012,91.5
+Czech Republic,Women,55-64,2011,37.2
+Austria,Men,55-64,2005,38.5
+Denmark,Men,25-54,1990,87.4
+Japan,Women,25-54,1990,62.9
+United Kingdom,Men,25-54,2011,85.8
+Korea,Men,25-54,2001,88
+Czech Republic,Women,25-54,2012,74.6
+France,Men,55-64,2003,40.9
+Ireland,Women,25-54,2004,65.8
+Belgium,Men,55-64,2012,46
+United States,Women,25-54,2003,72
+Spain,Men,55-64,2000,55.2
+Switzerland,Women,55-64,2010,57
+Czech Republic,Women,55-64,2000,22.4
+Australia,Women,25-54,2002,68
+Finland,Women,25-54,2006,79.7
+Denmark,Men,Total,2013,61.8
+Luxembourg,Men,25-54,2007,92.2
+Iceland,Women,55-64,2006,80.3
+Sweden,Women,25-54,2000,81.7
+Italy,Women,55-64,1990,15.2
+Denmark,Women,25-54,1995,75.9
+France,Men,55-64,2000,38.5
+United Kingdom,Women,25-54,2007,74.6
+Iceland,Women,55-64,1995,81.5
+Spain,Men,25-54,2012,71.3
+Australia,Men,25-54,2007,88.1
+United States,Men,55-64,2010,64.4
+Portugal,Women,55-64,2009,42.8
+France,Women,25-54,2003,73.4
+Czech Republic,Men,25-54,2007,91.7
+Germany,Men,55-64,2005,53.6
+United Kingdom,Men,55-64,2004,65.5
+Iceland,Men,25-54,2013,88.7
+Sweden,Men,55-64,2010,74.2
+Spain,Men,55-64,2011,53.8
+Netherlands,Women,25-54,2008,79.1
+Portugal,Women,25-54,2013,72.2
+Japan,Men,25-54,2013,91.7
+Netherlands,Women,55-64,2011,46.4
+Luxembourg,Women,55-64,2003,20.6
+United Kingdom,Women,55-64,2004,47.2
+France,Men,Total,2013,55.4
+Sweden,Men,25-54,1990,93.5
+Ireland,Women,55-64,2000,26.8
+Japan,Men,55-64,2012,78.8
+Canada,Men,25-54,2000,85.8
+United States,Men,55-64,2005,67
+Austria,Women,25-54,2001,74.3
+Belgium,Men,55-64,2003,37.8
+Spain,Women,25-54,2004,59.7
+Denmark,Women,25-54,2005,80.6
+Spain,Men,55-64,2005,59.4
+Finland,Women,25-54,2011,79.7
+France,Men,55-64,1990,43
+Japan,Men,55-64,1990,80.4
+Greece,Men,55-64,2005,58.8
+Ireland,Women,25-54,2001,64.1
+Austria,Men,55-64,2009,49.1
+Spain,Men,55-64,2012,52.1
+Netherlands,Men,55-64,2006,56.2
+Portugal,Women,55-64,1995,33.6
+New Zealand,Women,25-54,2001,71.1
+Israel,Women,25-54,2013,72.5
+Sweden,Women,25-54,2005,81.1
+Australia,Women,25-54,2007,71.9
+Korea,Women,55-64,1990,49.4
+Israel,Women,25-54,2006,66.3
+Canada,Men,25-54,1995,83
+United States,Men,55-64,2007,67.4
+Sweden,Men,25-54,2011,87.9
+OECD - Average,Men,25-54,2012,85
+Switzerland,Women,55-64,2007,58.1
+Sweden,Women,25-54,2003,81.7
+Italy,Women,25-54,2009,59.1
+United States,Men,55-64,2000,65.7
+Australia,Men,55-64,2000,57.6
+Ireland,Women,25-54,2008,69.2
+OECD - Average,Women,55-64,2004,40.5
+Switzerland,Women,55-64,2002,52.3
+Iceland,Men,25-54,2004,92.4
+Italy,Men,55-64,1990,51.9
+Sweden,Men,55-64,2007,73.1
+Austria,Men,55-64,2002,39.7
+Czech Republic,Women,25-54,2009,74.1
+Portugal,Women,25-54,2010,74.5
+United Kingdom,Women,55-64,2007,48.8
+Korea,Women,55-64,2008,47.4
+Luxembourg,Men,55-64,2008,38.7
+Ireland,Women,25-54,2010,65.7
+Iceland,Women,25-54,2004,83.6
+Luxembourg,Women,25-54,2000,63
+Germany,Men,55-64,2006,56.1
+United Kingdom,Women,55-64,2001,43.1
+Canada,Men,55-64,2001,57.3
+New Zealand,Men,55-64,2004,76.2
+Canada,Women,55-64,2012,54.9
+Canada,Men,25-54,2008,86.6
+Spain,Women,25-54,2012,62
+Sweden,Men,55-64,2004,71.6
+Italy,Men,Total,2013,51.9
+Sweden,Women,25-54,2008,83.5
+Spain,Men,55-64,2002,58.5
+Australia,Women,25-54,2004,68.7
+Finland,Women,25-54,2008,81.3
+Japan,Women,55-64,2004,48.6
+New Zealand,Women,25-54,2004,72.2
+Greece,Men,25-54,2012,73.9
+Portugal,Women,55-64,2003,42.4
+Norway,Men,25-54,2004,86.2
+Canada,Men,25-54,2005,86.1
+Sweden,Women,25-54,2011,82.2
+Austria,Women,25-54,2006,76
+Korea,Men,25-54,2003,88.9
+Australia,Women,25-54,2001,67.4
+Sweden,Men,55-64,2001,69.6
+Spain,Women,25-54,2009,64.4
+Austria,Women,25-54,2003,76.9
+Korea,Women,55-64,2013,50.8
+Israel,Men,55-64,2009,65.8
+Switzerland,Women,55-64,2008,60
+New Zealand,Men,55-64,2000,67.9
+Portugal,Women,Total,2013,45.3
+United States,Women,25-54,2007,72.5
+Germany,Men,25-54,2013,88.2
+Netherlands,Men,55-64,2011,65.7
+Italy,Men,55-64,2013,52.8
+Denmark,Men,55-64,2001,65.5
+Spain,Women,25-54,2006,64.4
+Finland,Men,55-64,2007,55.1
+Ireland,Men,55-64,2007,68.1
+Norway,Women,55-64,2011,66.1
+Austria,Women,25-54,2000,73.6
+Portugal,Men,55-64,2013,53.5
+Israel,Men,55-64,2006,63.4
+Spain,Men,55-64,2008,60.5
+Australia,Men,55-64,2003,60.8
+Korea,Women,55-64,2010,47.1
+OECD - Average,Women,55-64,2001,37.5
+Switzerland,Women,55-64,2005,55.6
+United Kingdom,Men,55-64,2007,66
+Ireland,Men,55-64,2004,64.8
+Korea,Men,25-54,2006,87.5
+Belgium,Women,25-54,2012,73.9
+Ireland,Women,25-54,2011,65.1
+Finland,Men,55-64,2010,55.6
+United States,Women,25-54,2010,69.3
+Australia,Men,Total,2013,67.3
+Iceland,Women,25-54,1995,84.2
+Czech Republic,Women,55-64,2012,39.1
+Portugal,Women,55-64,2010,43.8
+Portugal,Women,25-54,2007,74.8
+Denmark,Women,55-64,1995,36.1
+Norway,Men,25-54,2006,87.8
+Belgium,Women,55-64,2008,26.3
+Switzerland,Men,25-54,2006,92.9
+Denmark,Women,25-54,2007,82.3
+Israel,Women,25-54,1995,61.1
+Sweden,Men,55-64,2011,75.4
+Luxembourg,Women,55-64,2006,27.8
+Greece,Men,55-64,2008,59.2
+Norway,Women,55-64,2002,64
+Italy,Men,55-64,2004,42.1
+Greece,Men,Total,2013,46
+United States,Women,55-64,1990,44
+Israel,Men,55-64,2004,61.3
+Luxembourg,Men,55-64,2005,38.3
+New Zealand,Men,25-54,2013,88.3
+OECD - Average,Women,55-64,2003,39.8
+Finland,Men,55-64,2001,46.7
+Greece,Women,25-54,2010,61.1
+Netherlands,Men,55-64,2002,53.7
+OECD - Average,Women,25-54,2012,66.3
+Korea,Women,55-64,2004,45.9
+Canada,Women,25-54,2003,76
+Italy,Men,25-54,2001,85.5
+Korea,Women,55-64,2001,47.7
+Austria,Men,55-64,2013,52.8
+Norway,Women,55-64,1990,52.8
+Norway,Men,25-54,2003,86
+Japan,Women,55-64,2003,47.5
+Iceland,Women,25-54,2001,86.2
+Ireland,Women,25-54,1990,39.3
+New Zealand,Men,25-54,2010,87.7
+Canada,Men,25-54,2007,86.2
+France,Men,25-54,2009,87.7
+Luxembourg,Women,25-54,2009,71.4
+France,Women,55-64,2013,43
+United Kingdom,Women,55-64,1995,39.2
+France,Men,25-54,2006,88
+Ireland,Men,55-64,2006,66.4
+Denmark,Men,55-64,2003,67.3
+France,Women,Total,2013,46.7
+United Kingdom,Men,25-54,1995,84.8
+Denmark,Men,55-64,2000,64.1
+Greece,Women,55-64,1995,23.8
+Finland,Women,25-54,1990,85.1
+Luxembourg,Women,25-54,2012,75
+Switzerland,Men,25-54,2000,95.2
+Iceland,Men,55-64,2000,94.2
+Japan,Women,55-64,2006,50.1
+Norway,Women,55-64,2013,67.1
+United States,Women,25-54,2009,70.2
+Switzerland,Men,25-54,2003,92.4
+Belgium,Women,55-64,2005,22.1
+Netherlands,Men,55-64,1990,44.2
+Finland,Men,25-54,1995,78.7
+New Zealand,Men,25-54,2011,87.9
+Iceland,Women,25-54,2002,85.7
+Italy,Men,55-64,2007,45
+Greece,Women,25-54,2007,60.9
+Germany,Women,55-64,2011,53.2
+Germany,Women,25-54,2008,74.7
+Greece,Women,55-64,2013,26
+New Zealand,Men,25-54,2008,89.3
+Italy,Men,25-54,2004,86.7
+Luxembourg,Women,25-54,2010,72.6
+Israel,Women,25-54,1990,54
+Switzerland,Men,55-64,2007,76.4
+Luxembourg,Men,55-64,2011,47
+Belgium,Men,25-54,2001,86.5
+Portugal,Men,55-64,2012,51.6
+Israel,Men,55-64,2007,65.1
+France,Women,55-64,1990,28.8
+Italy,Women,55-64,2013,33.2
+Denmark,Women,25-54,2004,79.8
+Canada,Women,55-64,2006,48.6
+Denmark,Men,25-54,2012,84.6
+Greece,Women,55-64,2010,29.1
+Switzerland,Men,55-64,2004,76.6
+Sweden,Men,25-54,1995,84
+Switzerland,Men,25-54,2001,95.3
+Israel,Men,25-54,2000,79.6
+OECD - Average,Women,55-64,2012,47.1
+Portugal,Women,25-54,1990,64.3
+Austria,Men,25-54,2009,87.4
+Italy,Women,55-64,2007,23
+Japan,Men,55-64,2013,79.8
+OECD - Average,Men,55-64,2004,61.4
+Israel,Women,55-64,2003,41.8
+Sweden,Women,55-64,1995,59.5
+Korea,Women,25-54,2000,56
+Austria,Women,Total,2013,52.4
+Italy,Men,25-54,2000,84.9
+France,Women,55-64,2010,37.3
+Japan,Women,Total,2013,47.1
+Italy,Women,55-64,2010,26.1
+New Zealand,Men,55-64,2011,80.1
+Finland,Men,25-54,2001,84.7
+Austria,Men,25-54,2013,87.5
+Germany,Women,25-54,2011,77.9
+Switzerland,Men,55-64,2010,75.6
+Canada,Women,55-64,2003,45.4
+Netherlands,Men,55-64,2005,56.1
+Japan,Women,55-64,1995,47.5
+Korea,Women,25-54,2001,56.8
+Ireland,Men,25-54,1995,80.7
+France,Men,55-64,2007,40.5
+Korea,Women,55-64,2007,46.9
+Finland,Women,55-64,2004,50.4
+Belgium,Men,25-54,1995,86.5
+Israel,Women,55-64,2000,36.8
+OECD - Average,Men,55-64,2007,63.8
+Austria,Men,25-54,2012,88.3
+United Kingdom,Men,Total,2013,63.6
+Greece,Women,25-54,2006,60.6
+Italy,Women,55-64,2004,19.7
+Luxembourg,Women,25-54,2006,69.5
+Australia,Men,25-54,2010,87.2
+Greece,Men,55-64,2002,55.9
+Korea,Women,25-54,2004,58
+Sweden,Men,55-64,1995,64.5
+Italy,Men,25-54,2003,86.5
+Finland,Women,55-64,2001,45.1
+Luxembourg,Men,55-64,2002,37.6
+OECD - Average,Men,55-64,2010,62.9
+Germany,Women,25-54,2007,74
+Sweden,Women,55-64,2001,64.3
+Canada,Men,55-64,1995,53.3
+Germany,Men,55-64,2003,47.1
+New Zealand,Men,25-54,2007,90
+Australia,Men,25-54,2013,86.2
+Netherlands,Men,25-54,2002,91.1
+Luxembourg,Women,55-64,1990,13.7
+Italy,Men,55-64,2001,40.4
+Denmark,Men,55-64,2012,65.9
+Iceland,Women,55-64,2002,84.4
+Spain,Women,55-64,2002,22.3
+Denmark,Men,25-54,2011,85.7
+New Zealand,Men,25-54,2004,89.1
+Czech Republic,Women,25-54,1995,79.6
+United Kingdom,Women,25-54,2010,74.3
+Iceland,Men,55-64,2009,85
+Switzerland,Men,55-64,2013,77.3
+Spain,Men,55-64,1990,57.3
+Germany,Women,25-54,2005,71
+Israel,Women,55-64,2002,39.5
+Czech Republic,Men,55-64,2003,57.5
+Denmark,Men,55-64,2009,64.9
+Sweden,Women,55-64,2013,70.5
+Switzerland,Women,55-64,2003,54.1
+Iceland,Men,25-54,2003,92.5
+United States,Men,25-54,2013,82.8
+Netherlands,Women,55-64,2008,39.9
+OECD - Average,Women,25-54,2011,66
+Czech Republic,Men,25-54,2000,89.3
+Iceland,Men,25-54,2006,94.1
+Finland,Women,25-54,2013,78.1
+Canada,Men,Total,2013,65.6
+Czech Republic,Men,55-64,2006,59.5
+Australia,Women,25-54,2006,71.3
+Sweden,Women,25-54,2010,80.9
+Austria,Women,25-54,2005,75.2
+Ireland,Men,Total,2013,57.1
+Spain,Women,25-54,2011,63.4
+Iceland,Men,55-64,2012,83
+Luxembourg,Men,25-54,2011,90.8
+Japan,Women,25-54,2012,69.2
+Ireland,Men,55-64,1995,59.3
+Germany,Women,55-64,2005,37.6
+Spain,Men,25-54,1990,85.7
+Australia,Women,55-64,2009,51.4
+Portugal,Men,55-64,2001,61.6
+Canada,Women,25-54,2000,73.9
+Greece,Women,55-64,2007,27
+Japan,Men,55-64,2010,78.8
+Switzerland,Men,55-64,2008,77
+Netherlands,Women,55-64,2005,33.4
+OECD - Average,Women,25-54,2008,66.7
+Switzerland,Men,55-64,2011,76.6
+Denmark,Men,25-54,2008,90.9
+United Kingdom,Women,25-54,2013,75.2
+France,Men,25-54,2003,87.9
+Belgium,Women,55-64,2002,17.5
+Germany,Men,55-64,2010,65
+Czech Republic,Men,25-54,2012,90.9
+Korea,Men,Total,2013,70.8
+Netherlands,Men,25-54,2008,92.4
+United Kingdom,Men,25-54,2004,87.4
+Australia,Men,55-64,2011,69
+Belgium,Women,25-54,2000,67.2
+Portugal,Men,25-54,2004,87.6
+France,Men,55-64,2004,41.7
+Canada,Women,25-54,2006,77
+Luxembourg,Men,25-54,2000,92.8
+Luxembourg,Women,55-64,2010,31.3
+Ireland,Women,55-64,2005,37.4
+Japan,Women,25-54,1995,63.2
+Greece,Women,25-54,1990,47.1
+Czech Republic,Men,25-54,2003,89.7
+Denmark,Men,25-54,2009,86.9
+Iceland,Men,25-54,2009,86.9
+France,Women,55-64,2002,34.6
+Korea,Men,55-64,2008,74.3
+Austria,Women,55-64,2008,29.3
+Greece,Women,25-54,2004,57.7
+Germany,Women,55-64,2008,46
+United Kingdom,Men,55-64,2002,62.3
+Denmark,Women,Total,2013,54.3
+Czech Republic,Men,55-64,2000,51.7
+Greece,Women,55-64,2004,24
+United Kingdom,Men,55-64,2005,65.6
+Iceland,Men,55-64,2006,89.3
+Belgium,Women,25-54,2011,73.8
+Sweden,Men,Total,2013,68.2
+Canada,Women,55-64,2000,39.1
+Finland,Men,55-64,1995,34.9
+Denmark,Women,55-64,2002,50.4
+France,Men,55-64,2001,41.4
+Ireland,Women,55-64,2008,41.4
+Norway,Women,25-54,2002,80.6
+France,Women,25-54,2008,77.3
+Portugal,Men,25-54,2010,84.1
+United States,Women,55-64,2013,56.2
+Czech Republic,Women,55-64,2013,41.4
+United Kingdom,Men,25-54,2002,87.3
+OECD - Average,Men,55-64,2003,60.8
+Netherlands,Women,55-64,2004,31.7
+Finland,Women,55-64,2003,48.5
+Japan,Men,25-54,2006,92.4
+Italy,Women,25-54,2000,50.9
+New Zealand,Women,55-64,2010,67.1
+Austria,Women,25-54,2012,80.4
+Spain,Women,55-64,1995,17.5
+United Kingdom,Men,25-54,2005,87.7
+OECD - Average,Men,55-64,2006,63.1
+Norway,Men,55-64,2013,74.9
+Portugal,Men,25-54,2005,86.8
+Italy,Women,55-64,2003,18.5
+New Zealand,Women,55-64,2013,69.7
+Luxembourg,Women,55-64,2004,22.2
+United States,Women,55-64,2010,56.4
+Belgium,Men,Total,2013,54.5
+Austria,Men,55-64,2010,49.9
+Czech Republic,Men,25-54,2006,90.4
+Czech Republic,Women,Total,2013,46.7
+Australia,Women,55-64,2013,54
+Italy,Women,25-54,2003,54.9
+OECD - Average,Men,25-54,2006,87.5
+Spain,Women,25-54,1995,40.3
+Denmark,Women,25-54,2011,78.9
+Korea,Men,25-54,2012,87.8
+New Zealand,Women,25-54,2007,74.2
+Italy,Women,55-64,2006,21.8
+Greece,Men,55-64,2001,55.3
+Israel,Men,55-64,2000,56.9
+Australia,Women,25-54,1990,63.2
+Austria,Women,55-64,2012,33.5
+Finland,Women,55-64,2000,40.9
+Luxembourg,Men,55-64,2001,35.3
+Iceland,Men,25-54,2012,87.9
+Japan,Women,25-54,2001,64.1
+Norway,Women,25-54,2005,79.9
+United States,Men,25-54,2000,89
+Ireland,Men,25-54,2001,89
+France,Women,25-54,2005,74.1
+Denmark,Men,25-54,1995,87.3
+OECD - Average,Men,25-54,2003,86.6
+Germany,Men,55-64,2002,47.2
+Belgium,Women,25-54,1995,60.6
+Japan,Men,55-64,2006,80
+Switzerland,Women,25-54,2000,75.6
+Switzerland,Women,25-54,2005,77.5
+Netherlands,Men,25-54,2005,89.5
+Israel,Men,25-54,2006,79
+Luxembourg,Women,55-64,2007,28.6
+Greece,Women,25-54,2013,51.4
+OECD - Average,Women,25-54,1995,62
+Greece,Men,55-64,2009,57.8
+France,Women,25-54,2006,74.8
+Italy,Women,25-54,2006,59.3
+Australia,Women,55-64,1990,24.1
+OECD - Average,Men,25-54,2000,88.1
+Spain,Men,Total,2013,49.4
+Germany,Men,55-64,1990,52
+Portugal,Men,25-54,2007,87.2
+New Zealand,Women,25-54,2012,73.1
+New Zealand,Women,25-54,2010,72.6
+Japan,Men,55-64,2009,79.8
+Norway,Men,25-54,2010,87.1
+Canada,Men,55-64,2002,59
+New Zealand,Men,55-64,2008,79.8
+Norway,Men,55-64,2001,72.3
+Switzerland,Women,25-54,2002,78
+Czech Republic,Men,25-54,2009,90.5
+Portugal,Women,55-64,2011,42
+Israel,Men,25-54,2003,77.3
+Israel,Men,55-64,2001,58.7
+Greece,Women,55-64,2001,22.8
+United States,Women,25-54,2012,69.2
+Switzerland,Women,55-64,2000,50.1
+Belgium,Men,55-64,1990,34.3
+Austria,Women,25-54,2011,79.8
+OECD - Average,Women,55-64,2006,42.9
+Norway,Women,Total,2013,66.1
+Sweden,Men,55-64,2009,73.3
+Korea,Men,25-54,2011,87.5
+Norway,Men,25-54,2009,88.3
+Sweden,Women,25-54,1990,89.6
+Korea,Men,25-54,2008,87.3
+New Zealand,Women,25-54,2003,71.6
+Australia,Women,25-54,2009,72.1
+Denmark,Men,55-64,2006,67.1
+Japan,Men,25-54,2002,92
+Denmark,Women,25-54,2010,80.3
+Ireland,Men,55-64,2009,62.2
+Austria,Women,25-54,2008,77.8
+Netherlands,Women,25-54,2001,70.5
+Finland,Women,25-54,2000,77.6
+New Zealand,Women,55-64,1990,29.4
+Norway,Men,25-54,2013,86.5
+France,Women,55-64,2006,35.8
+Korea,Men,55-64,1995,78.7
+Australia,Women,25-54,2013,72.2
+Norway,Men,25-54,2007,89.2
+Iceland,Women,55-64,2011,76.7
+Switzerland,Men,25-54,2007,93.6
+Denmark,Women,55-64,2011,55.3
+France,Men,25-54,2013,85.2
+Israel,Men,55-64,2003,59.3
+Belgium,Men,55-64,2008,42.8
+Netherlands,Women,25-54,1995,61.3
+Luxembourg,Women,25-54,1990,48.7
+Denmark,Women,25-54,2008,84
+Portugal,Women,55-64,2000,40.9
+Japan,Men,55-64,2000,78.4
+OECD - Average,Women,55-64,2009,44.7
+Sweden,Women,25-54,2013,82.7
+Ireland,Men,55-64,2012,55.9
+Italy,Women,25-54,2002,54
+New Zealand,Women,25-54,2006,74
+Portugal,Men,25-54,2001,90.2
+Spain,Men,55-64,2013,50.5
+Germany,Men,25-54,1995,86.8
+New Zealand,Women,25-54,2009,74.1
+United States,Men,55-64,1995,63.6
+OECD - Average,Men,25-54,2002,86.9
+Italy,Men,55-64,1995,44.7
+Luxembourg,Women,55-64,2001,14.4
+Canada,Men,25-54,2010,83.9
+Korea,Women,55-64,1995,50.2
+United States,Women,25-54,2013,69.3
+Czech Republic,Women,25-54,2002,74.6
+Netherlands,Women,55-64,2001,25.9
+Germany,Men,25-54,1990,86.9
+Japan,Men,25-54,2003,92
+Iceland,Women,25-54,2008,82.9
+New Zealand,Men,55-64,2002,74.6
+Sweden,Men,55-64,2012,76.4
+Germany,Women,55-64,2002,30.1
+Australia,Women,25-54,2012,72.3
+Ireland,Women,25-54,2013,65.6
+Japan,Women,55-64,2012,52.4
+Australia,Men,55-64,2008,65.6
+Finland,Men,55-64,2012,56.7
+Austria,Men,55-64,2004,36.6
+Japan,Women,55-64,2009,51.7
+France,Women,25-54,2002,71.6
+Austria,Men,55-64,2007,46
+New Zealand,Men,55-64,2005,78
+Norway,Men,25-54,2012,87
+Canada,Men,25-54,2013,85.1
+United Kingdom,Men,25-54,2001,87.6
+Spain,Men,55-64,2010,54.5
+Australia,Men,55-64,2005,63.8
+Netherlands,Men,Total,2013,66.1
+OECD - Average,Women,55-64,1990,34.8
+Czech Republic,Men,55-64,2004,57.2
+France,Men,25-54,2010,87.4
+Finland,Men,55-64,2004,51.5
+Czech Republic,Women,55-64,2002,26
+Iceland,Men,55-64,2010,83.9
+Germany,Men,25-54,2005,83.7
+Iceland,Men,55-64,2007,89.6
+New Zealand,Women,55-64,2007,63.2
+Netherlands,Men,55-64,2003,55.1
+Finland,Men,25-54,2010,83.9
+Iceland,Women,55-64,2008,77.6
+Switzerland,Men,25-54,2010,90.6
+Italy,Men,55-64,2010,47.6
+Czech Republic,Women,55-64,2005,31
+Japan,Men,55-64,2003,77.4
+Japan,Men,25-54,2000,93.4
+Luxembourg,Women,55-64,2013,32.4
+Iceland,Women,25-54,2005,83.5
+Canada,Men,55-64,2011,63.2
+Norway,Men,55-64,2010,72.2
+Greece,Men,25-54,1995,89.7
+Norway,Women,55-64,2003,63.5
+Belgium,Men,25-54,2011,84.9
+Canada,Men,25-54,2011,84.8
+Italy,Women,55-64,2000,15.3
+Netherlands,Women,55-64,1995,17.9
+Belgium,Men,25-54,2005,86.1
+United Kingdom,Women,55-64,2008,48.9
+New Zealand,Women,25-54,1990,65.2
+Iceland,Men,55-64,2013,87.2
+Germany,Women,55-64,2009,48.6
+Denmark,Men,55-64,1990,65.6
+Czech Republic,Women,25-54,2011,74.3
+Portugal,Men,55-64,2005,58.1
+Greece,Women,55-64,2011,27.5
+Korea,Women,55-64,2002,47.6
+United States,Men,55-64,2011,64.4
+Norway,Men,25-54,1990,88
+Belgium,Women,55-64,1995,12.7
+Switzerland,Men,25-54,2013,90.7
+Belgium,Men,25-54,2008,87
+Germany,Women,55-64,2012,54.9
+Netherlands,Women,25-54,2007,77.3
+Czech Republic,Men,55-64,2007,59.6
+Italy,Men,25-54,2007,87.4
+Luxembourg,Women,25-54,2013,75.5
+Iceland,Women,55-64,2005,80.2
+Netherlands,Men,55-64,2000,49.7
+France,Women,55-64,2000,30.3
+Netherlands,Women,25-54,2004,72.6
+Portugal,Men,55-64,2002,62
+Greece,Women,55-64,2008,27.5
+United States,Women,25-54,1990,70.6
+France,Men,25-54,2007,88.4
+France,Men,55-64,2013,48.4
+Norway,Men,55-64,1990,70.7
+Belgium,Men,55-64,2002,36
+Belgium,Men,25-54,2002,86.1
+OECD - Average,Men,55-64,2000,59.4
+France,Men,55-64,2010,42.3
+Greece,Men,55-64,1995,58.9
+Denmark,Women,55-64,2008,51.5
+Israel,Women,25-54,2005,65.4
+Iceland,Women,25-54,2011,80.4
+United Kingdom,Women,55-64,2005,48
+United States,Men,55-64,2008,67.7
+Czech Republic,Women,25-54,2008,75.2
+Japan,Women,55-64,1990,46.5
+Ireland,Women,25-54,2000,62.6
+Spain,Men,25-54,2008,84.2
+France,Women,55-64,2003,33.3
+Canada,Women,55-64,2004,46.2
+Portugal,Women,25-54,2009,74.9
+Japan,Men,25-54,2009,91.3
+Denmark,Men,55-64,2013,66.5
+Switzerland,Men,55-64,1995,79
+Luxembourg,Men,55-64,1995,35.1
+Greece,Men,25-54,2001,88.5
+Israel,Women,25-54,2002,63.3
+Greece,Men,25-54,2004,89.3
+Korea,Men,55-64,2012,77.2
+Norway,Women,55-64,2000,61.2
+Canada,Women,55-64,2001,39.3
+Sweden,Men,25-54,2007,89
+Germany,Men,25-54,2002,85.6
+Portugal,Women,25-54,2006,75.2
+Sweden,Men,25-54,2001,86.6
+Austria,Women,55-64,2003,20.8
+Korea,Women,25-54,2013,61.8
+Israel,Men,25-54,2009,79.1
+United States,Women,55-64,2004,54.3
+Finland,Men,25-54,2007,85.9
+Norway,Women,25-54,2011,82.2
+Sweden,Women,55-64,2011,69.1
+Italy,Men,25-54,2013,79.2
+Belgium,Men,55-64,2005,41.7
+Switzerland,Men,25-54,2004,92.3
+Portugal,Women,25-54,2003,74.2
+United Kingdom,Women,25-54,2003,74
+Greece,Men,55-64,2012,47.7
+Korea,Men,55-64,2006,72.6
+Canada,Men,55-64,2008,63
+Ireland,Men,25-54,2004,87.5
+Israel,Men,25-54,2012,81.6
+Portugal,Women,25-54,2000,73.9
+Germany,Men,55-64,2013,69.9
+Netherlands,Men,25-54,2011,89.4
+Australia,Women,55-64,2010,52.7
+Switzerland,Men,55-64,2001,81
+OECD - Average,Women,25-54,2001,63.9
+United Kingdom,Women,55-64,2011,49.4
+Korea,Women,25-54,2010,60.3
+Israel,Women,55-64,2013,57
+Korea,Men,55-64,2003,70.9
+United States,Women,55-64,2007,56.6
+New Zealand,Women,55-64,2001,50.1
+Denmark,Women,55-64,2005,53.5
+Norway,Men,55-64,2007,73.9
+Austria,Men,25-54,2002,91
+United States,Men,25-54,2003,85.9
+Korea,Men,55-64,2009,74.5
+France,Men,25-54,1990,89.8
+Italy,Men,25-54,1990,89.6
+Canada,Men,55-64,2005,63.1
+Austria,Women,55-64,2009,30.3
+Korea,Women,25-54,2007,60.5
+Finland,Women,55-64,2011,57.2
+Ireland,Women,55-64,2011,43.6
+Australia,Women,55-64,2007,47.3
+Spain,Women,55-64,2012,36
+Spain,Men,25-54,2002,85.6
+Australia,Women,55-64,2004,41.1
+Finland,Men,25-54,2004,83.7
+United Kingdom,Men,55-64,1990,62.4
+Australia,Men,25-54,2003,85.7
+Austria,Women,55-64,2006,24.5
+Canada,Women,25-54,2012,77.7
+Italy,Men,25-54,2010,83.6
+Czech Republic,Men,55-64,2001,52.6
+Norway,Men,55-64,2004,73.2
+United Kingdom,Women,25-54,2000,73.1
+Sweden,Men,25-54,2004,85
+Canada,Women,25-54,2009,77.1
+Norway,Women,25-54,2008,84
+Germany,Men,Total,2013,62.8
+Spain,Women,55-64,2009,32.1
+Czech Republic,Women,25-54,2005,73.9
+New Zealand,Women,55-64,2004,58.2
+Sweden,Women,55-64,2008,66.9
+Israel,Women,55-64,1990,29.7
+Australia,Men,25-54,2000,85.6
+Spain,Men,25-54,2005,86.8
+Denmark,Men,55-64,2014,68.9
+Iceland,Women,Total,2014,74.4
+OECD - Average,Women,55-64,2014,49.1
+Israel,Men,25-54,2014,82.2
+New Zealand,Women,25-54,2014,74.9
+Iceland,Men,25-54,2014,89.4
+Greece,Men,55-64,2014,44
+Spain,Women,55-64,2014,37.8
+Israel,Women,Total,2014,55.7
+Netherlands,Women,25-54,2014,77.4
+Greece,Men,25-54,2014,71.8
+Luxembourg,Men,55-64,2014,49.8
+United States,Men,55-64,2014,66.8
+Canada,Women,Total,2014,57.6
+Spain,Women,25-54,2014,62.3
+Sweden,Men,25-54,2014,87.8
+Ireland,Women,Total,2014,47.5
+New Zealand,Women,Total,2014,59.5
+Sweden,Women,Total,2014,63.8
+Canada,Women,55-64,2014,56
+Netherlands,Women,Total,2014,54.7
+Canada,Women,25-54,2014,77.4
+Czech Republic,Men,55-64,2014,64.8
+OECD - Average,Women,Total,2014,47.7
+Switzerland,Women,Total,2014,58.8
+Czech Republic,Men,25-54,2014,91.5
+Portugal,Men,Total,2014,55.8
+Belgium,Women,55-64,2014,37
+Denmark,Men,25-54,2014,85.5
+Czech Republic,Men,Total,2014,64.7
+OECD - Average,Women,25-54,2014,66.9
+OECD - Average,Men,Total,2014,64
+Germany,Women,25-54,2014,78.8
+United Kingdom,Women,55-64,2014,54.3
+Netherlands,Women,55-64,2014,50.8
+Austria,Women,25-54,2014,80.3
+New Zealand,Women,55-64,2014,71.8
+Finland,Men,Total,2014,62
+Belgium,Women,Total,2014,44.3
+France,Women,25-54,2014,76.1
+New Zealand,Men,55-64,2014,80.8
+Korea,Men,55-64,2014,79.6
+Germany,Women,55-64,2014,60
+Australia,Women,Total,2014,55
+Italy,Women,25-54,2014,57.6
+OECD - Average,Men,25-54,2014,85.3
+Israel,Men,55-64,2014,72.9
+Italy,Women,55-64,2014,36.6
+Belgium,Women,25-54,2014,74.9
+United States,Women,Total,2014,53.5
+New Zealand,Men,25-54,2014,89.2
+France,Women,Total,2014,46.8
+Denmark,Men,Total,2014,62.2
+Luxembourg,Men,25-54,2014,90.5
+Japan,Women,Total,2014,47.6
+France,Women,55-64,2014,45.3
+OECD - Average,Men,55-64,2014,66.1
+Japan,Men,55-64,2014,81.5
+Portugal,Women,55-64,2014,42.1
+Luxembourg,Women,Total,2014,50.4
+Italy,Women,Total,2014,34.6
+Iceland,Women,55-64,2014,80.6
+Australia,Men,25-54,2014,85.8
+Austria,Women,Total,2014,52.3
+Portugal,Women,25-54,2014,74.3
+United States,Men,25-54,2014,83.6
+United Kingdom,Men,Total,2014,64.7
+United Kingdom,Men,55-64,2014,67.7
+Iceland,Women,25-54,2014,82.1
+Japan,Men,25-54,2014,92.1
+New Zealand,Men,Total,2014,70.8
+Germany,Women,Total,2014,52.2
+Korea,Women,Total,2014,49.5
+Denmark,Women,25-54,2014,78.4
+Iceland,Men,Total,2014,80.4
+Netherlands,Men,55-64,2014,70.7
+United Kingdom,Women,25-54,2014,76.1
+Spain,Women,Total,2014,40
+Denmark,Women,55-64,2014,57.6
+Canada,Men,25-54,2014,85.1
+Denmark,Women,Total,2014,54.1
+Spain,Men,Total,2014,50.3
+United Kingdom,Men,25-54,2014,88
+Austria,Men,Total,2014,62.6
+Finland,Men,55-64,2014,56.8
+Japan,Women,55-64,2014,56.1
+Germany,Men,Total,2014,62.8
+Korea,Men,25-54,2014,88.3
+Greece,Women,Total,2014,30.8
+Finland,Women,55-64,2014,61.6
+Austria,Men,55-64,2014,54.3
+Luxembourg,Men,Total,2014,62.8
+Canada,Men,Total,2014,65.4
+Portugal,Men,55-64,2014,54.3
+Ireland,Men,55-64,2014,60.3
+Australia,Men,55-64,2014,69.1
+Canada,Men,55-64,2014,65
+Austria,Men,25-54,2014,86.6
+United States,Women,55-64,2014,56.3
+Switzerland,Women,25-54,2014,80.7
+Portugal,Men,25-54,2014,80.6
+Japan,Men,Total,2014,67.7
+Ireland,Men,25-54,2014,78.3
+Sweden,Men,55-64,2014,76.6
+Austria,Women,55-64,2014,36.4
+Netherlands,Men,Total,2014,65.9
+Finland,Men,25-54,2014,82.8
+United States,Men,Total,2014,64.9
+United Kingdom,Women,Total,2014,54.2
+Israel,Women,55-64,2014,57.9
+Australia,Men,Total,2014,66.7
+Luxembourg,Women,25-54,2014,76.8
+Australia,Women,55-64,2014,54.1
+Norway,Men,25-54,2014,86.3
+Greece,Men,Total,2014,45.9
+Australia,Women,25-54,2014,72
+Luxembourg,Women,55-64,2014,35
+Norway,Men,55-64,2014,75.8
+United States,Women,25-54,2014,70
+France,Men,55-64,2014,48.9
+Belgium,Men,55-64,2014,48.4
+Spain,Men,55-64,2014,51.2
+Ireland,Women,25-54,2014,66.6
+Czech Republic,Women,Total,2014,47.1
+Finland,Women,25-54,2014,78
+Czech Republic,Women,55-64,2014,43.8
+Norway,Women,25-54,2014,81.4
+Spain,Men,25-54,2014,72.5
+Switzerland,Men,55-64,2014,76.4
+Switzerland,Men,Total,2014,70.7
+Netherlands,Men,25-54,2014,86.5
+Czech Republic,Women,25-54,2014,75.7
+Ireland,Women,55-64,2014,44.9
+Belgium,Men,25-54,2014,83.2
+Sweden,Women,55-64,2014,71.7
+Israel,Men,Total,2014,65.4
+Greece,Women,55-64,2014,25
+Norway,Men,Total,2014,70.9
+Italy,Men,Total,2014,51.7
+Israel,Women,25-54,2014,74.3
+Japan,Women,25-54,2014,71.8
+Korea,Women,55-64,2014,52
+Portugal,Women,Total,2014,46.1
+Italy,Men,55-64,2014,56.5
+France,Men,Total,2014,55
+Germany,Men,25-54,2014,88
+Finland,Women,Total,2014,58.4
+Ireland,Men,Total,2014,58.5
+Greece,Women,25-54,2014,53.1
+Norway,Women,Total,2014,66
+Norway,Women,55-64,2014,68.5
+Sweden,Men,Total,2014,68.6
+Sweden,Women,25-54,2014,82.8
+Belgium,Men,Total,2014,53.9
+Iceland,Men,55-64,2014,87.6
+Switzerland,Men,25-54,2014,90.8
+Korea,Women,25-54,2014,62.7
+Germany,Men,55-64,2014,71.4
+Korea,Men,Total,2014,71.4
+Switzerland,Women,55-64,2014,62.1
+Italy,Men,25-54,2014,78.2
+France,Men,25-54,2014,84.9
+Australia,Men,Total,2015,66.8
+Australia,Women,Total,2015,55.4
+Austria,Men,Total,2015,62.4
+Austria,Women,Total,2015,52.4
+Belgium,Men,Total,2015,53.5
+Belgium,Women,Total,2015,44.3
+Canada,Men,Total,2015,65.3
+Canada,Women,Total,2015,57.4
+Czech Republic,Men,Total,2015,65.1
+Czech Republic,Women,Total,2015,48.1
+Denmark,Men,Total,2015,62.8
+Denmark,Women,Total,2015,54.1
+Finland,Men,Total,2015,61.7
+Finland,Women,Total,2015,58.1
+France,Men,Total,2015,54.6
+France,Women,Total,2015,46.8
+Germany,Men,Total,2015,62.6
+Germany,Women,Total,2015,52.4
+Greece,Men,Total,2015,46.8
+Greece,Women,Total,2015,31.8
+Iceland,Men,Total,2015,82.4
+Iceland,Women,Total,2015,76
+Ireland,Men,Total,2015,60.4
+Ireland,Women,Total,2015,48.5
+Italy,Men,Total,2015,52.2
+Italy,Women,Total,2015,34.7
+Japan,Men,Total,2015,67.8
+Japan,Women,Total,2015,48.1
+Korea,Men,Total,2015,71.1
+Korea,Women,Total,2015,49.9
+Luxembourg,Men,Total,2015,61.4
+Luxembourg,Women,Total,2015,50.6
+Netherlands,Men,Total,2015,65.6
+Netherlands,Women,Total,2015,54.5
+New Zealand,Men,Total,2015,70.7
+New Zealand,Women,Total,2015,59.7
+Norway,Men,Total,2015,70.5
+Norway,Women,Total,2015,65.5
+Portugal,Men,Total,2015,56.3
+Portugal,Women,Total,2015,46.9
+Spain,Men,Total,2015,52
+Spain,Women,Total,2015,41.1
+Sweden,Men,Total,2015,68.8
+Sweden,Women,Total,2015,64.4
+Switzerland,Men,Total,2015,70.7
+Switzerland,Women,Total,2015,59.2
+United Kingdom,Men,Total,2015,64.9
+United Kingdom,Women,Total,2015,54.5
+United States,Men,Total,2015,65.3
+United States,Women,Total,2015,53.7
+Israel,Men,Total,2015,65.7
+Israel,Women,Total,2015,55.9
+OECD - Total,Men,Total,1990,69.5
+OECD - Total,Men,Total,1995,67.6
+OECD - Total,Men,Total,2000,67.7
+OECD - Total,Men,Total,2001,67.2
+OECD - Total,Men,Total,2002,66.4
+OECD - Total,Men,Total,2003,66
+OECD - Total,Men,Total,2004,66
+OECD - Total,Men,Total,2005,66.2
+OECD - Total,Men,Total,2006,66.7
+OECD - Total,Men,Total,2007,66.8
+OECD - Total,Men,Total,2008,66.6
+OECD - Total,Men,Total,2009,64.1
+OECD - Total,Men,Total,2010,63.9
+OECD - Total,Men,Total,2011,64
+OECD - Total,Men,Total,2012,64
+OECD - Total,Men,Total,2013,63.7
+OECD - Total,Men,Total,2014,64
+OECD - Total,Men,Total,2015,64.3
+OECD - Total,Women,Total,1990,45.7
+OECD - Total,Women,Total,1995,45
+OECD - Total,Women,Total,2000,46.3
+OECD - Total,Women,Total,2001,46.3
+OECD - Total,Women,Total,2002,46.2
+OECD - Total,Women,Total,2003,46.2
+OECD - Total,Women,Total,2004,46.4
+OECD - Total,Women,Total,2005,46.8
+OECD - Total,Women,Total,2006,47.3
+OECD - Total,Women,Total,2007,47.7
+OECD - Total,Women,Total,2008,48
+OECD - Total,Women,Total,2009,47.2
+OECD - Total,Women,Total,2010,47.1
+OECD - Total,Women,Total,2011,47.1
+OECD - Total,Women,Total,2012,47.3
+OECD - Total,Women,Total,2013,47.5
+OECD - Total,Women,Total,2014,47.7
+OECD - Total,Women,Total,2015,48
+Australia,Men,25-54,2015,86.2
+Australia,Women,25-54,2015,72.5
+Austria,Men,25-54,2015,86.6
+Austria,Women,25-54,2015,80.3
+Belgium,Men,25-54,2015,82.5
+Belgium,Women,25-54,2015,74.5
+Canada,Men,25-54,2015,85.3
+Canada,Women,25-54,2015,77.5
+Czech Republic,Men,25-54,2015,91.9
+Czech Republic,Women,25-54,2015,76.7
+Denmark,Men,25-54,2015,85.9
+Denmark,Women,25-54,2015,78.3
+Finland,Men,25-54,2015,82.5
+Finland,Women,25-54,2015,77.3
+France,Men,25-54,2015,84.1
+France,Women,25-54,2015,75.9
+Germany,Men,25-54,2015,88.1
+Germany,Women,25-54,2015,79.2
+Greece,Men,25-54,2015,73.7
+Greece,Women,25-54,2015,55.4
+Iceland,Men,25-54,2015,91.5
+Iceland,Women,25-54,2015,84.1
+Ireland,Men,25-54,2015,80.5
+Ireland,Women,25-54,2015,68
+Italy,Men,25-54,2015,78.6
+Italy,Women,25-54,2015,57.9
+Japan,Men,25-54,2015,92.1
+Japan,Women,25-54,2015,72.7
+Korea,Men,25-54,2015,88
+Korea,Women,25-54,2015,63.3
+Luxembourg,Men,25-54,2015,89.3
+Luxembourg,Women,25-54,2015,75.7
+Netherlands,Men,25-54,2015,87.5
+Netherlands,Women,25-54,2015,77
+New Zealand,Men,25-54,2015,88.9
+New Zealand,Women,25-54,2015,75
+Norway,Men,25-54,2015,85.3
+Norway,Women,25-54,2015,80.7
+Portugal,Men,25-54,2015,81.8
+Portugal,Women,25-54,2015,76.1
+Spain,Men,25-54,2015,75.1
+Spain,Women,25-54,2015,63.7
+Sweden,Men,25-54,2015,87.9
+Sweden,Women,25-54,2015,83.2
+Switzerland,Men,25-54,2015,91.5
+Switzerland,Women,25-54,2015,80.9
+United Kingdom,Men,25-54,2015,88
+United Kingdom,Women,25-54,2015,76.6
+United States,Men,25-54,2015,84.4
+United States,Women,25-54,2015,70.3
+Israel,Men,25-54,2015,83.4
+Israel,Women,25-54,2015,74.3
+OECD - Total,Men,25-54,1990,90.1
+OECD - Total,Men,25-54,1995,87.7
+OECD - Total,Men,25-54,2000,88.2
+OECD - Total,Men,25-54,2001,87.7
+OECD - Total,Men,25-54,2002,86.9
+OECD - Total,Men,25-54,2003,86.6
+OECD - Total,Men,25-54,2004,86.7
+OECD - Total,Men,25-54,2005,87
+OECD - Total,Men,25-54,2006,87.5
+OECD - Total,Men,25-54,2007,87.9
+OECD - Total,Men,25-54,2008,87.5
+OECD - Total,Men,25-54,2009,84.8
+OECD - Total,Men,25-54,2010,84.7
+OECD - Total,Men,25-54,2011,85
+OECD - Total,Men,25-54,2012,85.1
+OECD - Total,Men,25-54,2013,84.8
+OECD - Total,Men,25-54,2014,85.3
+OECD - Total,Men,25-54,2015,85.8
+OECD - Total,Women,25-54,1990,61.6
+OECD - Total,Women,25-54,1995,62
+OECD - Total,Women,25-54,2000,63.8
+OECD - Total,Women,25-54,2001,63.9
+OECD - Total,Women,25-54,2002,63.9
+OECD - Total,Women,25-54,2003,64
+OECD - Total,Women,25-54,2004,64.5
+OECD - Total,Women,25-54,2005,64.8
+OECD - Total,Women,25-54,2006,65.7
+OECD - Total,Women,25-54,2007,66.3
+OECD - Total,Women,25-54,2008,66.7
+OECD - Total,Women,25-54,2009,65.9
+OECD - Total,Women,25-54,2010,65.9
+OECD - Total,Women,25-54,2011,66
+OECD - Total,Women,25-54,2012,66.3
+OECD - Total,Women,25-54,2013,66.5
+OECD - Total,Women,25-54,2014,66.9
+OECD - Total,Women,25-54,2015,67.4
+Australia,Men,55-64,2015,69.3
+Australia,Women,55-64,2015,55.2
+Austria,Men,55-64,2015,54.1
+Austria,Women,55-64,2015,38.8
+Belgium,Men,55-64,2015,48.9
+Belgium,Women,55-64,2015,39.3
+Canada,Men,55-64,2015,66
+Canada,Women,55-64,2015,55.8
+Czech Republic,Men,55-64,2015,65.5
+Czech Republic,Women,55-64,2015,45.9
+Denmark,Men,55-64,2015,69.8
+Denmark,Women,55-64,2015,59.6
+Finland,Men,55-64,2015,57.4
+Finland,Women,55-64,2015,62.6
+France,Men,55-64,2015,50.8
+France,Women,55-64,2015,47
+Germany,Men,55-64,2015,71.3
+Germany,Women,55-64,2015,61.2
+Greece,Men,55-64,2015,44.9
+Greece,Women,55-64,2015,24.7
+Iceland,Men,55-64,2015,88.7
+Iceland,Women,55-64,2015,80.3
+Ireland,Men,55-64,2015,65.1
+Ireland,Women,55-64,2015,45.8
+Italy,Men,55-64,2015,59.3
+Italy,Women,55-64,2015,37.9
+Japan,Men,55-64,2015,82.4
+Japan,Women,55-64,2015,57.8
+Korea,Men,55-64,2015,79.1
+Korea,Women,55-64,2015,53.1
+Luxembourg,Men,55-64,2015,43
+Luxembourg,Women,55-64,2015,33.7
+Netherlands,Men,55-64,2015,71.1
+Netherlands,Women,55-64,2015,52.4
+New Zealand,Men,55-64,2015,80.5
+New Zealand,Women,55-64,2015,70.2
+Norway,Men,55-64,2015,75.6
+Norway,Women,55-64,2015,68.7
+Portugal,Men,55-64,2015,55.9
+Portugal,Women,55-64,2015,44.5
+Spain,Men,55-64,2015,54
+Spain,Women,55-64,2015,40.2
+Sweden,Men,55-64,2015,77
+Sweden,Women,55-64,2015,72.3
+Switzerland,Men,55-64,2015,76.7
+Switzerland,Women,55-64,2015,63.9
+United Kingdom,Men,55-64,2015,68.5
+United Kingdom,Women,55-64,2015,55.3
+United States,Men,55-64,2015,67.1
+United States,Women,55-64,2015,56.4
+Israel,Men,55-64,2015,73.2
+Israel,Women,55-64,2015,59.7
+OECD - Total,Men,55-64,1990,62
+OECD - Total,Men,55-64,1995,58.7
+OECD - Total,Men,55-64,2000,59.2
+OECD - Total,Men,55-64,2001,59.5
+OECD - Total,Men,55-64,2002,60.2
+OECD - Total,Men,55-64,2003,60.8
+OECD - Total,Men,55-64,2004,61.4
+OECD - Total,Men,55-64,2005,62.3
+OECD - Total,Men,55-64,2006,63.2
+OECD - Total,Men,55-64,2007,63.9
+OECD - Total,Men,55-64,2008,64.3
+OECD - Total,Men,55-64,2009,63.1
+OECD - Total,Men,55-64,2010,63
+OECD - Total,Men,55-64,2011,63.3
+OECD - Total,Men,55-64,2012,64.4
+OECD - Total,Men,55-64,2013,65.1
+OECD - Total,Men,55-64,2014,66
+OECD - Total,Men,55-64,2015,66.7
+OECD - Total,Women,55-64,1990,34.5
+OECD - Total,Women,55-64,1995,34.4
+OECD - Total,Women,55-64,2000,36.6
+OECD - Total,Women,55-64,2001,37.3
+OECD - Total,Women,55-64,2002,38.5
+OECD - Total,Women,55-64,2003,39.8
+OECD - Total,Women,55-64,2004,40.5
+OECD - Total,Women,55-64,2005,41.7
+OECD - Total,Women,55-64,2006,42.8
+OECD - Total,Women,55-64,2007,43.6
+OECD - Total,Women,55-64,2008,44.3
+OECD - Total,Women,55-64,2009,44.6
+OECD - Total,Women,55-64,2010,45.4
+OECD - Total,Women,55-64,2011,46
+OECD - Total,Women,55-64,2012,47.1
+OECD - Total,Women,55-64,2013,48.1
+OECD - Total,Women,55-64,2014,49.1
+OECD - Total,Women,55-64,2015,49.9
+OECD - Average,Men,Total,2015,64.2
+OECD - Average,Women,Total,2015,48
+OECD - Average,Men,25-54,2015,85.8
+OECD - Average,Women,25-54,2015,67.4
+OECD - Average,Men,55-64,2015,66.8
+OECD - Average,Women,55-64,2015,50
+Australia,Men,Total,2016,66.6
+Australia,Women,Total,2016,55.8
+Austria,Men,Total,2016,62.5
+Austria,Women,Total,2016,52.8
+Belgium,Men,Total,2016,54
+Belgium,Women,Total,2016,44.2
+Canada,Men,Total,2016,64.9
+Canada,Women,Total,2016,57.5
+Czech Republic,Men,Total,2016,66.1
+Czech Republic,Women,Total,2016,49.4
+Denmark,Men,Total,2016,63.9
+Denmark,Women,Total,2016,55.5
+Finland,Men,Total,2016,62.3
+Finland,Women,Total,2016,57.7
+France,Men,Total,2016,54.7
+France,Women,Total,2016,46.8
+Germany,Men,Total,2016,63.5
+Germany,Women,Total,2016,53.5
+Greece,Men,Total,2016,47.9
+Greece,Women,Total,2016,32.3
+Iceland,Men,Total,2016,84.8
+Iceland,Women,Total,2016,77.2
+Ireland,Men,Total,2016,61.2
+Ireland,Women,Total,2016,49.7
+Italy,Men,Total,2016,52.8
+Italy,Women,Total,2016,35.3
+Japan,Men,Total,2016,68.1
+Japan,Women,Total,2016,48.9
+Korea,Men,Total,2016,71.1
+Korea,Women,Total,2016,50.2
+Luxembourg,Men,Total,2016,60.5
+Luxembourg,Women,Total,2016,50
+Netherlands,Men,Total,2016,65.8
+Netherlands,Women,Total,2016,54.9
+New Zealand,Men,Total,2016,71.7
+New Zealand,Women,Total,2016,61
+Norway,Men,Total,2016,69.5
+Norway,Women,Total,2016,65
+Portugal,Men,Total,2016,57.1
+Portugal,Women,Total,2016,47.5
+Spain,Men,Total,2016,53.3
+Spain,Women,Total,2016,42.2
+Sweden,Men,Total,2016,69
+Sweden,Women,Total,2016,65.1
+Switzerland,Men,Total,2016,70.9
+Switzerland,Women,Total,2016,59.7
+United Kingdom,Men,Total,2016,65.8
+United Kingdom,Women,Total,2016,55.2
+United States,Men,Total,2016,65.8
+United States,Women,Total,2016,54.1
+Israel,Men,Total,2016,65.9
+Israel,Women,Total,2016,56.4
+OECD - Average,Men,Total,2016,64.7
+OECD - Average,Women,Total,2016,48.5
+Australia,Men,25-54,2016,86.5
+Australia,Women,25-54,2016,73
+Austria,Men,25-54,2016,86.6
+Austria,Women,25-54,2016,80.6
+Belgium,Men,25-54,2016,83.8
+Belgium,Women,25-54,2016,74.3
+Canada,Men,25-54,2016,85
+Canada,Women,25-54,2016,77.8
+Czech Republic,Men,25-54,2016,92.7
+Czech Republic,Women,25-54,2016,78.4
+Denmark,Men,25-54,2016,86.4
+Denmark,Women,25-54,2016,78.5
+Finland,Men,25-54,2016,83
+Finland,Women,25-54,2016,76.7
+France,Men,25-54,2016,84.7
+France,Women,25-54,2016,75.9
+Germany,Men,25-54,2016,88.1
+Germany,Women,25-54,2016,79.8
+Greece,Men,25-54,2016,76
+Greece,Women,25-54,2016,55.9
+Iceland,Men,25-54,2016,92.8
+Iceland,Women,25-54,2016,86.4
+Ireland,Men,25-54,2016,81
+Ireland,Women,25-54,2016,69
+Italy,Men,25-54,2016,79.3
+Italy,Women,25-54,2016,58.5
+Japan,Men,25-54,2016,92.5
+Japan,Women,25-54,2016,73.9
+Korea,Men,25-54,2016,87.8
+Korea,Women,25-54,2016,63.9
+Luxembourg,Men,25-54,2016,88.5
+Luxembourg,Women,25-54,2016,76.4
+Netherlands,Men,25-54,2016,88.1
+Netherlands,Women,25-54,2016,77.8
+New Zealand,Men,25-54,2016,89.8
+New Zealand,Women,25-54,2016,76.9
+Norway,Men,25-54,2016,84.5
+Norway,Women,25-54,2016,80.8
+Portugal,Men,25-54,2016,83
+Portugal,Women,25-54,2016,77.6
+Spain,Men,25-54,2016,77.4
+Spain,Women,25-54,2016,65.6
+Sweden,Men,25-54,2016,88
+Sweden,Women,25-54,2016,83.7
+Switzerland,Men,25-54,2016,91.2
+Switzerland,Women,25-54,2016,81.3
+United Kingdom,Men,25-54,2016,89.2
+United Kingdom,Women,25-54,2016,76.9
+United States,Men,25-54,2016,85
+United States,Women,25-54,2016,71.1
+Israel,Men,25-54,2016,83.4
+Israel,Women,25-54,2016,75.1
+OECD - Average,Men,25-54,2016,86.3
+OECD - Average,Women,25-54,2016,68.1
+Australia,Men,55-64,2016,68.4
+Australia,Women,55-64,2016,56.7
+Austria,Men,55-64,2016,57.6
+Austria,Women,55-64,2016,41.1
+Belgium,Men,55-64,2016,50.7
+Belgium,Women,55-64,2016,40.2
+Canada,Men,55-64,2016,66.4
+Canada,Women,55-64,2016,56.9
+Czech Republic,Men,55-64,2016,68.2
+Czech Republic,Women,55-64,2016,49.3
+Denmark,Men,55-64,2016,71.9
+Denmark,Women,55-64,2016,63.6
+Finland,Men,55-64,2016,59.8
+Finland,Women,55-64,2016,63
+France,Men,55-64,2016,51.6
+France,Women,55-64,2016,48.3
+Germany,Men,55-64,2016,73.7
+Germany,Women,55-64,2016,63.6
+Greece,Men,55-64,2016,46.2
+Greece,Women,55-64,2016,27.2
+Iceland,Men,55-64,2016,89.4
+Iceland,Women,55-64,2016,79.3
+Ireland,Men,55-64,2016,65.8
+Ireland,Women,55-64,2016,48.7
+Italy,Men,55-64,2016,61.7
+Italy,Women,55-64,2016,39.7
+Japan,Men,55-64,2016,83.5
+Japan,Women,55-64,2016,59.6
+Korea,Men,55-64,2016,79
+Korea,Women,55-64,2016,53.5
+Luxembourg,Men,55-64,2016,47.7
+Luxembourg,Women,55-64,2016,32.9
+Netherlands,Men,55-64,2016,72.8
+Netherlands,Women,55-64,2016,54.2
+New Zealand,Men,55-64,2016,81.7
+New Zealand,Women,55-64,2016,70.9
+Norway,Men,55-64,2016,75.7
+Norway,Women,55-64,2016,69.5
+Portugal,Men,55-64,2016,58.5
+Portugal,Women,55-64,2016,46.3
+Spain,Men,55-64,2016,55.7
+Spain,Women,55-64,2016,42.8
+Sweden,Men,55-64,2016,77.6
+Sweden,Women,55-64,2016,73.6
+Switzerland,Men,55-64,2016,77.2
+Switzerland,Women,55-64,2016,65.8
+United Kingdom,Men,55-64,2016,69.3
+United Kingdom,Women,55-64,2016,58
+United States,Men,55-64,2016,67.5
+United States,Women,55-64,2016,56.5
+Israel,Men,55-64,2016,73.4
+Israel,Women,55-64,2016,60
+OECD - Average,Men,55-64,2016,67.8
+OECD - Average,Women,55-64,2016,51.1

@@ -1,0 +1,5 @@
+country,globalIndex,economic,educational,health,political
+"Korea, Rep.",0.65,0.533,0.96,0.973,0.134
+Iceland,0.878,0.798,0.995,0.969,0.75
+Yemen,0.516,0.345,0.737,0.968,0.014
+Avg,0.697,0.653,0.959,0.973,0.203

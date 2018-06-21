@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>visualization final project</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <style>
+    * { font-family: 'Spoqa Han Sans', 'Sans-serif';
+        font-weight: 100; /* thin100 middle400 bold700*/
+     }
+    
+    .hover {
+      fill-opacity: 0;
+      stroke-opacity: 0;
+    }
+    .x.axis .tick line {
+      opacity : .2;
+    }
+    .y.axis .tick line {
+      opacity : .2;
+    }
+    .x.axisSecond .domain{
+      stroke : none;
+    }
+    .point.hidden {
+      fill : #ddd !important;
+    }
+    .series path {
+      fill : none;
+    }
+    .series.hidden path {
+      stroke : #ddd !important;
+    }
+    .x.axisPC .domain{
+      stroke : none;
+    }
+    h1 {
+      text-align : center;
+      font-weight: 400; /* thin100 middle400 bold700*/
+      margin-top : 50px;
+      margin-bottom : 10px;
+    }
+    h3 {
+      text-align : center;
+      margin-bottom : 8px;
+    }
+    .sticky{
+      position:fixed;
+      top:0;
+      width:100%;
+      padding-top:100px;
+    }
+    .tooltipClickLineText {
+      color : black !important;
+      font-weight: 400 !important; /* thin100 middle400 bold700*/
+      text-align : center;
+    }
+    td, th {
+      padding: 1px 4px;
+      border : 1px silver solid;
+    }
+    #table-wrapper {
+      position:relative;
+      margin-bottom : 20px;
+    }
+    #table-scroll {
+      max-height:300px;
+      overflow:scroll;
+      margin-top:20px;
+      margin-left:20px;
+    }
+    #table-wrapper table {
+      width : 80%;
+      margin-left : auto;
+      margin-right : auto;
+    }
+    #table-wrapper table thead th .text {
+      position:absolute;
+      top:-20px;
+      z-index:2;
+      height:20px;
+      width:100%;
+      border:1px solid red;
+    }
+    .clickTable td  {
+      color: blue;
+      font-weight: 400;
+    }
+    .header {
+      display:block;
+      padding: 10px 10px;
+      background: #ffffff;
+      box-shadow: 4px 4px 2px #eeeeee;
+    }
+    .x.axisGroup .tick {
+      opacity : 0;
+    }
+    .region path {
+      fill : none;
+    }
+    #title-section img:first-child {
+      display: block;
+      width:100%;
+      height:100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    p {
+      display : block;
+      margin-top : 50px;
+      margin-bottom : 50px;
+      margin-left:200px;
+      margin-right:200px;
+      text-align : center;
+    }    
+    #arrow {
+      display : block;
+      text-align : center;
+      margin-bottom:100px;
+    }
+    h2 {
+      margin-bottom : 50px;
+      font-weight: 400;
+    }
+    .number {
+      font-size : 7px;
+      font-weight:400;
+    }
+    .description {
+      display:block;
+      padding: 10px 10px;
+      background: #ffffff;
+      box-shadow: 4px 4px 2px #eeeeee;
+    }
+
+
+     
+  </style>
+</head>
+
+<body>
+    <script type="text/javascript">
+			var showing = 1;
+			var titles = [
+        'The Correlation between Human Capital Index and Global Gender Gap Index', 
+				'The Correlation among Subindex of Human Capital and Gender Gap Index',
+				'Employment Gender Gap by Age'];
+			function divChange(dx){
+				showing += dx;
+				if(showing === 4)
+					showing = 1;
+				else if(showing === 0)
+					showing = 3;
+				for(i = 1; i <= 3; i ++){
+					div = document.getElementById('final_project' + i);
+					if(i === showing)
+						div.style.display = "block";
+					else
+						div.style.display = "none";
+				}
+        var p = document.getElementById('charttitle');
+        p.innerHTML = "   " + titles[showing - 1] + "   "; //밑에 바꾸는거
+        // var subTitle = document.getElementById('myHeader');
+        // subTitle.innerHTML = "" + titles[showing-1] +""
+      }
+      function transition() {
+        document.getElementsByClassName("project").style.WebkitTransition = "all 2s"; 
+        document.getElementById("project").style.transition = "all 2s";  
+      }
+    </script>
+    <div class="top-container">
+        <div id="nj-header">
+          <a class="header" id= "myHeader" style="text-align:left; font-weight:300; font-size:13px;">2018-1 visualization final project         |         2013-10257 정지애</a>
+
+        </div>
+        <div id="title-section">
+          <img src ="img/title.png">
+        </div>
+        <h1>그 많던 여성은 어디로 갔을까?</h1>
+        <h3> - 인적자본과 성 격차 지수 데이터를 통해 살펴보는 유리천장 - </h3>
+    <div id ="intro">
+      <p>
+        2017년 세계경제포럼(WEF)의 ‘2017 글로벌 인적자본 보고서’에 따르면 한국의 인적자본지수는 69.88점으로 130국 가운데 27위를 차지했다. 
+        한국이 상대적으로 열세를 보인 부분은 ‘인적 자원 배치’에서 성별 고용 격차 부문이었다. 그렇다면 전세계적으로 여성의 인적 자본은 얼마나 낭비되고 있는가?
+        본고에서는 성평등지수(Global Gender Gap Index)와 인적자본(Human Capital Index) 사이에 상관관계가 있음을 보고자 한다.
+      </p>
+    </div>
+
+    <div id="arrow">
+      <img src="img/down-arrow.png">
+    </div>
+
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function scrollFunction() {
+        if(window.pageYOffset >= sticky) {
+          header.classList.add('sticky');
+        } else {
+          header.classList.remove('sticky');
+        }
+      }
+    </script>
+    <div class = 'project'>
+      <h2 style="text-align:center;font-weight: 400">
+        <a href="javascript:divChange(-1)" style="color: #000000; text-decoration: none;"><span><<</span></a>
+        <a id="charttitle" style="text-align:center; font-weight:400"></a>
+        <a href="javascript:divChange(1)" style="color: #000000; text-decoration: none;"><span>>></span></a>
+      </h2>
+		  <div id="final_project1" align="center" class="proj" style="display:block"></div>
+		  <div id="final_project2" align="center" class="proj" style="display:none"></div>
+		  <div id="final_project3" align="center" class="proj" style="display:none"></div>		
+    </div>    
+    </script>
+    <div class="description">
+      <br>
+      <br>
+      <br>
+      <br>
+      <b style = "font-weight:400; font-size:12px" >References:</b>
+      <br>
+      <a style = "font-weight:100; font-size:12px" href="https://www.theguardian.com/politics/ng-interactive/2018/may/04/local-council-election-results-2018-in-full">https://www.theguardian.com/politics/</a>
+      <br>
+      <a style = "font-weight:100; font-size:12px" href="https://www.weforum.org/reports/the-global-gender-gap-report-2017">        https://www.weforum.org/reports/the-global-gender-gap-report-2017</a>
+      <br>
+      <a style = "font-weight:100; font-size:12px" href="https://www.weforum.org/reports/the-global-human-capital-report-2017">        https://www.weforum.org/reports/the-global-human-capital-report-2017</a>
+
+    </div>    
+
+  <script src="index1.js"></script>
+  <script src="index2.js"></script>
+  <script src="index3.js"></script>
+  <script type="text/javascript">
+    divChange(0);
+  </script>
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+        <title>bubble chart</title>
+        <style>
+            body{
+                margin: 10%;
+            }
+            .Title{
+                display: block;
+                align-content: center;
+                font-family: 'Noto Sans', sans-serif;
+                font-size: 40pt;
+                font-weight: 600;
+
+            }
+            .chart{
+                display: inline-block;
+                vertical-align: top;
+            }
+            .paper{
+                display: inline-block;
+                width: 800px;
+                font-family: 'Noto Sans', sans-serif;
+                font-size: 15pt;
+                font-weight: 300;
+                line-height: 30pt;
+                margin-left: 50px;
+                margin-top: 30px;
+                padding-top: 50px;
+            }
+            .caption{
+                display: block;
+                font-family: 'Noto Sans', sans-serif;
+                font-size: 15pt;
+                font-weight: 600;
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <b1 class = 'Title'>시도지사 선거를 통해 보는 대한민국 여성의 정치 진출 현황 </b1>
+        <p class = 'caption'>
+                역대 시도지사 후보들의 성별를 나타낸 그래프
+        </p>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <p class = 'paper'> 6·13 지방선거 첫 여성 시도지사, 어디서 나올까
+            <br>
+            성한용 선임기자(한겨레)
+            <br>
+            <br>
+            6월 13일 제7회 지방선거에서는 과연 첫 여성 시도지사가 탄생할까요? 1995년 지방선거 실시 이후 여성 시도지사 도전자는 있었지만, 당선자는 없었습니다.
+            <br>
+            1995년 제1회 지방선거에서 서울시장에 무소속 김옥선 후보와 황산성 후보가 출마했습니다. 김옥선 후보는 7·9·12대 국회의원을 지냈고 1992년 대통령 선거에도 출마했던 사람입니다. 남장 여성 정치인으로 유명했습니다. 황산성 후보는 11대 국회의원과 김영삼 정부에서 환경처 장관을 지낸 법조인입니다. 그러나 두 거물 여성의 도전은 출마 자체에 의미가 있었습니다.
+            1998년과 2002년에는 시도지사에 도전한 여성이 아예 한 사람도 없었습니다. 2006년 4회 지방선거에서는 서울시장에 열린우리당 강금실 후보와 시민당 이귀선 후보, 광주시장에 한나라당 한영 후보, 울산시장에 민주노동당 노옥희 후보가 도전했지만 모두 실패했습니다.
+            2010년 5회 지방선거에서는 서울시장에 민주당 한명숙 후보가 출마해 선전했지만, 오세훈 한나라당 후보에게 아슬아슬하게 졌습니다. 광주시장에 진보신당 윤난실 후보, 울산시장에 진보신당 노옥희 후보가 출마했습니다.
+            2011년 10·26 서울시장 보궐선거에서는 한나라당의 나경원 후보가 나섰지만, 박원순 무소속 후보에게 패배했습니다. 2014년 6회 지방선거에서는 대구시장에 무소속 이정숙 후보가 도전한 것이 유일한 사례였습니다.
+            2018년 7회 지방선거는 어떨까요? 4월 1일 현재 선관위에 등록한 시도지사 여성 예비후보는 모두 7명입니다. 서울시장 예비후보는 대한애국당 인지연 후보, 녹색당 신지예 후보입니다. 부산시장 예비후보는 정의당 박주미 후보입니다. 인천시장 예비후보는 더불어민주당 홍미영 후보, 광주시장 예비후보는 더불어민주당 양향자 후보입니다. 경남시장 예비후보는 자유한국당 김영선 후보, 그리고 제주지사 예비후보는 녹색당 고은영 후보입니다.
+            예비후보로 등록하지 않았지만 서울시장에 도전장을 낸 더불어민주당의 박영선 의원과 세종시장 출마 의사를 밝힌 자유한국당의 송아영 부대변인도 있습니다. 여성 시도지사 후보는 앞으로 더 나올 가능성이 있습니다.
+            <br>
+            <br>
+            원문보기: 
+            http://www.hani.co.kr/arti/politics/polibar/838568.html#csidxc85d57e4bb9d42cb62c39a82c4dc137
+        </p>
+
+
+
+    </body>
+</html>

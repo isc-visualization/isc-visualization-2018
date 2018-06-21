@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Final_SungmookLeem</title>
+		<style>
+      @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+				
+				g.nation.axis text {
+					font-family: 'Ubuntu', sans-serif;
+					font-size: 11.5px;
+    			font-style: italic;
+				}
+				g.x.axis text {
+					font-size: 12px;
+				}
+
+				g.y.axis text {
+					font-size: : 1px ;
+				}
+
+				text {
+					font-family: 'Ubuntu', sans-serif;
+					font-weight: bold;
+				}
+			
+				body {
+					width : 1300px;
+				  margin: 0 auto;
+					font-family : 'Ubuntu', sans-serif;
+				}
+					p {
+						font-size: 12px;
+					}
+
+			  .x.axis .domain{
+			  	stroke : none;
+			  }
+
+			  .series path {
+			  	fill : none;
+			  }
+
+			 	.series2 path {
+			  	fill : none;
+			  }
+				
+			  .series.hidden path {
+			  	stroke-width : 0.05 ;
+			  }
+				
+			  .series2.hidden path {
+			  	stroke-width : 0.01 !important;
+			  }
+
+				.series #AVG {
+					stroke-width : 100.0 ;
+					opacity: 0.11 !important ;
+					stroke : #076e4e ; 
+				}
+				.series2 #AVG {
+					opacity: 1.0 !important; 
+					stroke : #076e4e !important; 
+
+				}
+
+				div #title {
+					position: absolute;
+				}
+
+				#title	h1,h2,h3,h4,h5 {
+							text-align: center;
+					}
+				#intro	p {
+							position: absolute;
+							text-align: left;
+							line-height:1.5em;
+							font-size : 14px;
+							font-style: italic;
+							transform : translate(200px);
+					}
+
+				.plot1 {
+					position: absolute;
+				}
+
+				.filter text {
+					font-size: 12px;
+				}
+
+				#scene {
+					transform: translate(0,-280px);
+				}	
+
+				#scene2 {
+					position: absolute;
+					transform: translate(800px, 800px);
+					text-aligh : left;
+					font-size: 13px;
+				}
+
+				.titleText tspan {
+					font-size: 11px;
+					fill : #fff;
+					font-weight: normal;
+					font-style: italic;
+				}
+			
+				.titleText2 tspan {
+					font-size: 11px;
+					fill : #fff;
+					font-weight: normal;
+					font-style: italic;
+				}
+
+				.sceneText tspan {
+					font-size: 13px;
+					fill : #000;
+					font-weight: bold;
+					font-style: italic;
+					transition:display 1s;
+				}
+
+				.ranking tspan {
+					font-size: 18px;
+					font-weight: bold;
+					font-style: italic;
+				}
+
+				.name tspan {
+					font-size: 20px;
+					font-weight: bold;
+					font-style: italic;
+				}
+
+				.chart2text tspan {
+					font-size : 10px;
+					font-style: italic;
+				}
+
+				#\35 0명 circle{
+					opacity: 0.6 !important;
+					stroke-width: 1px;
+				}
+
+				#\35 0명 text {
+					opacity: 1 !important;
+					fill : #222;
+				}
+
+		</style>
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="d3-scale-radial.js"></script>
+		
+
+	</head>
+	<body>
+		<div id="title">
+		<h1>What Affects 'Estimated Income Gender Gap' <br> in OECD Countries? </h1> 
+		</div>
+		<div id="intro">
+			<p> <span style="font-weight: bold;">세계 경제 포럼(World Economic Forum)</span>에서 매년 발표하는 <span style="color: #14985e; font-weight: bold;">성 격차 보고서</span>를 토대로, 남녀의 기대 월소득 차이를 일으키는 원인이 무엇인지 알아보고자 한다. <br> <span style="font-weight: bold;">경제 부분의 상세 지표들</span>을 기준으로 남녀의 기대 월 소득 차이를 시각화 하였고, 보조 시각화로 <span style="font-weight: bold;">남녀의 졸업 전공 비율</span>과 기대 월 소득 차이의 관계를 나타내었다.<br> 
+				모든 데이터는 2017년 WEFGGG 보고서에서 발췌하였고, <span style="font-weight: bold;">OECD 국가</span>만을 대상으로 하였으며 각각의 시각화 지표에 대한 상세 정보는 각 차트 제목의 <span style="text-decoration: underline;">도움말</span>을 참조하면 된다.  
+			</p>
+		</div>
+		<div class="plot1"> </div>
+		<div id="scene">
+			<!--<p id="scene1"> 남녀의 월 예상 소득비율과 세부 지표관의 관계를 살펴봄으로써, 어떠한 지표가 월 예상 소득에 차이를 일으키는지 알아보는 시각화이다. </p>
+			<p id="scene2"> 월 예상 소득비율이 평균 이상인 나라들의 패턴이다. </p> !-->
+		</div>
+
+		<script src="index.js"></script>
+
+	</body>
+</html>
